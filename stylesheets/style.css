@@ -3659,7 +3659,7 @@ font-weight: 300;
 font-style: normal;
 }
 
-.backend .site-title {
+.site-title {
 	height: 70px;
 	width: 360px;
 background: url(../images/logo_main.svg) no-repeat !important;
