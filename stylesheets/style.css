@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Oswald:300);
 
 
 /* # HTML5 Reset
@@ -3823,4 +3823,15 @@ margin: 0 40px 40px 0;
 .backend .site-inner:not(.home) {
 clear: both;
 margin-top: 70px;
+}
+
+
+legend {
+	color: #fff;
+	font-family: Oswald;
+	font-size: 1.1em;
+	font-weight: 300;
+	font-style: normal;
+	background: #3FA8B0;
+	padding: 2px 6px;
 }
