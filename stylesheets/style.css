@@ -3847,3 +3847,64 @@ fieldset {
 fieldset input {
 	margin: 10px 0;
 }
+
+.progressMeter {
+    counter-reset:li; /* Initiate a counter */
+    margin-left: 20px !important; /* Remove the default left margin */
+    padding-left:0 !important ; /* Remove the default left padding */
+	font-size: 0.7em;
+	text-align: center;
+}
+.progressMeter > li {
+	position: relative;
+    margin:0 0 6px 2em; /* Give each list item a left margin to make room for the numbers */
+    padding:4px 8px; /* Add some spacing around the content */
+    list-style:none; /* Disable the normal item numbering */
+	display: inline-block;
+	width: 100px;
+	text-align: left;
+}
+.progressMeter > li:before {
+	content: counter(li);
+	counter-increment: li;
+	position: absolute;
+	top: 8px;
+	left: -2.5em;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 1.2em;
+	font-weight: 700;
+	/* margin-right: 12px; */
+	padding: 0px;
+	color: #1D262D;
+	background: #F3F2ED;
+	text-align: center;
+}
+.progressMeter > li.current {
+	color: #f04848;
+}
+.progressMeter > li.current:before {
+	color: #F3F2ED;
+	background: #f04848;
+}
+
+@media only screen and (max-width: 767px) {
+	.progressMeter {
+	margin-top: 48px;
+	text-align: center;
+	}
+	.progressMeter > li {
+	width: 61px;
+	font-size: 10px;
+		text-align: center;
+	margin: 0 0 6px 0;
+	}
+	.progressMeter > li:before {
+	top: -36px;
+	left: 15px;
+	}
+}
