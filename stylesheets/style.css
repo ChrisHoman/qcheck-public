@@ -3952,8 +3952,10 @@ float: left;
 }
 
 .verificationForm fieldset ol li .col-l {
-text-align: left;
+text-align: left;/*
+
 font-weight: bold;
+*/
 width: 250px;
 }
 
