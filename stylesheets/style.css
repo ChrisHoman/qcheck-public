@@ -3767,8 +3767,9 @@ font-size: 14px;
 }
 
 .content {
-	float: right;
-	width: 780px;
+	float: left;
+	width: 100%;
+padding: 0 0 50px;
 }
 
 .sidebar {
@@ -3926,11 +3927,6 @@ padding: 12px;
 .fullwidth {
 	width: 100%;
 	display: inline-block;
-}
-
-.content {
-padding: 0 0 50px;
-width: 100%;
 }
 
 .content-box {
