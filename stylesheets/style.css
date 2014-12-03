@@ -3893,7 +3893,7 @@ fieldset input {
 	background: #f04848;
 }
 
-.nav-secondary, .nav-secondary .sub-menu, .nav-secondary .submenu, .nav-secondary .submenu *  {
+.nav-secondary, .nav-secondary .sub-menu, .nav-secondary .submenu, .nav-secondary .submenu a  {
 	background: #000;
 }
 
