@@ -3892,6 +3892,23 @@ fieldset input {
 	background: #f04848;
 }
 
+.nav-secondary, .nav-secondary .sub-menu {
+	background: #000;
+}
+
+.nav-secondary .genesis-nav-menu {
+padding: 70px 0 0 0;
+}
+
+.nav-secondary .genesis-nav-menu a {
+padding: 12px;
+}
+
+.fullwidth {
+	width: 100%;
+	display: inline-block;
+}
+
 @media only screen and (max-width: 767px) {
 	.progressMeter {
 	margin-top: 48px;
