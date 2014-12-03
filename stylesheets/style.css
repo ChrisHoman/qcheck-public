@@ -3932,6 +3932,30 @@ padding: 12px;
 	max-width: 1140px;
 }
 
+form .box {
+clear: both;
+float: left;
+width: 100%;
+padding: 10px 0;
+}
+
+form .box .col-l {
+width: 200px;
+float: left;
+clear: left;
+margin-right: 10px;
+}
+
+form .box .col-r {
+float: left;
+}
+
+.verificationForm fieldset ol li .col-l {
+text-align: left;
+font-weight: bold;
+width: 250px;
+}
+
 @media only screen and (max-width: 767px) {
 	.progressMeter {
 	margin-top: 48px;
