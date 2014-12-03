@@ -891,7 +891,8 @@ img.alignright,
 
 .genesis-nav-menu a:hover,
 .genesis-nav-menu .current-menu-item > a,
-.genesis-nav-menu .sub-menu .current-menu-item > a:hover {
+.genesis-nav-menu .sub-menu .current-menu-item > a:hover,
+.genesis-nav-menu .submenu .current-menu-item > a:hover {
 	color: #e5554e;
 }
 
@@ -2439,7 +2440,9 @@ Site Navigation
 .genesis-nav-menu a:hover,
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu a:hover,
-.genesis-nav-menu .sub-menu .current-menu-item > a:hover {
+.genesis-nav-menu .submenu a:hover,
+.genesis-nav-menu .sub-menu .current-menu-item > a:hover
+.genesis-nav-menu .submenu .current-menu-item > a:hover {
 	color: #f04848;
 }
 
@@ -2447,7 +2450,7 @@ Site Navigation
 	text-transform: uppercase;
 }
 
-.genesis-nav-menu .sub-menu {
+.genesis-nav-menu .sub-menu, .genesis-nav-menu .submenu {
 	left: -9999px;
 	letter-spacing: 0;
 	opacity: 0;
@@ -2461,13 +2464,13 @@ Site Navigation
 	z-index: 99;
 }
 
-.genesis-nav-menu .sub-menu a {
+.genesis-nav-menu .sub-menu a, .genesis-nav-menu .submenu a {
 	padding: 20px;
 	position: relative;
 	width: 200px;
 }
 
-.genesis-nav-menu .sub-menu .sub-menu {
+.genesis-nav-menu .sub-menu .sub-menu, .genesis-nav-menu .submenu .submenu {
 	margin: -56px 0 0 199px;
 }
 
@@ -2475,7 +2478,7 @@ Site Navigation
 	position: static;
 }
 
-.genesis-nav-menu .menu-item:hover > .sub-menu {
+.genesis-nav-menu .menu-item:hover > .sub-menu, .genesis-nav-menu .menu-item:hover > .submenu {
 	left: auto;
 	opacity: 1;
 }
@@ -2515,7 +2518,7 @@ Site Navigation
 /* Header Navigation
 --------------------------------------------- */
 
-.site-header .sub-menu {
+.site-header .sub-menu, .site-header .submenu {
 	background-color: #000;
 }
 
@@ -2528,7 +2531,7 @@ Site Navigation
 	text-align: center;
 }
 
-.nav-primary .sub-menu {
+.nav-primary .sub-menu, .nav-primary .submenu {
 	background-color: #000;
 }
 
@@ -3121,6 +3124,8 @@ Color Styles
 .parallax-pro-blue .genesis-nav-menu .current-menu-item > a,
 .parallax-pro-blue .genesis-nav-menu .sub-menu a:hover,
 .parallax-pro-blue .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
+.parallax-pro-blue .genesis-nav-menu .submenu a:hover,
+.parallax-pro-blue .genesis-nav-menu .submenu .current-menu-item > a:hover,
 .parallax-pro-blue .home-odd .featured-content .entry-title a:hover,
 .parallax-pro-blue .site-footer a:hover,
 .parallax-pro-blue .site-header .widget-area a:hover {
@@ -3152,6 +3157,8 @@ Color Styles
 .parallax-pro-green .genesis-nav-menu .current-menu-item > a,
 .parallax-pro-green .genesis-nav-menu .sub-menu a:hover,
 .parallax-pro-green .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
+.parallax-pro-green .genesis-nav-menu .submenu a:hover,
+.parallax-pro-green .genesis-nav-menu .submenu .current-menu-item > a:hover,
 .parallax-pro-green .home-odd .featured-content .entry-title a:hover,
 .parallax-pro-green .site-footer a:hover,
 .parallax-pro-green .site-header .widget-area a:hover {
@@ -3182,6 +3189,8 @@ Color Styles
 .parallax-pro-orange .genesis-nav-menu .current-menu-item > a,
 .parallax-pro-orange .genesis-nav-menu .sub-menu a:hover,
 .parallax-pro-orange .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
+.parallax-pro-orange .genesis-nav-menu .submenu a:hover,
+.parallax-pro-orange .genesis-nav-menu .submenu .current-menu-item > a:hover,
 .parallax-pro-orange .home-odd .featured-content .entry-title a:hover,
 .parallax-pro-orange .site-footer a:hover,
 .parallax-pro-orange .site-header .widget-area a:hover {
@@ -3212,6 +3221,8 @@ Color Styles
 .parallax-pro-pink .genesis-nav-menu .current-menu-item > a,
 .parallax-pro-pink .genesis-nav-menu .sub-menu a:hover,
 .parallax-pro-pink .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
+.parallax-pro-pink .genesis-nav-menu .submenu a:hover,
+.parallax-pro-pink .genesis-nav-menu .submenu .current-menu-item > a:hover,
 .parallax-pro-pink .home-odd .featured-content .entry-title a:hover,
 .parallax-pro-pink .site-footer a:hover,
 .parallax-pro-pink .site-header .widget-area a:hover {
@@ -3393,6 +3404,7 @@ Media Queries
 
 	.genesis-nav-menu.responsive-menu li.current-menu-item > a,
 	.genesis-nav-menu.responsive-menu .sub-menu li.current-menu-item > a:hover,
+	.genesis-nav-menu.responsive-menu .submenu li.current-menu-item > a:hover,
 	.genesis-nav-menu.responsive-menu li a,
 	.genesis-nav-menu.responsive-menu li a:hover {
 		border: none;
@@ -3424,11 +3436,11 @@ Media Queries
 		content: "\f343";
 	}
 
-	.genesis-nav-menu.responsive-menu > .menu-item > .sub-menu {
+	.genesis-nav-menu.responsive-menu > .menu-item > .sub-menu, .genesis-nav-menu.responsive-menu > .menu-item > .submenu {
 		display: none;
 	}
 
-	.genesis-nav-menu.responsive-menu .sub-menu {
+	.genesis-nav-menu.responsive-menu .sub-menu, .genesis-nav-menu.responsive-menu .submenu {
 		background-color: rgba(255, 255, 255, 0.05);
 		left: auto;
 		opacity: 1;
@@ -3442,14 +3454,16 @@ Media Queries
 		z-index: 99;
 	}
 
-	.genesis-nav-menu.responsive-menu .sub-menu .sub-menu {
+	.genesis-nav-menu.responsive-menu .sub-menu .sub-menu, .genesis-nav-menu.responsive-menu .submenu .submenu {
 		background-color: transparent;
 		margin: 0;
 		padding-left: 25px;
 	}
 
 	.genesis-nav-menu.responsive-menu .sub-menu li a,
-	.genesis-nav-menu.responsive-menu .sub-menu li a:hover {
+	.genesis-nav-menu.responsive-menu .sub-menu li a:hover,
+	.genesis-nav-menu.responsive-menu .submenu li a,
+	.genesis-nav-menu.responsive-menu .submenu li a:hover {
 		padding: 12px 20px;
 		position: relative;
 		text-transform: none;
@@ -3458,6 +3472,7 @@ Media Queries
 
 	.genesis-nav-menu.responsive-menu .current-menu-item > a,
 	.genesis-nav-menu.responsive-menu .sub-menu .current-menu-item > a:hover,
+	.genesis-nav-menu.responsive-menu .submenu .current-menu-item > a:hover,
 	.genesis-nav-menu.responsive-menu > li.menu-item-has-children:hover > a,
 	.genesis-nav-menu.responsive-menu a:hover {
 		background: none;
@@ -3467,6 +3482,9 @@ Media Queries
 	.site-header .genesis-nav-menu.responsive-menu .sub-menu li a,
 	.site-header .genesis-nav-menu.responsive-menu .sub-menu li a:hover,
 	.site-header .genesis-nav-menu.responsive-menu .sub-menu,
+	.site-header .genesis-nav-menu.responsive-menu .submenu li a,
+	.site-header .genesis-nav-menu.responsive-menu .submenu li a:hover,
+	.site-header .genesis-nav-menu.responsive-menu .submenu,
 	.site-header .genesis-nav-menu.responsive-menu > .menu-item-has-children:before,
 	.site-header .genesis-nav-menu.responsive-menu > li:hover > a,
 	.site-header .genesis-nav-menu.responsive-menu a:hover {
@@ -3708,7 +3726,7 @@ font-size: 14px;
 	min-height: 70px;
 }
 
-.genesis-nav-menu .sub-menu a {
+.genesis-nav-menu .sub-menu a, .genesis-nav-menu .submenu a {
 	background-color: transparent;
 	border: 1px solid #000;
 	font-size: 14px;
@@ -3717,7 +3735,7 @@ font-size: 14px;
 	width: 200px;
 }
 
-.site-header .sub-menu {
+.site-header .sub-menu, .site-header .submenu {
 	border: 1px solid #000;
 }
 
