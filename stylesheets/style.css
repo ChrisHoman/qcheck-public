@@ -3894,7 +3894,7 @@ fieldset input {
 }
 
 .nav-secondary, .nav-secondary .sub-menu, .nav-secondary .submenu, .nav-secondary .submenu a  {
-	background: #000;
+	background: #000 !important;
 }
 
 .nav-secondary .genesis-nav-menu {
