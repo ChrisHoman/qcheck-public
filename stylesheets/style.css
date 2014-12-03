@@ -3928,6 +3928,11 @@ padding: 12px;
 	display: inline-block;
 }
 
+.content {
+padding: 0 0 50px;
+width: 100%;
+}
+
 .content-box {
 	max-width: 1140px;
 }
