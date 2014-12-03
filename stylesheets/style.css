@@ -3928,6 +3928,10 @@ padding: 12px;
 	display: inline-block;
 }
 
+.content-box {
+	max-width: 1140px;
+}
+
 @media only screen and (max-width: 767px) {
 	.progressMeter {
 	margin-top: 48px;
