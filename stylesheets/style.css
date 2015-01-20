@@ -2728,7 +2728,7 @@ Content Area
 .ptp-more-col  { width: auto; }
 
 div.ptp-item-container { margin: 0 0 1.25em 0; padding-left: 0px; padding-bottom: 0px; font-size: 1em; line-height: 1.6; font-family: inherit; border: #dddddd solid 1px;}
-div.ptp-plan{ height: 70px; text-align: center; font-weight: bold; font-size: 1em; background-color: #dddddd; color: #333333;}
+div.ptp-plan{ height: 70px; text-align: center; font-family: 'Oswald'; font-weight: 400;font-weight: bold; font-size: 1em; background-color: #dddddd; color: #333333;}
 div.ptp-most-popular{padding: 0.3em; text-align: center; font-size: 0.9em; font-weight: bold; line-height: 1.4em; margin-bottom: 2px; background-color: #7f8c8d; color: #fff;}
 div.ptp-not-most-popular{ background: none; padding: 0.3em; text-align: center; color: #fff; font-size: 0.9em; font-weight: bold; line-height: 1.4em; margin-bottom: 2px; }
 div.ptp-price{height: 87px; text-align: center; font-weight: normal; font-size: 1.25em; background-color: #eeeeee; color: #333333;}
@@ -3737,13 +3737,13 @@ a.social-twitter:hover i.fa {
 /* BACKEND SITE */
 
 h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-font-family: Oswald;
+font-family: 'Oswald';
 font-weight: 300;
 font-style: normal;
 }
 
 body, p, a, li {
-font-family: Open Sans;
+font-family: 'Open Sans', sans-serif;
 font-weight: 300;
 font-style: normal;
 }
