@@ -3982,10 +3982,11 @@ fieldset input {
 .nav-secondary, .nav-secondary .sub-menu, .nav-secondary .submenu, .nav-secondary .submenu a  {
 	background: #222B32 !important;
 }
-
+@media only screen and (min-width: 961px) {
 .nav-secondary {
 position: fixed;
 width: 100%;
+}
 }
 
 .nav-secondary .genesis-nav-menu {
