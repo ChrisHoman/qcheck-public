@@ -2712,7 +2712,7 @@ Content Area
 	color: #fff !important;
 }
 
-.ptp-pricing-table{ white-space: nowrap; width: 100%; text-align: center; }
+.ptp-pricing-table { white-space: nowrap; width: 100%; text-align: center; }
 
 .ptp-col { padding-left: 0.4em; padding-right: 0.4em; display: inline-block; vertical-align: top; white-space: normal; }
 .ptp-one-col   { width: 50%; }
