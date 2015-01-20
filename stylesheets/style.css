@@ -2631,7 +2631,7 @@ Content Area
 }
 
 .home-section-1 {
-	background-image: url(../images/bg-1.jpg)
+	background-image: url(https://chrishoman.github.io/qcheck-public//images/bg-1.jpg) !important;
 }
 
 /* Pricing Table
