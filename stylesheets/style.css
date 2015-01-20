@@ -3795,7 +3795,7 @@ font-size: 14px;
 
 .genesis-nav-menu .sub-menu a, .genesis-nav-menu .submenu a {
 	background-color: transparent;
-	border: 1px solid #000;
+	border: none;
 	font-size: 14px;
 	padding: 20px;
 	position: relative;
@@ -3979,12 +3979,11 @@ fieldset input {
 	background: #f04848;
 }
 
-.nav-secondary .sub-menu, .nav-secondary .submenu, .nav-secondary .submenu a  {
+.nav-secondary, .nav-secondary .sub-menu, .nav-secondary .submenu, .nav-secondary .submenu a  {
 	background: #222B32 !important;
 }
 
 .nav-secondary {
-	background: #000 !important;
 position: fixed;
 width: 100%;
 }
