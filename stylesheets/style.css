@@ -4042,3 +4042,9 @@ width: 250px;
 	left: 15px;
 	}
 }
+
+@media only screen {
+	.noscreen {
+		display: none;
+	}
+}
