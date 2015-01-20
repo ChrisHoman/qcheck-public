@@ -3979,11 +3979,12 @@ fieldset input {
 	background: #f04848;
 }
 
-.nav-secondary, .nav-secondary .sub-menu, .nav-secondary .submenu, .nav-secondary .submenu a  {
-	background: #000 !important;
+.nav-secondary .sub-menu, .nav-secondary .submenu, .nav-secondary .submenu a  {
+	background: #222B32 !important;
 }
 
 .nav-secondary {
+	background: #000 !important;
 position: fixed;
 width: 100%;
 }
