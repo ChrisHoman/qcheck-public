@@ -3869,16 +3869,16 @@ margin: 0 40px 40px 0;
 	font-size: 18px;
 	font-weight: 400;
 	letter-spacing: 1px;
+	line-height: normal;
 	padding: 20px;
 	text-transform: uppercase;
 	width: auto;
 	-webkit-font-smoothing: antialiased;
-	
 	display: inline-block;
 }
 
 .large-button-blue:hover {
-	background-color: #f04848;
+	background-color: #f04848 !important;
 	color: #fff;
 }
 
