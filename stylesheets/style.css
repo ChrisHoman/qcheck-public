@@ -4055,3 +4055,17 @@ width: 250px;
 		display: none;
 	}
 }
+
+/* Thickbox custom css */
+
+#TB_window {
+	padding: 20px;
+}
+
+#TB_ajaxContent {
+clear: both;
+overflow: auto;
+text-align: left;
+line-height: 1.4em;
+max-width: 100%;
+}
