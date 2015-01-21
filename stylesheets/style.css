@@ -2737,7 +2737,7 @@ a.ptp-button{
   border-radius:0;
   font-family: inherit;
   font-size:1em;
-  font-weight: bold;
+  font-weight: 400;
   line-height: 1em;
   position: relative;
   text-decoration: none;
@@ -3651,6 +3651,15 @@ width: 100%;
 	font-size: 3em;
 	color: #F45358;
 }
+
+@media only screen and (min-width: 1024px) {
+
+	.fa h3 {
+		height: 2.6em;
+	}
+
+}
+
 #visualizer-12 svg g g:nth-child(3) {
 	display: none;
 }
