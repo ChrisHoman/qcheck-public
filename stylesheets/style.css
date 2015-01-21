@@ -3875,6 +3875,7 @@ margin: 0 40px 40px 0;
 	width: auto;
 	-webkit-font-smoothing: antialiased;
 	display: inline-block;
+	margin: 20px inherit;
 }
 
 .large-button-blue:hover {
