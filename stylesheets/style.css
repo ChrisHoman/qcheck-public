@@ -2537,7 +2537,6 @@ Site Navigation
 
 .nav-secondary .genesis-nav-menu {
 	padding: 20px 0;
-	z-index: 100;
 }
 
 .nav-secondary a {
@@ -3983,6 +3982,7 @@ fieldset input {
 
 .nav-secondary, .nav-secondary .sub-menu, .nav-secondary .submenu, .nav-secondary .submenu a  {
 	background: #222B32 !important;
+	z-index: 100;
 }
 @media only screen and (min-width: 961px) {
 .nav-secondary {
