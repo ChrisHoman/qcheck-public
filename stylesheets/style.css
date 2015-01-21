@@ -2537,6 +2537,7 @@ Site Navigation
 
 .nav-secondary .genesis-nav-menu {
 	padding: 20px 0;
+	z-index: 100;
 }
 
 .nav-secondary a {
