@@ -2725,19 +2725,19 @@ Content Area
 .ptp-more-col  { width: auto; }
 
 div.ptp-item-container { margin: 0 0 1.25em 0; padding-left: 0px; padding-bottom: 0px; font-size: 1em; line-height: 1.6; font-family: inherit; border: #dddddd solid 1px;}
-div.ptp-plan{ height: 70px; text-align: center; font-family: 'Oswald'; font-weight: 400;font-weight: bold; font-size: 1em; background-color: #dddddd; color: #333333;}
+div.ptp-plan{ height: 70px; line-height: 70px; text-align: center; font-family: 'Oswald'; font-weight: 400;font-weight: bold; font-size: 20px; background-color: #dddddd; color: #333333;}
 div.ptp-most-popular{padding: 0.3em; text-align: center; font-size: 0.9em; font-weight: bold; line-height: 1.4em; margin-bottom: 2px; background-color: #7f8c8d; color: #fff;}
 div.ptp-not-most-popular{ background: none; padding: 0.3em; text-align: center; color: #fff; font-size: 0.9em; font-weight: bold; line-height: 1.4em; margin-bottom: 2px; }
-div.ptp-price{height: 87px; text-align: center; font-weight: normal; font-size: 1.25em; background-color: #eeeeee; color: #333333;}
-div.ptp-bullet-item{height: 71px; background-color: #fff; text-align: center; font-size: 0.7em; font-weight: normal; color: #333333; border-bottom: dotted 1px #dddddd; }
+div.ptp-price{height: 87px;line-height: 87px; text-align: center; font-weight: normal; font-size: 25px; background-color: #eeeeee; color: #333333;}
+div.ptp-bullet-item{height: 71px; background-color: #fff; text-align: center; font-size: 14px; font-weight: normal; color: #333333; border-bottom: dotted 1px #dddddd; }
 div.ptp-cta{height: 111px; text-align: center; background-color: #F5F5F5; }
 
 a.ptp-button{
-  border-style: solid;
   cursor: pointer;
   font-family: inherit;
   font-weight: bold;
-  line-height: 1.3;
+  line-height: 60px;
+  height: 60px;
   position: relative;
   text-decoration: none;
   text-align: center;
@@ -2747,9 +2747,7 @@ a.ptp-button{
   padding-top: 0.75em;
   padding-bottom: 0.8125em;
   font-size: 1em;
-  border-top: 0px;
-  border-left: 0px;
-  border-right: 0px;
+  border: none;
   
   /* from zurb */
   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
