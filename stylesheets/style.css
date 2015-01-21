@@ -3654,7 +3654,7 @@ width: 100%;
 
 @media only screen and (min-width: 1024px) {
 
-	.fa h3 {
+	.fa + h3 {
 		height: 2.6em;
 	}
 
