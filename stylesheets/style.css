@@ -4091,7 +4091,10 @@ thead {
 	background: #33627A;
 }
 
-th, tbody tr {
+thead th, tbody td {
 	padding: 0 10px;
 }
 
+tr:hover {
+	background: #F3F2ED;
+}
