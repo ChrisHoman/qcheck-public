@@ -2795,8 +2795,8 @@ a.ptp-button{
 	width: 100%;
 }
 
-.full-width-content.parallax-home .content {
-	padding: 20px;
+.full-width-content.parallax-home .content:not(main) {
+	padding: 0;
 }
 
 /* Entries
