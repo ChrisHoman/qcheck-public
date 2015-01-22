@@ -4083,3 +4083,15 @@ height: auto !important;
 .link {
 	cursor: pointer;
 }
+
+/* Tables */
+
+thead {
+	color: #fff;
+	background: #33627A;
+}
+
+th, tbody tr {
+	padding: 0 10px;
+}
+
