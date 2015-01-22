@@ -4104,7 +4104,7 @@ tbody tr:hover {
 	background: #cccbc3;
 }
 
-main.content {
+.full-width-content main.content {
 	background: #F3F2ED;
 	padding: 20px;
 	margin-bottom: 32px;
