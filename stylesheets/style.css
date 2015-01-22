@@ -3920,6 +3920,9 @@ clear: both;
 margin-top: 70px;
 }
 
+.text-right {
+	float: right;
+}
 
 legend {
 	color: #fff;
@@ -4095,6 +4098,6 @@ thead th, tbody td {
 	padding: 0 10px;
 }
 
-tr:hover {
+tbody tr:hover {
 	background: #F3F2ED;
 }
