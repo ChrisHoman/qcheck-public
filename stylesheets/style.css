@@ -3938,7 +3938,7 @@ fieldset {
 	font-size: 0.8em;
 	padding: 30px;
 	background: #F3F2ED;
-	border: 0;
+	border: 1px solid #888;
 	margin: 0 0 20px 0;
 }
 
@@ -3950,6 +3950,7 @@ fieldset input {
     counter-reset:li; /* Initiate a counter */
     margin-left: 20px !important; /* Remove the default left margin */
     padding-left:0 !important ; /* Remove the default left padding */
+	padding-top: 20px;
 	font-size: 0.7em;
 	text-align: center;
 }
@@ -3979,7 +3980,7 @@ fieldset input {
 	/* margin-right: 12px; */
 	padding: 0px;
 	color: #1D262D;
-	background: #ddd;
+	background: #fff;
 	text-align: center;
 }
 .progressMeter > li.current {
@@ -4105,4 +4106,5 @@ tbody tr:hover {
 main {
 	background: #F3F2ED;
 	padding: 20px;
+	margin-bottom: 32px;
 }
