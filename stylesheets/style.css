@@ -3939,7 +3939,7 @@ fieldset {
 	padding: 30px;
 	background: #F3F2ED;
 	border: 1px solid #888;
-	margin: 0 0 20px 0;
+	margin: 20px;
 }
 
 fieldset input {
