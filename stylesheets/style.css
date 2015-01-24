@@ -3969,7 +3969,7 @@ fieldset input {
 	font-size: 0.7em;
 	text-align: center;
 }
-.progressMeter > li, .progressMeterSide > li > .rest {
+.progressMeter > li, .progressMeterSide > li {
 	position: relative;
     margin:0 12px 6px 2em; /* Give each list item a left margin to make room for the numbers */
     padding:4px; /* Add some spacing around the content */
@@ -4075,7 +4075,7 @@ width: 250px;
 	margin-top: 48px;
 	text-align: center;
 	}
-	.progressMeter > li, .progressMeterSide > li > .rest {
+	.progressMeter > li, .progressMeterSide > li {
 	width: 61px;
 	font-size: 10px;
 		text-align: center;
