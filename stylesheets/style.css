@@ -3958,7 +3958,7 @@ fieldset input {
 	margin: 10px 0;
 }
 
-.progressMeter {
+.progressMeter, progressMeterSide {
     counter-reset:li; /* Initiate a counter */
     margin-left: 20px !important; /* Remove the default left margin */
     padding-left:0 !important ; /* Remove the default left padding */
@@ -3966,7 +3966,7 @@ fieldset input {
 	font-size: 0.7em;
 	text-align: center;
 }
-.progressMeter > li {
+.progressMeter > li, progressMeterSide > li {
 	position: relative;
     margin:0 12px 6px 2em; /* Give each list item a left margin to make room for the numbers */
     padding:4px; /* Add some spacing around the content */
@@ -3975,7 +3975,7 @@ fieldset input {
 	width: 100px;
 	text-align: left;
 }
-.progressMeter > li:before {
+.progressMeter > li:before, progressMeterSide > li:before {
 	content: counter(li);
 	counter-increment: li;
 	position: absolute;
@@ -3995,12 +3995,16 @@ fieldset input {
 	background: #fff;
 	text-align: center;
 }
-.progressMeter > li.current {
+.progressMeter > li.current, .progressMeterSide > li.current {
 	color: #f04848;
 }
-.progressMeter > li.current:before {
+.progressMeter > li.current:before, .progressMeterSide > li.current:before  {
 	color: #F3F2ED;
 	background: #f04848;
+}
+
+.progressMeterSide .firstletter {
+	display: none
 }
 
 .nav-secondary, .nav-secondary .sub-menu, .nav-secondary .submenu, .nav-secondary .submenu a  {
