@@ -1945,7 +1945,7 @@ th {
 }
 
 td {
-	border-top: 1px solid #ddd;
+	border-top: 1px solid transparent;
 	padding: 6px 0;
 }
 
@@ -1953,7 +1953,9 @@ th {
 	font-weight: 700;
 }
 
-
+.table-style01 {
+	border: 1px solid #33627A;
+}
 /*
 Structure and Layout
 ---------------------------------------------------------------------------------------------------- */
