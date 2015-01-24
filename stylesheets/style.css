@@ -303,7 +303,7 @@ input[type="radio"] {
 	font-weight: 300;
 }
 
-button,
+button, #signup,
 input[type="button"],
 input[type="reset"],
 input[type="submit"],
