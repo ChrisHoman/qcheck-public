@@ -3755,7 +3755,12 @@ font-style: normal;
 .site-title {
 	height: 70px;
 	width: 360px;
-background: url(../images/logo_main.svg) no-repeat !important;
+	background: url(../images/logo_main.svg) no-repeat !important;
+}
+
+.centered {
+	margin: 0 auto;
+	text-align: center;
 }
 
 
@@ -4096,7 +4101,7 @@ thead {
 	background: #33627A;
 }
 
-thead th, tbody td {
+thead th, tbody td, tfoot td  {
 	padding: 0 10px;
 }
 
