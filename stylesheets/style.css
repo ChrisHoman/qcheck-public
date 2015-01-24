@@ -4107,6 +4107,12 @@ thead th, tbody td, tfoot td  {
 
 tbody {
 	border-bottom: 1px solid #808080;
+	vertical-align: top;
+	border: none;
+}
+
+tbody tr {
+	border: 1px solid #33627A;
 }
 
 tbody tr:hover {
