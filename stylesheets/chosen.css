@@ -329,7 +329,7 @@
   -moz-box-shadow   : 0 1px 0 #fff inset;
   -o-box-shadow     : 0 1px 0 #fff inset;
   box-shadow        : 0 1px 0 #fff inset;
-  background-color: #eee;
+  background-color: #cccbc3;
 /*
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff', GradientType=0 );
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(20%, #eeeeee), color-stop(80%, #ffffff));
