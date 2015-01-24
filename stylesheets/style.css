@@ -1959,6 +1959,7 @@ th {
 
 .paginationLink:before {
 	content: 'Page: ';
+	cursor: default;
 }
 /*
 Structure and Layout
