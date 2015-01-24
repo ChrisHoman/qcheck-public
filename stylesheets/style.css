@@ -1958,7 +1958,7 @@ th {
 }
 
 .paginationLink:before {
-	content('Page');
+	content: 'Page: ';
 }
 /*
 Structure and Layout
