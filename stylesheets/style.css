@@ -1958,8 +1958,10 @@ th {
 }
 
 #tableFooter:before {
-	content: 'Page: ';
-	cursor: default;
+	content: 'Page: '
+	position: relative;
+	left: -62px;
+	top: 43px;
 }
 /*
 Structure and Layout
