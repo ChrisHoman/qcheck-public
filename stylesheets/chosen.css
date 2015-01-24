@@ -208,10 +208,6 @@
   -webkit-box-shadow: 0 0 2px #ffffff inset, 0 1px 0 rgba(0,0,0,0.05);
   -moz-box-shadow   : 0 0 2px #ffffff inset, 0 1px 0 rgba(0,0,0,0.05);
   box-shadow        : 0 0 2px #ffffff inset, 0 1px 0 rgba(0,0,0,0.05);
-  -webkit-box-shadow: 4px 4px 0 rgba(0,0,0,.15);
-  -moz-box-shadow   : 4px 4px 0 rgba(0,0,0,.15);
-  -o-box-shadow     : 4px 4px 0 rgba(0,0,0,.15);
-  box-shadow        : 4px 4px 0 rgba(0,0,0,.15);
   color: #333;
   border: 1px solid #aaaaaa;
   line-height: 13px;
@@ -333,6 +329,10 @@
   -moz-box-shadow   : 0 1px 0 #fff inset;
   -o-box-shadow     : 0 1px 0 #fff inset;
   box-shadow        : 0 1px 0 #fff inset;
+  -webkit-box-shadow: 4px 4px 0 rgba(0,0,0,.15);
+  -moz-box-shadow   : 4px 4px 0 rgba(0,0,0,.15);
+  -o-box-shadow     : 4px 4px 0 rgba(0,0,0,.15);
+  box-shadow        : 4px 4px 0 rgba(0,0,0,.15);
   background-color: #fff;
 /*
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff', GradientType=0 );
