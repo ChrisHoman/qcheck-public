@@ -3995,10 +3995,10 @@ fieldset input {
 	background: #fff;
 	text-align: center;
 }
-.progressMeter > li.current, .progressMeterSide > li.current {
+.progressMeter > li.current, .progressMeterSide > li .current {
 	color: #f04848;
 }
-.progressMeter > li.current:before, .progressMeterSide > li.current:before  {
+.progressMeter > li.current:before, .progressMeterSide > li .current:before  {
 	color: #F3F2ED;
 	background: #f04848;
 }
