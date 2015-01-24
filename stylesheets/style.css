@@ -1958,7 +1958,7 @@ th {
 }
 
 #tableFooter div:before {
-	content: 'Page:'
+	content: 'Page:';
 	position: relative;
 	left: -62px;
 	top: 43px;
