@@ -271,18 +271,22 @@ Version: 3.4.8 Timestamp: Thu May  1 09:50:32 EDT 2014
 }
 
 .select2-dropdown-open .select2-choice {
-    border-bottom-color: transparent;
-	  -webkit-box-shadow: 0 1px 0 #fff inset;
-	  -moz-box-shadow   : 0 1px 0 #fff inset;
-	  -o-box-shadow     : 0 1px 0 #fff inset;
-	  box-shadow        : 0 1px 0 #fff inset;
+	border-bottom-color: transparent;
+	-webkit-box-shadow: 0 1px 0 #fff inset;
+	-moz-box-shadow   : 0 1px 0 #fff inset;
+	-o-box-shadow     : 0 1px 0 #fff inset;
+	box-shadow        : 0 1px 0 #fff inset;
+	-webkit-box-shadow: 4px 4px 0 rgba(0,0,0,.15);
+	-moz-box-shadow   : 4px 4px 0 rgba(0,0,0,.15);
+	-o-box-shadow     : 4px 4px 0 rgba(0,0,0,.15);
+	box-shadow        : 4px 4px 0 rgba(0,0,0,.15);
 
 /*
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 */
 
-    background-color: #cccbc3;
+    background-color: #fff;
 /*
     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #fff), color-stop(0.5, #eee));
     background-image: -webkit-linear-gradient(center bottom, #fff 0%, #eee 50%);
