@@ -3919,10 +3919,19 @@ margin: 0 40px 40px 0;
 	font-weight: 300;
 }
 
-
+/* T&C's */
 .em3, .em5 {
-	margin: 0 0 30px 0; /* T&C's */
+	margin: 0 0 30px 0; 
 }
+
+.tcnum {
+	padding-right: 6px;
+}
+
+.t-justify {
+	text-align: justify;
+}
+/* END T&C's */
 
 .menu-accountmenu-container a {
 	font-size: 22px;	
