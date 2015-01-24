@@ -1959,9 +1959,6 @@ th {
 
 #tableFooter div:before {
 	content: 'Page:';
-	position: relative;
-	left: -62px;
-	top: 43px;
 }
 /*
 Structure and Layout
