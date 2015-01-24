@@ -136,7 +136,7 @@ Version: 3.4.8 Timestamp: Thu May  1 09:50:32 EDT 2014
     width: 100%;
     margin-top: -1px;
     position: absolute;
-    z-index: 9999;
+    z-index: 90;
     top: 100%;
 
     background: #fff;
@@ -146,8 +146,8 @@ Version: 3.4.8 Timestamp: Thu May  1 09:50:32 EDT 2014
 
 /*     border-radius: 0 0 4px 4px; */
 
-    -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, .15);
-            box-shadow: 0 4px 5px rgba(0, 0, 0, .15);
+    -webkit-box-shadow: 4px 4px 0 rgba(0, 0, 0, .15);
+            box-shadow: 4px 4px 0 rgba(0, 0, 0, .15);
 }
 
 .select2-drop.select2-drop-above {
@@ -649,6 +649,8 @@ html[dir="rtl"] .select2-search-choice-close {
 #searchInput {
 	background-color: #fff;
 	border-radius: 0;
+	-webkit-box-shadow: 4px 4px 0 rgba(0, 0, 0, .15);
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, .15);
 }
 
 /* Retina-ize icons */
