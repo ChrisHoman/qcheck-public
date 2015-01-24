@@ -4113,7 +4113,7 @@ tbody {
 tbody tr {
 }
 
-tbody tr:hover {
+#searchResults tbody tr:hover {
 	background: #cccbc3;
 }
 
