@@ -103,7 +103,7 @@
   position: relative;
   margin: 0;
   white-space: nowrap;
-  z-index: 1010;
+  z-index: 91;
 }
 .chzn-container-single .chzn-search input {
   background: #fff url('../img/chosen-sprite.png') no-repeat 100% -22px;
@@ -329,11 +329,7 @@
   -moz-box-shadow   : 0 1px 0 #fff inset;
   -o-box-shadow     : 0 1px 0 #fff inset;
   box-shadow        : 0 1px 0 #fff inset;
-  -webkit-box-shadow: 4px 4px 0 rgba(0,0,0,.15);
-  -moz-box-shadow   : 4px 4px 0 rgba(0,0,0,.15);
-  -o-box-shadow     : 4px 4px 0 rgba(0,0,0,.15);
-  box-shadow        : 4px 4px 0 rgba(0,0,0,.15);
-  background-color: #fff;
+  background-color: #eee;
 /*
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff', GradientType=0 );
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(20%, #eeeeee), color-stop(80%, #ffffff));
