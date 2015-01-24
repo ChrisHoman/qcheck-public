@@ -1665,6 +1665,10 @@ blockquote::before {
 	top: -10px;
 }
 
+p + ul {
+	margin-bottom: 30px;
+}
+
 
 /* Headings
 --------------------------------------------- */
@@ -3913,6 +3917,11 @@ margin: 0 40px 40px 0;
 .genesis-nav-menu a, .menu a {
 	font-family: Oswald, sans-serif;
 	font-weight: 300;
+}
+
+
+.em3, .em5 {
+	margin: 0 0 30px 0; /* T&C's */
 }
 
 .menu-accountmenu-container a {
