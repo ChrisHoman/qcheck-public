@@ -95,7 +95,7 @@
 .chzn-container-single .chzn-single div b {
   background: url('../img/chosen-sprite.png') no-repeat 0 0;
   display: block;
-  width: 100%;
+  width: calc(100%-2px);
   height: 100%;
 }
 .chzn-container-single .chzn-search {
