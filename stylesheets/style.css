@@ -1957,7 +1957,7 @@ th {
 	border: 1px solid #33627A;
 }
 
-.paginationLink:before {
+#tableFooter:before {
 	content: 'Page: ';
 	cursor: default;
 }
