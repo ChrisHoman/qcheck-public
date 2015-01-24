@@ -4010,6 +4010,12 @@ fieldset input {
 	display: none
 }
 
+.msg-error {
+	color: #F04848;
+	font-weight: 700;
+	margin: 12px 0;
+}
+
 .nav-secondary, .nav-secondary .sub-menu, .nav-secondary .submenu, .nav-secondary .submenu a  {
 	background: #222B32 !important;
 	z-index: 100;
