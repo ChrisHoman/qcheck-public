@@ -167,7 +167,7 @@ Version: 3.4.8 Timestamp: Thu May  1 09:50:32 EDT 2014
 }
 
 .select2-drop.select2-drop-above.select2-drop-active {
-    border-top: 1px solid #5897fb;
+    border-top: 2px solid #3FA8B0;
 }
 
 .select2-drop-auto-width {
@@ -263,7 +263,7 @@ Version: 3.4.8 Timestamp: Thu May  1 09:50:32 EDT 2014
 
 .select2-container-active .select2-choice,
 .select2-container-active .select2-choices {
-    border: 1px solid #5897fb;
+    border: 2px solid #3FA8B0;
     outline: none;
 
     -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .3);
@@ -479,7 +479,7 @@ disabled look for disabled choices in the results dropdown
 }
 
 .select2-container-multi.select2-container-active .select2-choices {
-    border: 1px solid #3FA8B0;
+    border: 2px solid #3FA8B0;
     outline: none;
 
     -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .3);
@@ -644,6 +644,11 @@ html[dir="rtl"] .select2-search-choice-close {
     width: 100px;
     height: 100px;
     overflow: scroll;
+}
+
+#searchInput {
+	background-color: #fff;
+	border-radius: 0;
 }
 
 /* Retina-ize icons */
