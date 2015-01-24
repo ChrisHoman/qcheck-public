@@ -4105,6 +4105,10 @@ thead th, tbody td, tfoot td  {
 	padding: 0 10px;
 }
 
+tbody {
+	border-bottom: 1px solid #808080;
+}
+
 tbody tr:hover {
 	background: #cccbc3;
 }
