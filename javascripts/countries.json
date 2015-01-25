@@ -1,4 +1,4 @@
-[
+data = '[
   {
     "Country":"Argentina",
     "Universities":102
@@ -207,4 +207,4 @@
     "Country":"Venezuela",
     "Universities":42
   }
-]
+]';

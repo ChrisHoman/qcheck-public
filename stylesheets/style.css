@@ -4137,6 +4137,10 @@ width: 250px;
 	cursor: pointer;
 }
 
+#map_div {
+	margin: 0 auto;
+}
+
 /* Tables */
 
 thead {
