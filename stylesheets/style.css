@@ -4206,12 +4206,15 @@ padding: .5em 2em .55em;
 
 .paginationLink {
 	margin: 6px;
-	color: #fff;
 	font-size: 16px;
 	font-weight: 400;
 }
 
-.pagination #tableFooter {
+thead .paginationLink {
+	color: #fff;
+}
+
+tfoots .paginationLink {
 	color: #000;
 }
 
