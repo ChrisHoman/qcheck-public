@@ -3614,8 +3614,8 @@ Media Queries
 }
 
 .title-area .site-title a {
-background: url(../images/logo_main.svg) no-repeat !important;
-background-size: auto;
+	background: url(../images/logo_main.svg) no-repeat !important;
+	background-size: auto;
 }
 
 h1, h2, h3 , h4, h5, h6 {
@@ -3627,15 +3627,13 @@ color: #F3F2ED;
 }
 
 .home-even .widget-title, .home-odd .widget-title {
-font-size: 60px;
-font-weight: 300;
+	font-size: 60px;
+	font-weight: 300;
 }
 
-.full-width-content .content {/*
-
-padding: 0 0 50px;
-*/
-width: 100%;
+.full-width-content .content {
+	padding: 0;
+	width: 100%;
 }
 
 .home-section-2 .textwidget, .home-section-3 .textwidget {
@@ -3695,12 +3693,12 @@ width: 100%;
 }
 
 .entry-header:not(.home):after {
-border-bottom: 1px solid #D86A6B;
-content: "";
-display: block;
-margin: 0 auto 20px;
-padding-bottom: 0px;
-width: 25%;
+	border-bottom: 1px solid #D86A6B;
+	content: "";
+	display: block;
+	margin: 0 auto 20px;
+	padding-bottom: 0px;
+	width: 25%;
 }
 
 .tcblock, .tcnum, .tcblock5, .tcnum5, .cookies p, .cookies li, .cookies td {
