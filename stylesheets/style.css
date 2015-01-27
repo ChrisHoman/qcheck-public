@@ -4207,6 +4207,9 @@ tbody tr, thead td {
 padding: .5em 2em .55em;
 }
 
+#tblCourseQuals #tableFooter div:before {
+content: none;
+}
 
 .paginationLink {
 	margin: 6px;
