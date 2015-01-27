@@ -26,8 +26,10 @@ input[type="search"] {
 .entry-content:before,
 .footer-widgets:before,
 .nav-primary:before,
-.nav-secondary:before,
+.nav-secondary:before,/*
+
 .pagination:before,
+*/
 .site-container:before,
 .site-footer:before,
 .site-header:before,
@@ -43,8 +45,10 @@ input[type="search"] {
 .entry-content:after,
 .footer-widgets:after,
 .nav-primary:after,
-.nav-secondary:after,
+.nav-secondary:after,/*
+
 .pagination:after,
+*/
 .site-container:after,
 .site-footer:after,
 .site-header:after,
@@ -1076,6 +1080,7 @@ p.entry-meta {
 
 /* ## Pagination
 --------------------------------------------- */
+/*
 
 .pagination {
 	clear: both;
@@ -1103,6 +1108,7 @@ p.entry-meta {
 .archive-pagination .active a {
 	background-color: #e5554e;
 }
+*/
 
 /* ## Comments
 --------------------------------------------- */
@@ -1403,10 +1409,12 @@ li.comment {
 	.site-header {
 		padding: 0;
 	}
+/*
 
 	.archive-pagination li a {
 		margin-bottom: 4px;
 	}
+*/
 
 	.five-sixths,
 	.four-sixths,
@@ -1540,8 +1548,10 @@ input[type="search"] {
 .clearfix:before,
 .entry:before,
 .entry-content:before,
-.footer-widgets:before,
+.footer-widgets:before,/*
+
 .pagination:before,
+*/
 .site-container:before,
 .site-footer:before,
 .site-header:before,
@@ -1556,8 +1566,10 @@ input[type="search"] {
 .clearfix:after,
 .entry:after,
 .entry-content:after,
-.footer-widgets:after,
+.footer-widgets:after,/*
+
 .pagination:after,
+*/
 .site-container:after,
 .site-footer:after,
 .site-header:after,
@@ -2927,6 +2939,7 @@ p.entry-meta {
 /* Pagination
 --------------------------------------------- */
 
+/*
 .pagination {
 	margin: 40px 0;
 }
@@ -2957,6 +2970,7 @@ p.entry-meta {
 	background-color: #f04848;
 	color: #fff;
 }
+*/
 
 /* Content Boxes
 --------------------------------------------- */
@@ -3224,9 +3238,11 @@ Color Styles
 
 .parallax-pro-blue input:hover[type="button"],
 .parallax-pro-blue input:hover[type="reset"],
-.parallax-pro-blue input:hover[type="submit"],
+.parallax-pro-blue input:hover[type="submit"],/*
+
 .parallax-pro-blue .archive-pagination li a:hover,
 .parallax-pro-blue .archive-pagination .active a,
+*/
 .parallax-pro-blue .button:hover,
 .parallax-pro-blue .footer-widgets,
 .parallax-pro-blue .pricing-table a.button:hover {
@@ -3257,9 +3273,11 @@ Color Styles
 
 .parallax-pro-green input:hover[type="button"],
 .parallax-pro-green input:hover[type="reset"],
-.parallax-pro-green input:hover[type="submit"],
+.parallax-pro-green input:hover[type="submit"],/*
+
 .parallax-pro-green .archive-pagination li a:hover,
 .parallax-pro-green .archive-pagination .active a,
+*/
 .parallax-pro-green .button:hover,
 .parallax-pro-green .footer-widgets,
 .parallax-pro-green .pricing-table a.button:hover {
@@ -3289,9 +3307,11 @@ Color Styles
 
 .parallax-pro-orange input:hover[type="button"],
 .parallax-pro-orange input:hover[type="reset"],
-.parallax-pro-orange input:hover[type="submit"],
+.parallax-pro-orange input:hover[type="submit"],/*
+
 .parallax-pro-orange .archive-pagination li a:hover,
 .parallax-pro-orange .archive-pagination .active a,
+*/
 .parallax-pro-orange .button:hover,
 .parallax-pro-orange .footer-widgets,
 .parallax-pro-orange .pricing-table a.button:hover {
@@ -3321,9 +3341,11 @@ Color Styles
 
 .parallax-pro-pink input:hover[type="button"],
 .parallax-pro-pink input:hover[type="reset"],
-.parallax-pro-pink input:hover[type="submit"],
+.parallax-pro-pink input:hover[type="submit"],/*
+
 .parallax-pro-pink .archive-pagination li a:hover,
 .parallax-pro-pink .archive-pagination .active a,
+*/
 .parallax-pro-pink .button:hover,
 .parallax-pro-pink .footer-widgets,
 .parallax-pro-pink .pricing-table a.button:hover {
