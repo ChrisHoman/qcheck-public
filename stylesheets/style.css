@@ -4172,6 +4172,7 @@ thead {
 
 thead th, tbody td, tfoot td  {
 	padding: 0 10px;
+	border: none;
 }
 
 tbody {
@@ -4197,12 +4198,12 @@ tbody tr {
 	margin: .5em 0 1em 0;
 	padding: 0;
 	width: 100%;
-	border-width: 1px;
 }
 
 #tblCourseQuals thead tr {
 padding: .5em 2em .55em;
 }
+
 
 .paginationLink {
 	margin: 6px;
