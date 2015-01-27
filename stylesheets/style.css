@@ -1997,7 +1997,7 @@ Structure and Layout
 
 .site-inner {
 	clear: both;
-	margin-top: 170px;
+	margin-top: 30px;
 }
 
 .home .site-inner {
@@ -3714,7 +3714,7 @@ color: #F3F2ED;
 	margin: 0 auto;
 }
 
-.entry-header:not(.home):after {
+.entry-header:not(.home):after, .content-header:not(.home):after {
 	border-bottom: 1px solid #D86A6B;
 	content: "";
 	display: block;
@@ -4189,7 +4189,7 @@ tbody tr, thead td {
 	background: #cccbc3;
 }
 
-.full-width-content:not(.home) main.content {
+.full-width-content:not(.home) main. content {
 	background: #F3F2ED;
 	padding: 20px;
 	margin-bottom: 32px;
