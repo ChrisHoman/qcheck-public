@@ -2166,8 +2166,9 @@ Common Classes
 	margin-bottom: 20px;
 }
 
-.entry-title {
+.entry-title, content-header {
 	font-size: 36px;
+	text-align: center;
 }
 
 .sidebar .entry-title {
