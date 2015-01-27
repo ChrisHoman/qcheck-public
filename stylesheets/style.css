@@ -3631,8 +3631,10 @@ font-size: 60px;
 font-weight: 300;
 }
 
-.full-width-content .content {
+.full-width-content .content {/*
+
 padding: 0 0 50px;
+*/
 width: 100%;
 }
 
