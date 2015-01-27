@@ -4200,6 +4200,7 @@ tbody tr, thead td {
 	margin: .5em 0 1em 0;
 	padding: 0;
 	width: 100%;
+	border: none;
 }
 
 #tblCourseQuals thead tr {
