@@ -4211,13 +4211,13 @@ padding: .5em 2em .55em;
 content: none;
 }
 
-.paginationLink {
+#tblCourseQuals .paginationLink {
 	margin: 6px;
 	font-size: 16px;
 	font-weight: 700;
 }
 
-.paginationLink:first-child {
+#tblCourseQuals .paginationLink:first-child {
 	margin-left: 20px;
 }
 
