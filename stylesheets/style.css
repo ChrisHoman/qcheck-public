@@ -2166,7 +2166,7 @@ Common Classes
 	margin-bottom: 20px;
 }
 
-.entry-title, content-header {
+.entry-title, .content-header {
 	font-size: 36px;
 	text-align: center;
 }
@@ -3721,7 +3721,7 @@ color: #F3F2ED;
 	display: block;
 	margin: 0 auto 20px;
 	padding-bottom: 0px;
-	width: 25%;
+	width: 250px;
 }
 
 .tcblock, .tcnum, .tcblock5, .tcnum5, .cookies p, .cookies li, .cookies td {
