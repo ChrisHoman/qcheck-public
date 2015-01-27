@@ -4214,6 +4214,10 @@ padding: .5em 2em .55em;
 	font-weight: 700;
 }
 
+.paginationLink:first-child {
+	margin-left: 20px;
+}
+
 thead .paginationLink {
 	color: #fff;
 }
