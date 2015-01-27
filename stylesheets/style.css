@@ -4169,3 +4169,15 @@ tbody tr {
 	padding: 20px;
 	margin-bottom: 32px;
 }
+#tblCourseQuals {
+border-collapse: collapse;
+border-spacing: 0;
+margin: .5em 0 1em 0;
+padding: 0;
+width: 100%;
+border-width: 1px;
+}
+
+#tblCourseQuals thead tr {
+padding: .5em 2em .55em;
+}
