@@ -3724,6 +3724,10 @@ color: #F3F2ED;
 	width: 250px;
 }
 
+.content-header:not(.home):after {
+	padding-top: 20px;
+}
+
 .tcblock, .tcnum, .tcblock5, .tcnum5, .cookies p, .cookies li, .cookies td {
 	font-size: 0.8em !important;
 }
