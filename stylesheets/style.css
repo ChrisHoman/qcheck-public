@@ -4168,6 +4168,7 @@ width: 250px;
 thead {
 	color: #fff;
 	background: #33627A;
+	border: none;
 }
 
 thead th, tbody td, tfoot td  {
@@ -4180,7 +4181,8 @@ tbody {
 	border: none;
 }
 
-tbody tr {
+tbody tr, thead td {
+	border: none;
 }
 
 #searchResults tbody tr:hover {
