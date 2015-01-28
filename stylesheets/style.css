@@ -4280,6 +4280,10 @@ font-size: 14px;
 margin-left: 50px;
 }
 
+.t-center {
+	text-align: center;
+}
+
 .scrollpane {
 	height: 200px;
 	overflow-y: scroll;
