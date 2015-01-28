@@ -2464,10 +2464,12 @@ Site Navigation
 	padding: 27px 20px;
 }
 
+/*
 .menu a {
 	font-family: Oswald, sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 }
+*/
 
 .genesis-nav-menu a:hover,
 .genesis-nav-menu .current-menu-item > a,
