@@ -1975,7 +1975,7 @@ input[type="search"]::-webkit-search-results-button {
 }
 
 .large-button-disabled, .large-button-disabled:hover {
-	background-color: #969696;
+	background-color: #969696 !important;
 }
 
 /* Tables
