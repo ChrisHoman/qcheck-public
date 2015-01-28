@@ -4211,7 +4211,7 @@ tbody {
 	border: none;
 }
 
-tbody tr {
+tr {
 	font-size: 18px;
 }
 
@@ -4257,6 +4257,10 @@ content: none;
 
 #tblCourseQuals .paginationLink:first-child {
 	margin-left: 20px;
+}
+
+#tblBody .link {
+	color: #000;
 }
 
 thead .paginationLink {
