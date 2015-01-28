@@ -104,7 +104,7 @@
   margin: 0;
   white-space: nowrap;
   z-index: 91;
-  width: 90%;
+  width: 100% !important;
 }
 .chzn-container-single .chzn-search input {
   background: #fff url('../img/chosen-sprite.png') no-repeat 100% -22px;
@@ -417,7 +417,7 @@
 }
 
 #dayDob_chzn, #monthDob_chzn {
-	width: 60px !important;
+	width: 70px !important;
 }
 
 #yearDob {
