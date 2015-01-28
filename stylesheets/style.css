@@ -4216,11 +4216,11 @@ tbody tr, thead td {
 }
 
 tr:nth-child(even) {
-    background-color: #F3F2ED;
+    background-color: #d3e9ea;
 }
 
 #searchResults tbody tr:hover {
-	background: #cccbc3;
+	background: #87b9bc;
 }
 
 .full-width-content:not(.home) main. content {
