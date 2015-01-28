@@ -262,6 +262,7 @@
 .chzn-container .chzn-results .active-result {
   cursor: pointer;
   display: list-item;
+  text-align: center;
 }
 .chzn-container .chzn-results .highlighted {
   background-color: #3FA8B0;
@@ -421,10 +422,6 @@
 
 #yearDob {
 	width: 80px !important;
-}
-
-.chzn-results .active-result {
-	text-align: center;
 }
 
 /* @end */
