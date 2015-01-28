@@ -4211,6 +4211,10 @@ tbody {
 	border: none;
 }
 
+tbody tr {
+	font-size: 18px;
+}
+
 tbody tr, thead td {
 	border: none;
 }
