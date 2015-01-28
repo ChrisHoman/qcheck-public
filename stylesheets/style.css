@@ -4137,8 +4137,10 @@ form .box .col-r {
 	float: none;
 }
 
-#loginForm input {
+#loginForm input {/*
+
 	float: right;
+*/
 }
 
 .verificationForm fieldset ol li .col-l {
