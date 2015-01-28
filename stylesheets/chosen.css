@@ -416,11 +416,15 @@
 }
 
 #dayDob_chzn, #monthDob_chzn {
-	width: 60px;
+	width: 60px !important;
 }
 
 #yearDob {
-	width: 80px
+	width: 80px !important;
+}
+
+.chzn-results .active-result {
+	text-align: center;
 }
 
 /* @end */
