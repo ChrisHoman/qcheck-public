@@ -2589,6 +2589,8 @@ Site Navigation
 	color: #f04848  !important;
 }
 
+
+
 /* Header Navigation
 --------------------------------------------- */
 
@@ -2638,7 +2640,10 @@ Site Navigation
 	margin: 0 auto;
 }
 
-
+.nav-secondary, .nav-secondary .sub-menu, .nav-secondary .submenu, .nav-secondary .submenu a  {
+	background: #222B32 !important;
+	z-index: 100;
+}
 /*
 Content Area
 ---------------------------------------------------------------------------------------------------- */
@@ -4068,10 +4073,11 @@ fieldset input {
 	margin: 12px 0;
 }
 
-.nav-secondary, .nav-secondary .sub-menu, .nav-secondary .submenu, .nav-secondary .submenu a  {
-	background: #222B32 !important;
-	z-index: 100;
+form#loginForm .msg-error {
+	text-align: center;
 }
+
+
 @media only screen and (min-width: 961px) {
 .nav-secondary {
 position: fixed;
@@ -4207,6 +4213,10 @@ tbody {
 
 tbody tr, thead td {
 	border: none;
+}
+
+tr:nth-child(even) {
+    background-color: #F3F2ED;
 }
 
 #searchResults tbody tr:hover {
