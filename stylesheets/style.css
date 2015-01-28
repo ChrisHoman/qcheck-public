@@ -2460,6 +2460,7 @@ Site Navigation
 	color: #fff;
 	display: block;
 	font-family: Oswald, sans-serif;
+	font-weight: 400;
 	padding: 27px 20px;
 }
 
@@ -2494,6 +2495,10 @@ Site Navigation
 	padding: 20px;
 	position: relative;
 	width: 200px;
+	background-color: transparent;
+	border: none;
+	font-size: 14px;
+	font-weight: 400;
 }
 
 .genesis-nav-menu .sub-menu .sub-menu, .genesis-nav-menu .submenu .submenu {
@@ -2541,11 +2546,16 @@ Site Navigation
 	width: 50%;
 }
 
+.genesis-nav-menu .loginbutton:hover, .genesis-nav-menu .loginbutton a:hover {
+	color: #f04848  !important;
+}
+
 /* Header Navigation
 --------------------------------------------- */
 
 .site-header .sub-menu, .site-header .submenu {
 	background-color: #000;
+	border: 1px solid #000;
 }
 
 /* Primary Navigation
@@ -3851,26 +3861,9 @@ font-size: 14px;
 	min-height: 70px;
 }
 
-.genesis-nav-menu .sub-menu a, .genesis-nav-menu .submenu a {
-	background-color: transparent;
-	border: none;
-	font-size: 14px;
-	padding: 20px;
-	position: relative;
-	width: 200px;
-}
-
-.site-header .sub-menu, .site-header .submenu {
-	border: 1px solid #000;
-}
-
 .loginbutton {
 	background-color: #E9F6FF;
 	color: #3FA8B0  !important;
-}
-
-.genesis-nav-menu .loginbutton:hover, .genesis-nav-menu .loginbutton a:hover {
-	color: #f04848  !important;
 }
 
 .full-width {
