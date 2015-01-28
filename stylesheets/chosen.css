@@ -104,7 +104,6 @@
   margin: 0;
   white-space: nowrap;
   z-index: 91;
-  width: 100% !important;
 }
 .chzn-container-single .chzn-search input {
   background: #fff url('../img/chosen-sprite.png') no-repeat 100% -22px;
@@ -122,6 +121,7 @@
   border: 1px solid #aaa;
   font-family: sans-serif;
   font-size: 1em;
+  width: 100% !important;
 }
 .chzn-container-single .chzn-drop {
 /*
