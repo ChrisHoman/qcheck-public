@@ -1834,7 +1834,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-	border: 1px solid #999;
+	border: 1px solid #3FA8B0;
 	outline: none;
 }
 
@@ -4109,6 +4109,10 @@ form .box .col-r {
 #loginForm {
 	max-width: 400px;
 	margin: 0 auto;
+}
+
+#loginForm .box {
+	padding: 0;
 }
 
 #loginForm .box .col-l {
