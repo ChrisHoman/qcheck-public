@@ -413,4 +413,13 @@
   padding: 4px 5px 4px 20px;
   direction: rtl;
 }
+
+#dayDob_chzn, #monthDob_chzn {
+	width: 60px;
+}
+
+#yearDob {
+	width: 80px
+}
+
 /* @end */
