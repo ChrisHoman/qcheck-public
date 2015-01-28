@@ -4142,8 +4142,17 @@ form .box .col-r {
 }
 
 .verificationForm fieldset ol li .col-l {
-text-align: right;
-width: 50%;
+	text-align: left;
+	width: 250px;
+}
+
+.verificationForm fieldset ol li .col-l {
+	text-align: left;
+	width: 250px;
+}
+.verificationForm fieldset t-center + ol li .col-l {
+	text-align: right;
+	width: 50%;
 }
 
 @media only screen and (max-width: 767px) {
