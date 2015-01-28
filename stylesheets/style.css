@@ -4256,3 +4256,8 @@ tfoot .paginationLink {
 .paginationLink:hover, .paginationLink .active {
 	color: #f04848;
 }
+
+.space-below-small {
+font-size: 14px;
+margin-left: 50px;
+}
