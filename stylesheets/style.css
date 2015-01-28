@@ -2464,6 +2464,11 @@ Site Navigation
 	padding: 27px 20px;
 }
 
+.menu a {
+	font-family: Oswald, sans-serif;
+	font-weight: 300;
+}
+
 .genesis-nav-menu a:hover,
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu a:hover,
@@ -3932,11 +3937,6 @@ margin: 0 40px 40px 0;
 .large-button-blue:hover {
 	background-color: #f04848 !important;
 	color: #fff;
-}
-
-.genesis-nav-menu a, .menu a {
-	font-family: Oswald, sans-serif;
-	font-weight: 300;
 }
 
 /* T&C's */
