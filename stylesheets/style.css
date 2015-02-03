@@ -4324,3 +4324,6 @@ form#pass {
 form#pass input {
 	margin-right: 20px;
 }
+
+.has-submenu {cursor: default;
+}
