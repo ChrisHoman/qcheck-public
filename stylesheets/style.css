@@ -4303,3 +4303,24 @@ margin-left: 50px;
 	margin: 20px 0;
 	border: 1px solid #D3D3D3;
 }
+
+.logintext {
+	text-align: center
+}
+
+.logintext a {
+	font-size: 14px;
+}
+
+.static .site-inner {
+	margin-top: 20px
+}
+
+form#pass {
+	width: 400px;
+	margin: 0 auto;
+}
+
+form#pass input {
+	margin-right: 20px;
+}
