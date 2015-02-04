@@ -4327,3 +4327,37 @@ form#pass input {
 
 .has-submenu, .has-submenu a {cursor: default;
 }
+
+#regionlist {
+    text-align: center;
+}
+
+#regionlist li {
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition:    all 0.1s ease-in-out;
+	-ms-transition:     all 0.1s ease-in-out;
+	-o-transition:      all 0.1s ease-in-out;
+	transition:         all 0.1s ease-in-out;
+	background-color: #000;
+	border: none;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 1em;
+	padding: 14px;
+	text-transform: uppercase;
+	width: auto;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	margin: 20px inherit;
+}
+
+#regionlist li:hover {
+	background-color: #f04848 !important;
+}
+
+#regionlist li a {
+    color: #fff;
+    text-decoration: none;
+}
