@@ -4370,6 +4370,6 @@ form#pass input {
 	margin: 4px;
 }
 
-.contactUsAddress p:not(first-child) {
+.contactUsAddress p:not(:first-child) {
 	text-indent: 20px;
 }
