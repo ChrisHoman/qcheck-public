@@ -4377,3 +4377,6 @@ form#pass input {
 #buyForm td {
 	vertical-align: middle;
 }
+#buyForm tr:nth-child(even) {
+background-color: inherit;
+}
