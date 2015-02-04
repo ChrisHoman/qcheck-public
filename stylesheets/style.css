@@ -4373,3 +4373,7 @@ form#pass input {
 .contactUsAddress p:first-child, .contactUsAddress p:last-child {
 	margin-bottom: 24px;
 }
+
+#buyForm td {
+	vertical-align: middle;
+}
