@@ -4325,7 +4325,7 @@ form#pass input {
 	margin-right: 20px;
 }
 
-.has-submenu, .has-submenu a {cursor: default;
+.site-header, .has-submenu, .has-submenu a {cursor: default;
 }
 
 #regionlist {
