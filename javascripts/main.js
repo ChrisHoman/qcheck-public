@@ -24,6 +24,6 @@ jQuery(function($) {
 			}
 		}
 	});
-	secondaryMenuHeight = $('.nav-secondary.').height() - 70;
+	secondaryMenuHeight = $('.nav-secondary').height() - 70;
 	$('.static').css('margin-top',140 - secondaryMenuHeight + "px");
 });
