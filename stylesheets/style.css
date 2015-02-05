@@ -4222,7 +4222,7 @@ tbody {
 	border: none;
 }
 
-tr {
+tr, td {
 	font-size: 14px;
 	max-height: 56px;
 	overflow-y: hidden;
