@@ -4223,7 +4223,9 @@ tbody {
 }
 
 tr {
-	font-size: 18px;
+	font-size: 14px;
+	max-height: 56px;
+	overflow-y: hidden;
 }
 
 tbody tr, thead td {
