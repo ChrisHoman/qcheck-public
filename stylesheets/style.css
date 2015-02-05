@@ -4205,6 +4205,11 @@ form .box .col-r {
 }
 
 /* Tables */
+table#tblVerfs {
+	table-layout:fixed;
+	overflow:hidden;
+	white-space: nowrap;
+}
 
 thead {
 	color: #fff;
