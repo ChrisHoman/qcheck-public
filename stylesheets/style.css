@@ -4387,3 +4387,9 @@ form#pass input {
 #buyForm tr:nth-child(even) {
 background-color: inherit;
 }
+
+@media only screen and (max-width: 960px)
+	.nav-secondary .genesis-nav-menu {
+		padding: 0;
+	}
+}
