@@ -4393,3 +4393,11 @@ background-color: inherit;
 		padding: 0;
 	}
 }
+@media only screen (min-width: 961px)and (max-width: 1150px) {
+	.genesis-nav-menu a {
+		padding: 27px 7px;
+	}
+	#menu-accountmenu .genesis-nav-menu a {
+		padding: 12px 2px;
+	}
+}
