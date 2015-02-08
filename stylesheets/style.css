@@ -4392,6 +4392,8 @@ background-color: inherit;
 	.nav-secondary .genesis-nav-menu {
 		padding: 0;
 	}
+	.site-inner {
+		margin-top: 48px;
 }
 @media only screen and (min-width: 961px) and (max-width: 1150px) {
 	.genesis-nav-menu a {
@@ -4400,4 +4402,7 @@ background-color: inherit;
 	#menu-accountmenu .genesis-nav-menu a {
 		padding: 12px 2px;
 	}
+}
+
+@media only screen and (max-width: 960px)
 }
