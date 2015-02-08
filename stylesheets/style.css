@@ -4395,8 +4395,8 @@ background-color: inherit;
 	.parallax-home .site-inner {
 		margin-top: 48px;
 }
-@media only screen and (min-width: 961px) and (max-width: 1150px) {
-	.genesis-nav-menu a {
+@media only screen and (min-width:961px) and (max-width: 1150px)  {
+	#menu-main a {
 		padding: 27px 6px !important;
 		font-size: 14px !important;
 	}
