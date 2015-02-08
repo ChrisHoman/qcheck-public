@@ -4388,8 +4388,8 @@ form#pass input {
 background-color: inherit;
 }
 
-@media only screen and (max-width: 960px)
+@media only screen and (max-width: 960px) {
 	.nav-secondary .genesis-nav-menu {
-		padding: 0 !important;
+		padding: 0;
 	}
 }
