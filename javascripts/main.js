@@ -27,5 +27,5 @@ jQuery(function($) {
 	if ($('.nav-secondary').height() > 0) {
 		secondaryMenuHeight = $('.nav-secondary').height() - 70; }
 	else {secondaryMenuHeight = 0}
-	$('.static .site-inner').css('margin-top', -90 + secondaryMenuHeight + "px");
+	$('.static .site-inner').css('margin-top', 90 - secondaryMenuHeight + "px");
 });
