@@ -4389,6 +4389,18 @@ form#pass input {
 background-color: inherit;
 }
 
+.dashboard-start {
+	text-align: right;
+}
+
+.dashboard-news > ul > li {
+	display: inline-block;
+}
+
+.dashboard-news .news-date {
+	font-size: 14px;
+}
+
 .dashboard-news, .dashboard-history, .dashboard-coverage {
 	font-size: 0.8em;
 	padding: 30px;
