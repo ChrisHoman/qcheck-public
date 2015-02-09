@@ -24,4 +24,8 @@ jQuery(function($) {
 			}
 		}
 	});
+	if ($('.nav-secondary').height() > 0) {
+		secondaryMenuHeight = 40
+	else {secondaryMenuHeight = 0}
+	$('.static .site-inner').css('margin-top', 90 - secondaryMenuHeight + "px");
 });
