@@ -4014,9 +4014,11 @@ fieldset {
 	margin: 20px;
 }
 
+/*
 fieldset input {
 	margin: 10px 0;
 }
+*/
 
 .progressMeter, .progressMeterSide {
     counter-reset:li; /* Initiate a counter */
