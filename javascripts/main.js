@@ -29,5 +29,5 @@ jQuery(function($) {
 		secondaryMenuHeight = 40
 	else {secondaryMenuHeight = 0}
 */
-	$('.static .site-inner').css('margin-top', 50 - $('.nav-secondary').height() + "px");
+	$('.static .site-inner').css('margin-top', 10 + $('.nav-secondary .menu-item').height() + "px");
 });
