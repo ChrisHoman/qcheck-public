@@ -4389,6 +4389,14 @@ form#pass input {
 background-color: inherit;
 }
 
+.dashboard-news, .dashboard-history {
+	font-size: 0.8em;
+	padding: 30px;
+	background: #F3F2ED;
+	border: 1px solid #888;
+	margin: 20px;
+}
+
 @media only screen and (max-width: 960px) {
 	.nav-secondary .genesis-nav-menu {
 		padding: 0;
