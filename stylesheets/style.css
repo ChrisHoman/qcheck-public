@@ -4397,6 +4397,12 @@ background-color: inherit;
 	margin: 20px;
 }
 
+.dashboard-news:before {
+	content: "News";
+	position: relative;
+	
+}
+
 @media only screen and (max-width: 960px) {
 	.nav-secondary .genesis-nav-menu {
 		padding: 0;
