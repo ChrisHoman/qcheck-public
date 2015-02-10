@@ -4123,7 +4123,7 @@ form .box .col-r {
 }
 
 #loginForm {
-	max-width: 400px;
+	max-width: 500px;
 	margin: 0 auto;
 }
 
@@ -4139,10 +4139,8 @@ form .box .col-r {
 	float: none;
 }
 
-#loginForm input {/*
-
-	float: right;
-*/
+#loginForm input[type="submit"] {
+	width: 100%
 }
 
 .verificationForm fieldset ol li .col-l {
