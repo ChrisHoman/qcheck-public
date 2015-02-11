@@ -4501,12 +4501,12 @@ img[class^="status-"] + div {
 	margin-bottom: 22px;
 }
 
-.loggedout .nav-header .menu-main li:last-child {
+.loggedout .genesis-nav-menu .menu-item:last-child {
 	background: #f04848;
 	color: white;
 }
 
-.loggedout .nav-header .menu-main li:last-child a:hover {
+.loggedout .genesis-nav-menu .menu-item:last-child a:hover {
 	color: #3FA8B0;
 }
 
