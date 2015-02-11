@@ -4457,6 +4457,9 @@ top: 220px;
 
 #signuptab a {
 	color: #fff;
+font-family: Oswald, sans-serif;
+font-weight: 400;
+text-transform: uppercase;
 }
 
 @media only screen and (max-width: 960px) {
