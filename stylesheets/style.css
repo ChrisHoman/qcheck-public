@@ -4486,7 +4486,7 @@ img[class^="status-"] + div {
 
 .contactform {
 	font-size: 0.8em;
-	padding: 30px;
+	padding: 30px !important;
 	background: #F3F2ED;
 	border: 1px solid #888;
 	margin: 20px;
