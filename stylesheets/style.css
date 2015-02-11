@@ -4436,6 +4436,14 @@ background-color: inherit;
 	width: 150px;
 }
 
+#signuptab {
+	display: none;
+}
+
+.loggedout #signuptab {
+	display: block;
+}
+
 #signuptab a {
 position: fixed;
 text-align: center;
@@ -4462,10 +4470,6 @@ text-transform: uppercase;
 
 #signuptab a:hover {
 	box-shadow: -4px 4px 4px rgba(0,0,0,0.3);
-}
-
-.loggedin #signuptab {
-	display: none;
 }
 
 @media only screen and (max-width: 960px) {

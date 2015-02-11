@@ -25,10 +25,12 @@ jQuery(function($) {
 		}
 	});
 	if ($('.nav-secondary').height() > 0 ) {
-		$('body').addClass('loggedin')
+		$('body').addClass('loggedin');
+		$('body').removeClass('loggedout')
 	}
 	else {
-		$('body').removeClass('loggedin')
+		$('body').removeClass('loggedin');
+		$('body').addClass('loggedout')
 	}
 	
 	
