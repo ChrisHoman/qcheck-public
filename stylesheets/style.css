@@ -4438,13 +4438,15 @@ background-color: inherit;
 
 #signuptab {
 position: absolute;
-width: 180px;
+text-align: center;
+padding-top: 12px;
+width: 110px;
 height: 60px;
 z-index: 1000;
 background: #f04848;
 border-radius: 6px;
-left: -20px;
-top: 20%;
+left: -36px;
+top: 220px;
 	transform: rotate(-90deg);
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
@@ -4454,7 +4456,6 @@ top: 20%;
 }
 
 #signuptab a {
-	padding-left: 20px;
 	color: #fff;
 }
 
