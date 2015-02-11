@@ -4205,7 +4205,7 @@ form .box .col-r {
 }
 
 /* Tables */
-table#tblVerfs {
+table {
 	table-layout:fixed;
 	overflow-y:hidden;
 	white-space: nowrap;
