@@ -33,6 +33,7 @@ jQuery(function($) {
 		$('body').addClass('loggedout')
 	}
 	
+	$('#enquiryform').parent().addClass('contactform');
 	
 	$('.static .site-inner').css('margin-top', 50 + $('.nav-secondary .menu-item').height() + "px");
 });
