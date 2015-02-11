@@ -4464,6 +4464,10 @@ text-transform: uppercase;
 	box-shadow: -4px 4px 4px rgba(0,0,0,0.3);
 }
 
+.loggedin #signuptab {
+	display: none;
+}
+
 @media only screen and (max-width: 960px) {
 	.nav-secondary .genesis-nav-menu {
 		padding: 0;
