@@ -4506,7 +4506,7 @@ img[class^="status-"] + div {
 	color: white;
 }
 
-.loggedout .genesis-nav-menu .menu-item:last-child a:hover {
+.loggedout .genesis-nav-menu .menu-item:last-child a:hover, .loggedout .genesis-nav-menu .menu-item:last-child.current-menu-item a:hover{
 	color: #3FA8B0;
 }
 
