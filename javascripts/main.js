@@ -24,5 +24,13 @@ jQuery(function($) {
 			}
 		}
 	});
+	if ($('.nav-secondary').height() > 0 ) {
+		$('body').addClass('loggedin')
+	}
+	else {
+		$('body').removeClass('loggedin')
+	}
+	
+	
 	$('.static .site-inner').css('margin-top', 50 + $('.nav-secondary .menu-item').height() + "px");
 });
