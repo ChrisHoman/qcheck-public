@@ -4441,7 +4441,7 @@ position: absolute;
 text-align: center;
 padding-top: 12px;
 width: 110px;
-line-height: 60px;
+line-height: 45px;
 height: 60px;
 z-index: 1000;
 background: #f04848;
@@ -4458,6 +4458,10 @@ top: 220px;
 font-family: Oswald, sans-serif;
 font-weight: 400;
 text-transform: uppercase;
+}
+
+#signuptab a:hover {
+	box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
 }
 
 @media only screen and (max-width: 960px) {
