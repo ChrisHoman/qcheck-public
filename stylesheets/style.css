@@ -4441,7 +4441,14 @@ background-color: inherit;
 	width: 60px;
 	height: 300px;
 	z-index: 1000;
-	display: none;
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	background: #f04848;
+	color: #fff;
 }
 
 @media only screen and (max-width: 960px) {
