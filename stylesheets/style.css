@@ -4477,11 +4477,11 @@ text-transform: uppercase;
 	box-shadow: -4px 4px 4px rgba(0,0,0,0.3);
 }
 
-img#status-pending + div {
+img[class^="status-"] + div {
 	font-family: Oswald, inherit;
-font-size: 22px;
-font-weight: 400;
-margin-bottom: 22px;
+	font-size: 22px;
+	font-weight: 400;
+	margin-bottom: 22px;
 }
 
 @media only screen and (max-width: 960px) {
