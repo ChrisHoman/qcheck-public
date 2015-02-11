@@ -4501,6 +4501,15 @@ img[class^="status-"] + div {
 	margin-bottom: 22px;
 }
 
+.loggedout .nav-header .menu-main li:last-child {
+	background: #f04848;
+	color: white;
+}
+
+.loggedout .nav-header .menu-main li:last-child a:hover {
+	color: #3FA8B0;
+}
+
 @media only screen and (max-width: 960px) {
 	.nav-secondary .genesis-nav-menu {
 		padding: 0;
