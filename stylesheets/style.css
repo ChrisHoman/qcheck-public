@@ -4436,11 +4436,12 @@ background-color: inherit;
 	width: 150px;
 }
 
-#signuptab {
+#signuptab a {
 position: absolute;
 text-align: center;
 padding-top: 12px;
 width: 110px;
+line-height: 60px;
 height: 60px;
 z-index: 1000;
 background: #f04848;
@@ -4453,9 +4454,6 @@ top: 220px;
 	-ms-transform: rotate(-90deg);
 	-o-transform: rotate(-90deg);
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-}
-
-#signuptab a {
 	color: #fff;
 font-family: Oswald, sans-serif;
 font-weight: 400;
