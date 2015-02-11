@@ -4484,7 +4484,7 @@ img[class^="status-"] + div {
 	margin-bottom: 22px;
 }
 
-#enquiryForm {
+.contactform {
 	font-size: 0.8em;
 	padding: 30px;
 	background: #F3F2ED;
