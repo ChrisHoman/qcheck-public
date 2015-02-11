@@ -4437,7 +4437,7 @@ background-color: inherit;
 }
 
 #signuptab a {
-position: absolute;
+position: fixed;
 text-align: center;
 padding-top: 12px;
 width: 110px;
