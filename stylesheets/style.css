@@ -4437,10 +4437,6 @@ text-align: center;
 	content: "Coverage";
 }
 
-.boxForm.verificationForm img {
-	width: 150px;
-}
-
 #signuptab {
 	display: none;
 }
@@ -4475,6 +4471,10 @@ text-transform: uppercase;
 
 #signuptab a:hover {
 	box-shadow: -4px 4px 4px rgba(0,0,0,0.3);
+}
+
+img[class^="status-"] {
+	width: 150px;
 }
 
 img[class^="status-"] + div {
