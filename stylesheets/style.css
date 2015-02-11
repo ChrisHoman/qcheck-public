@@ -4510,6 +4510,7 @@ img[class^="status-"] + div {
 
 .loggedout .genesis-nav-menu .menu-item:last-child a:hover, .loggedout .genesis-nav-menu .menu-item:last-child.current-menu-item a{
 	text-decoration: underline;
+	color: white;
 }
 
 @media only screen and (max-width: 960px) {
