@@ -4483,11 +4483,13 @@ top: 220px;
 	color: #fff;
 font-family: Oswald, sans-serif;
 font-weight: 400;
+font-size: 16px;
 text-transform: uppercase;
 }
 
 #signuptab a:hover {
 	box-shadow: -4px 4px 4px rgba(0,0,0,0.3);
+	text-decoration: underline;
 }
 
 img[class^="status-"] {
