@@ -4432,6 +4432,18 @@ background-color: inherit;
 	content: "Coverage";
 }
 
+.boxForm.verificationForm img {
+	width: 150px;
+}
+
+#signuptab {
+	position: absolute;
+	width: 60px;
+	height: 300px;
+	z-index: 1000;
+	display: none;
+}
+
 @media only screen and (max-width: 960px) {
 	.nav-secondary .genesis-nav-menu {
 		padding: 0;
