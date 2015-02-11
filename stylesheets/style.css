@@ -4389,6 +4389,11 @@ form#pass input {
 background-color: inherit;
 }
 
+.dashboard-user {
+font-size: 14px;
+text-align: center;
+}
+
 .dashboard-start {
 	text-align: right;
 }
@@ -4470,6 +4475,13 @@ text-transform: uppercase;
 
 #signuptab a:hover {
 	box-shadow: -4px 4px 4px rgba(0,0,0,0.3);
+}
+
+img#status-pending + div {
+	font-family: Oswald, inherit;
+font-size: 22px;
+font-weight: 400;
+margin-bottom: 22px;
 }
 
 @media only screen and (max-width: 960px) {
