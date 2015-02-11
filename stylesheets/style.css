@@ -4437,11 +4437,14 @@ background-color: inherit;
 }
 
 #signuptab {
-	position: absolute;
-	width: 60px;
-	height: 300px;
-	z-index: 1000;
-	background: #f04848;
+position: absolute;
+width: 60px;
+height: 186px;
+z-index: 1000;
+background: #f04848;
+border-radius: 6px;
+left: -20px;
+top: 20%;
 }
 
 #signuptab a {
@@ -4451,6 +4454,7 @@ background-color: inherit;
 	-ms-transform: rotate(-90deg);
 	-o-transform: rotate(-90deg);
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	padding-left: 20px;
 	color: #fff;
 }
 
