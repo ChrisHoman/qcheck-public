@@ -4241,6 +4241,10 @@ tr:nth-child(even) {
     background-color: #d3e9ea;
 }
 
+.institute-search-selection {
+	margin: 6px;
+}
+
 #searchResults tbody tr:hover {
 	background: #7CB9BD;
 }
