@@ -4503,7 +4503,7 @@ img[class^="status-"] + div {
 	margin-bottom: 22px;
 }
 
-.loggedout .genesis-nav-menu .menu-item:last-child {
+.loggedout #menu-main.genesis-nav-menu > .menu-item:last-child {
 	background: #f04848;
 	color: white;
 }
