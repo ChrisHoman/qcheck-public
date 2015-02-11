@@ -4413,7 +4413,7 @@ text-align: center;
 	border: 1px solid #888;
 	margin: 40px 20px;
 }
-.dashboard-news:before, .dashboard-history:before, .dashboard-coverage:before {
+.dashboard-news:before, .dashboard-history:before, .dashboard-coverage:before, .contactform:before {
 	position: relative;
 	color: #fff;
 	font-family: Oswald;
@@ -4435,6 +4435,18 @@ text-align: center;
 
 .dashboard-coverage:before {
 	content: "Coverage";
+}
+
+.contactform:before {
+	content: "Contact form";
+}
+
+.contactform {
+	font-size: 0.8em;
+	padding: 30px !important;
+	background: #F3F2ED;
+	border: 1px solid #888;
+	margin: 20px;
 }
 
 #signuptab {
@@ -4482,14 +4494,6 @@ img[class^="status-"] + div {
 	font-size: 22px;
 	font-weight: 400;
 	margin-bottom: 22px;
-}
-
-.contactform {
-	font-size: 0.8em;
-	padding: 30px !important;
-	background: #F3F2ED;
-	border: 1px solid #888;
-	margin: 20px;
 }
 
 @media only screen and (max-width: 960px) {
