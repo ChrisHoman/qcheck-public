@@ -4508,7 +4508,7 @@ img[class^="status-"] + div {
 	color: white;
 }
 
-.loggedout .genesis-nav-menu .menu-item:last-child a:hover, .loggedout .genesis-nav-menu .menu-item:last-child.current-menu-item a{
+.loggedout #menu-main.genesis-nav-menu > .menu-item:last-child a:hover, .loggedout #menu-main.genesis-nav-menu > .menu-item:last-child.current-menu-item a{
 	text-decoration: underline;
 	color: white;
 }
