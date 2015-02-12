@@ -4306,6 +4306,10 @@ margin-left: 50px;
 	text-align: center;
 }
 
+#searchFilters {
+	clear: both;
+}
+
 .scrollpane {
 	height: 200px;
 	overflow-y: scroll;
