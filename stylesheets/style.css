@@ -4422,7 +4422,7 @@ margin-top: 30px;
 	border: 1px solid #888;
 	margin: 40px 20px;
 }
-.dashboard-news:before, .dashboard-history:before, .dashboard-coverage:before, .contactform:before {
+.dashboard-news:before, .dashboard-history:before, .dashboard-coverage:before, #enquiryForm:before {
 	position: relative;
 	color: #fff;
 	font-family: Oswald;
@@ -4446,11 +4446,11 @@ margin-top: 30px;
 	content: "Coverage";
 }
 
-.contactform:before {
+#enquiryForm:before {
 	content: "Contact";
 }
 
-.contactform {
+#enquiryForm {
 	font-size: 0.8em;
 	padding: 30px !important;
 	background: #F3F2ED;
