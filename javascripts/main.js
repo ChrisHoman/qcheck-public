@@ -51,7 +51,7 @@ jQuery(function($) {
 	});
 	
 	function resize() {
-		$('.col-r').css("width",$('.col-r').parent().width() - $('.col-l').width() - 15);
+		$(':not(#loginForm) .col-r').css("width",$('.col-r').parent().width() - $('.col-l').width() - 15);
 	}
 	
 });
