@@ -4120,7 +4120,7 @@ form .box .col-l {
 
 form .box .col-r {
 	float: left;
-	width: 70%}
+	width: calc(100% - 220px)}
 
 #loginForm {
 	max-width: 500px;
