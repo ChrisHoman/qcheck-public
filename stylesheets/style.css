@@ -4137,6 +4137,7 @@ form .box .col-r {
 
 #loginForm .box .col-r {
 	float: none;
+	width: 100%;
 }
 
 #loginForm input[type="submit"] {
