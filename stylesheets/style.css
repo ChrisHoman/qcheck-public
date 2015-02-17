@@ -4020,6 +4020,10 @@ fieldset input {
 }
 */
 
+input.dateTextField.hasDatepicker {
+	width: 50px;
+}
+
 .progressMeter, .progressMeterSide {
     counter-reset:li; /* Initiate a counter */
     margin-left: 20px !important; /* Remove the default left margin */
