@@ -37,4 +37,6 @@ jQuery(function($) {
 	$('.contactform textarea#enquiry').attr("rows",'5');
 	
 	$('.static .site-inner').css('margin-top', 50 + $('.nav-secondary .menu-item').height() + "px");
+	
+	$('.col-r').css("width",$('.col-r').parent().width() - $('.col-l').width());
 });
