@@ -38,5 +38,21 @@ jQuery(function($) {
 	
 	$('.static .site-inner').css('margin-top', 50 + $('.nav-secondary .menu-item').height() + "px");
 	
-	$('.col-r').css("width",$('.col-r').parent().width() - $('.col-l').width() - 10);
+
+	jQuery(document).ready(function($) {
+
+	$(document).ready(function(){
+		resize()
+	});
+	
+	
+	$(window).on('resize', function(){
+		resize()
+	});
+	
+	function resize() {
+		$('.col-r').css("width",$('.col-r').parent().width() - $('.col-l').width() - 15);
+	}
+	
+});
 });
