@@ -24,6 +24,7 @@ jQuery(function($) {
 			}
 		}
 	});
+/*
 	if ($('.nav-secondary').height() > 0 ) {
 		$('body').addClass('loggedin');
 		$('body').removeClass('loggedout')
@@ -32,6 +33,7 @@ jQuery(function($) {
 		$('body').removeClass('loggedin');
 		$('body').addClass('loggedout')
 	}
+*/
 	
 	$('#enquiryForm form').parent().addClass('contactform');
 	$('.contactform textarea#enquiry').attr("rows",'5');
