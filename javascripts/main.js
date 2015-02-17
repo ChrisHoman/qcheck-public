@@ -33,7 +33,7 @@ jQuery(function($) {
 		$('body').addClass('loggedout')
 	}
 	
-	$('#enquiryForm').parent().addClass('contactform');
+	$('#enquiryForm form').parent().addClass('contactform');
 	$('.contactform textarea#enquiry').attr("rows",'5');
 	
 	$('.static .site-inner').css('margin-top', 50 + $('.nav-secondary .menu-item').height() + "px");
