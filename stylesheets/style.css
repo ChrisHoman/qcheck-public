@@ -4011,7 +4011,7 @@ fieldset {
 	padding: 30px;
 	background: #F3F2ED;
 	border: 1px solid #888;
-	margin: 20px;
+	margin: 20px 0;
 }
 
 /*
@@ -4525,6 +4525,9 @@ img[class^="status-"] + div {
 	border: 2px solid #F04848;
 }
 
+.asterisk {
+	font-size: 16px;
+}
 
 @media only screen and (max-width: 960px) {
 	.nav-secondary .genesis-nav-menu {
