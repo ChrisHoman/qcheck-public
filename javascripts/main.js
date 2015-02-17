@@ -38,5 +38,5 @@ jQuery(function($) {
 	
 	$('.static .site-inner').css('margin-top', 50 + $('.nav-secondary .menu-item').height() + "px");
 	
-	$('.col-r').css("width",$('.col-r').parent().width() - $('.col-l').width());
+	$('.col-r').css("width",$('.col-r').parent().width() - $('.col-l').width() - 10);
 });
