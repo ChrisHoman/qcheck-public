@@ -4473,14 +4473,24 @@ img[class^="status-"] + div {
 	margin-bottom: 22px;
 }
 
-:not(.loggedin) #menu-main.genesis-nav-menu > .menu-item:last-child {
+#menu-main.genesis-nav-menu > .menu-item:last-child {
 	background: #f04848;
 	color: white;
 }
 
-:not(.loggedin) #menu-main.genesis-nav-menu > .menu-item:last-child a:hover, :not(.loggedin) #menu-main.genesis-nav-menu > .menu-item:last-child.current-menu-item a{
+.loggedin #menu-main.genesis-nav-menu > .menu-item:last-child {
+	background: inherit;
+	color: inherit;
+}
+
+#menu-main.genesis-nav-menu > .menu-item:last-child a:hover, #menu-main.genesis-nav-menu > .menu-item:last-child.current-menu-item a{
 	text-decoration: underline;
 	color: white;
+}
+
+.loggedin #menu-main.genesis-nav-menu > .menu-item:last-child a:hover, .loggedin #menu-main.genesis-nav-menu > .menu-item:last-child.current-menu-item a{
+	text-decoration: inherit;
+	color: inherit;
 }
 
 .hiddenError {
