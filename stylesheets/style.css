@@ -4963,3 +4963,9 @@ select.dobDaySelect, select.dobMonthSelect {
 .chzn-select {
 	outline-color: #3FA8B0;
 }
+
+.langSelect {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
