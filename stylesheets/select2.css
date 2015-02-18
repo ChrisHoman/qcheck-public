@@ -415,7 +415,7 @@ disabled look for disabled choices in the results dropdown
 */
 .select2-results .select2-disabled.select2-highlighted {
     color: #666;
-    background: #f4f4f4;
+    background: #fff;
     display: list-item;
     cursor: default;
 }
