@@ -4948,6 +4948,6 @@ img[class^="status-"] + div {
     -webkit-box-shadow:1px 1px 2px #ddd;
     box-shadow:1px 1px 2px #ddd;
     
-margin-top: -90px;
-margin-left: 12px;
+margin-top: -90px !important;
+margin-left: 12px !important;
 }
