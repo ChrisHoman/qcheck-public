@@ -4973,3 +4973,7 @@ img[class^="status-"] + div {
 	top: 0;
 	right: 0;
 }
+
+#yearDob, #yearDateOfIssue {
+width: 80px !important;
+}
