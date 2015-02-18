@@ -66,7 +66,7 @@ $.fn.formtip = function(options)
 
             if(options.handler) {
 	            $('#'+ options.itemId).hide().css({
-	                position   : 'absolute',
+	                position   : 'relative',
 	                marginTop  : options.marginTop,
 	                marginLeft : options.marginLeft
 	            });
