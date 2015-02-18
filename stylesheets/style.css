@@ -4956,4 +4956,10 @@ img[class^="status-"] + div {
 
 /* Select2 Overrides */
 
+select.dobDaySelect, select.dobMonthSelect {
+	width: 120px;
+}
 
+.chzn-select {
+	outline-color: #3FA8B0;
+}
