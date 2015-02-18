@@ -4989,5 +4989,6 @@ img[class^="status-"] + div {
 }
 
 #yearDob, #yearDateOfIssue, #yearEnrol, #yearGrad {
-width: 80px !important;
+	width: 64px !important;
+text-align: center;
 }
