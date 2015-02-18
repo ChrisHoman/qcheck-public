@@ -4970,11 +4970,11 @@ img[class^="status-"] + div {
 	width: 90px;
 }
 
-.verificationLevelSelect, resultSizeSelect {
+.verificationLevelSelect, .resultSizeSelect {
 	width: 120px;
 }
 
-.verificationResultSelect, .tierSelect, .regionSelect {
+.verificationResultSelect, .tierSelect, .regionSelect, .clazzSelect {
 	width: 300px;
 }
 
