@@ -4462,44 +4462,6 @@ margin-top: 30px;
 	margin: 20px;
 }
 
-#signuptab {
-	display: none;
-}
-
-.loggedout #signuptab {
-	display: block;
-}
-
-#signuptab a {
-position: fixed;
-text-align: center;
-padding-top: 12px;
-width: 110px;
-line-height: 45px;
-height: 60px;
-z-index: 1000;
-background: #f04848;
-border-radius: 6px;
-left: -36px;
-top: 220px;
-	transform: rotate(-90deg);
-	-webkit-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-	color: #fff;
-font-family: Oswald, sans-serif;
-font-weight: 400;
-font-size: 16px;
-text-transform: uppercase;
-}
-
-#signuptab a:hover {
-	box-shadow: -4px 4px 4px rgba(0,0,0,0.3);
-	text-decoration: underline;
-}
-
 img[class^="status-"] {
 	width: 150px;
 }
@@ -4511,12 +4473,12 @@ img[class^="status-"] + div {
 	margin-bottom: 22px;
 }
 
-.loggedout #menu-main.genesis-nav-menu > .menu-item:last-child {
+:not(.loggedin) #menu-main.genesis-nav-menu > .menu-item:last-child {
 	background: #f04848;
 	color: white;
 }
 
-.loggedout #menu-main.genesis-nav-menu > .menu-item:last-child a:hover, .loggedout #menu-main.genesis-nav-menu > .menu-item:last-child.current-menu-item a{
+:not(.loggedin) #menu-main.genesis-nav-menu > .menu-item:last-child a:hover, :not(.loggedin) #menu-main.genesis-nav-menu > .menu-item:last-child.current-menu-item a{
 	text-decoration: underline;
 	color: white;
 }
