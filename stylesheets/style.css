@@ -4960,6 +4960,10 @@ select.dobDaySelect, select.dobMonthSelect {
 	width: 120px;
 }
 
+.verificationResultSelect, .tierSelect, .regionSelect {
+	width: 300px;
+}
+
 .chzn-select {
 	outline-color: #3FA8B0;
 }
