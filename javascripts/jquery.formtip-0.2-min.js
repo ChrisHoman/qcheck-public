@@ -73,12 +73,8 @@ $.fn.formtip = function(options)
             } else {
             	$('#'+ options.itemId).hide().css({
 	                position   : 'absolute',
-	                marginTop  : options.marginTop,
-	                marginLeft : options.marginLeft/*
-
 	                marginTop  : -obj.outerHeight(true) + options.marginTop,
 	                marginLeft : obj.outerWidth(true) + options.marginLeft
-*/
 	            });
             }
             
