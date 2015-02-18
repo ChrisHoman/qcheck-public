@@ -16,7 +16,7 @@ $.fn.formtip = function(options)
 {
     var defaults = {
         message    : false,
-        handler    : true, // Jei sitas uzsetintas tada pozicija skaiciuojama pagal sita
+        handler    : false, // Jei sitas uzsetintas tada pozicija skaiciuojama pagal sita
 		toolTipCss : 'uitooltip',
         marginTop  : -90,
         marginLeft : 12,
