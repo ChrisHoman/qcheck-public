@@ -4956,3 +4956,6 @@ img[class^="status-"] + div {
 
 /* Select2 Overrides */
 
+.select2-offscreen {
+	display: none;
+}
