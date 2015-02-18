@@ -190,7 +190,6 @@ Version: 3.4.8 Timestamp: Thu May  1 09:50:32 EDT 2014
 
     background-clip: padding-box;
 	background: #3FA8B0;
-	position: relative;
 /*
     background: #ccc;
     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ccc), color-stop(0.6, #eee));
@@ -201,10 +200,11 @@ Version: 3.4.8 Timestamp: Thu May  1 09:50:32 EDT 2014
 */
 }
 .select2-container .select2-choice .select2-arrow:before {
-	content: '\f107';
+	content: '\f0d7';
 	font-family: 'FontAwesome';
 	color: #fff;
 	position: absolute;
+	left:2px;
 }
 
 .select2-container .select2-choice .select2-arrow b {
