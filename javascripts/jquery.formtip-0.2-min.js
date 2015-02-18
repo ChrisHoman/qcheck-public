@@ -66,15 +66,19 @@ $.fn.formtip = function(options)
 
             if(options.handler) {
 	            $('#'+ options.itemId).hide().css({
-	                position   : 'relative',
+	                position   : 'absolute',
 	                marginTop  : options.marginTop,
 	                marginLeft : options.marginLeft
 	            });
             } else {
             	$('#'+ options.itemId).hide().css({
 	                position   : 'absolute',
+	                marginTop  : options.marginTop,
+	                marginLeft : options.marginLeft/*
+
 	                marginTop  : -obj.outerHeight(true) + options.marginTop,
 	                marginLeft : obj.outerWidth(true) + options.marginLeft
+*/
 	            });
             }
             
