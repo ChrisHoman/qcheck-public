@@ -4960,6 +4960,10 @@ img[class^="status-"] + div {
 	width: 90px;
 }
 
+.verificationLevelSelect, resultSizeSelect {
+	width: 120px;
+}
+
 .verificationResultSelect, .tierSelect, .regionSelect {
 	width: 300px;
 }
