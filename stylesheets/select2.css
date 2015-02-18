@@ -12,6 +12,10 @@ Version: 3.4.8 Timestamp: Thu May  1 09:50:32 EDT 2014
     font-size: 0.8em;
 }
 
+[class^='select2'] {
+	font-size: 0.8em;
+}
+
 .select2-container,
 .select2-drop,
 .select2-search,
