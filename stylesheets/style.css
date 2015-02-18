@@ -4935,3 +4935,16 @@ img[class^="status-"] + div {
 	filter: Alpha(Opacity=30); /* support: IE8 */
 	border-radius: 0;
 }
+
+.ui-tooltip-focus
+{
+    font-size:0.8em;
+    max-width:200px;
+    border:1px solid #c93;
+    padding:8px 12px;
+    line-height:1.3em;
+    background:#ffc;
+    -moz-box-shadow:1px 1px 2px #ddd;
+    -webkit-box-shadow:1px 1px 2px #ddd;
+    box-shadow:1px 1px 2px #ddd;
+}

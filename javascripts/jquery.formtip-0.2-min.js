@@ -18,8 +18,8 @@ $.fn.formtip = function(options)
         message    : false,
         handler    : false, // Jei sitas uzsetintas tada pozicija skaiciuojama pagal sita
 		toolTipCss : 'uitooltip',
-        marginTop  : -90,
-        marginLeft : 12,
+        marginTop  : -4,
+        marginLeft : 15,
         maxOpacity : 0.9,
         template   : '<div id="{$elementId}" class="{$uitooltip}">{$message}<div class="ui-tooltip-arrow"><!-- --></div></div>',
         onHover	   : false,
