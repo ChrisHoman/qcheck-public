@@ -4491,7 +4491,7 @@ img[class^="status-"] + div {
 	border: 2px solid #F04848;
 }
 
-.asterisk, .form-info, .space-below > p > span:first-child {
+.asterisk, .form-info, .space-below .high:first-child {
 	font-size: 16px;
 	margin-left: 30px;
 }
