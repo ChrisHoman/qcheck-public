@@ -4489,8 +4489,8 @@ img[class^="status-"] + div {
 }
 
 .loggedin #menu-main.genesis-nav-menu > .menu-item:last-child a:hover, .loggedin #menu-main.genesis-nav-menu > .menu-item:last-child.current-menu-item a{
-	text-decoration: inherit;
-	color: inherit;
+	text-decoration: none;
+	color: #f04848;
 }
 
 .hiddenError {
