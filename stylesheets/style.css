@@ -4491,9 +4491,9 @@ img[class^="status-"] + div {
 	border: 2px solid #F04848;
 }
 
-.asterisk, .form-info {
+.form-info {
 	font-size: 16px;
-	margin-left: 30px;
+	margin: 30px 0 0 30px;
 }
 
 @media only screen and (max-width: 960px) {
