@@ -92,8 +92,8 @@ Version: 3.4.8 Timestamp: Thu May  1 09:50:32 EDT 2014
     float: none;
     width: auto;
     
-margin-top: 12px;
-text-align: center;
+	line-height: 32px;
+	text-align: center;
 }
 
 .select2-container .select2-choice abbr {
