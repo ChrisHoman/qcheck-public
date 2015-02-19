@@ -3806,13 +3806,14 @@ img#streamline {
 	position: relative;
 }
 
-#home-quote:after {
+#home-quote:before {
 	content: '';
 	background-image: url(../images/openquote.svg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	height: 3em;
 	width: 3em;
+	margin-left: -3em;
     position: absolute;
 }
 
