@@ -3769,6 +3769,21 @@ color: #F3F2ED;
 	width: 3em;
 }
 
+img#recruiting, img#news, img#maze {
+	float: right;
+}
+
+#flag-uk {
+	position: fixed;
+	right: 40px;
+	top: 10px;
+}
+
+#flag-spain {
+	position: fixed;
+	right: 20px;
+	top: 10px;
+}
 
 @media only screen and (max-width: 1023px) {
 
