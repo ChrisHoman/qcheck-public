@@ -4525,6 +4525,10 @@ img[class^="status-"] + div {
 	vertical-align: top;
 }
 
+#genderRadios > input[type="radio"] {
+	margin-left: 6px;
+}
+
 @media only screen and (max-width: 960px) {
 	.nav-secondary .genesis-nav-menu {
 		padding: 0;
