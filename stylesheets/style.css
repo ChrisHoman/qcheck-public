@@ -4568,7 +4568,7 @@ img[class^="status-"] + div {
 }
 
 .entry-content ul, ul#danger-list {
-	margin-left: 20px !important;
+	margin-left: 32px !important;
 	padding-left: 0 !important;
 }
 .entry-content ul li, ul#danger-list li {
@@ -4582,18 +4582,19 @@ ul#danger-list li:before {
 	font-smoothing: antialiased;
 	color: #f04848;
 	position: absolute;
-	margin-left: -18px;
+	margin-left: -32px;
 }
 
 .entry-content ul li:before {
 	content:'';
 	position: absolute;
-	margin-left: -18px;
--moz-box-sizing: border-box;
--webkit-box-sizing: border-box;
-box-sizing: border-box;
-background: url(../images/logo_bullet.svg) no-repeat;
-text-align: center;
+	margin-left: -32px;
+	margin-top: 6px;
+	background: url(../images/logo_bullet.svg) no-repeat;
+	text-align: center;
+	background-size: cover;
+	height: 1em;
+	width: 1em;
 }
 
 @media only screen and (max-width: 960px) {
