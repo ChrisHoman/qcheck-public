@@ -3800,6 +3800,10 @@ img#streamline {
 	top: 10px;
 }
 
+#quote-section {
+	margin-top: 2em;
+}
+
 #home-quote {
 	font-style: italic;
 	text-align: left;
