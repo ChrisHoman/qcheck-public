@@ -4450,6 +4450,7 @@ margin-top: 30px;
 	content: "Coverage";
 }
 
+/*
 #enquiryForm:before {
 	content: "Contact";
 }
@@ -4461,6 +4462,7 @@ margin-top: 30px;
 	border: 1px solid #888;
 	margin: 20px;
 }
+*/
 
 img[class^="status-"] {
 	width: 150px;
