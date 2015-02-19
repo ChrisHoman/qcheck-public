@@ -3800,20 +3800,21 @@ img#streamline {
 	top: 10px;
 }
 
-#home-quote {
+#quote-section {
 	font-style: italic;
 	text-align: left;
 	position: relative;
 }
 
-#home-quote:before {
-    content: '';
-    background-image: url(../images/openquote.svg);
-	background-size: cover;
-	background-repeat: no-repeat;
+#quote-section:before {
+    content: open-quote;
+    color: #f04848;
+    font-size: 4em;
+    font-family: 'Georgia';
     position: absolute;
     margin-left: -36px;
     margin-top: -46px;
+    z-index: -1;
 }
 
 @media only screen and (max-width: 1023px) {
