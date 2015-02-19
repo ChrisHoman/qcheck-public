@@ -3751,6 +3751,10 @@ color: #F3F2ED;
 	margin: 0 auto 6px;
 }
 
+.accuracy-icon, .low-cost-icon {
+	position: relative;
+}
+
 .accuracy-icon:before {
 	content: '';
 	background-image: url(../images/accuracy-icon.svg);
@@ -3758,6 +3762,7 @@ color: #F3F2ED;
 	background-repeat: no-repeat;
 	height: 3em;
 	width: 3em;
+	position: absolute;
 }
 
 .low-cost-icon:before {
@@ -3767,6 +3772,7 @@ color: #F3F2ED;
 	background-repeat: no-repeat;
 	height: 3em;
 	width: 3em;
+	position: absolute;
 }
 
 img#recruiting, img#news, img#maze {
@@ -3783,13 +3789,13 @@ img#streamline {
 }
 
 #flag-uk {
-	position: fixed;
+	position: absolute;
 	right: 40px;
 	top: 10px;
 }
 
 #flag-spain {
-	position: fixed;
+	position: absolute;
 	right: 20px;
 	top: 10px;
 }
