@@ -3808,7 +3808,7 @@ img#streamline {
 	font-style: italic;
 	text-align: left;
 	position: relative;
-	margin-left: 4em;
+	margin-left: 3em;
 }
 
 #home-quote:before {
@@ -3816,9 +3816,9 @@ img#streamline {
 	background-image: url(../images/openquote.svg);
 	background-size: contain;
 	background-repeat: no-repeat;
-	height: 3em;
-	width: 3em;
-	margin-left: -4em;
+	height: 2em;
+	width: 2em;
+	margin-left: -3em;
     position: absolute;
 }
 
