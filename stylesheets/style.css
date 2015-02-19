@@ -4519,7 +4519,7 @@ img[class^="status-"] + div {
 }
 
 .contactUsMap, .contactUsAddress {
-width: 100%;
+width: 49%;
 display: inline-block;
 line-height: 1.2em;
 vertical-align: top;
