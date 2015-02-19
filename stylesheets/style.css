@@ -3800,13 +3800,13 @@ img#streamline {
 	top: 10px;
 }
 
-#quote-section {
+#home-quote {
 	font-style: italic;
 	text-align: left;
 	position: relative;
 }
 
-#quote-section:before {
+#home-quote:before {
 	background-image: url(../images/openquote.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
