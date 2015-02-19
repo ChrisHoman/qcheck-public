@@ -3800,6 +3800,17 @@ img#streamline {
 	top: 10px;
 }
 
+#home-quote {
+font-style: italic;
+text-align: left;
+}
+
+#home-quote:before {
+    content: open-quote;
+    color: #f04848;
+    font-size: 2em;
+}
+
 @media only screen and (max-width: 1023px) {
 
 	.one-third {
