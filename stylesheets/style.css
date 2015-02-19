@@ -3773,6 +3773,15 @@ img#recruiting, img#news, img#maze {
 	float: right;
 }
 
+img#news {
+	width: 200px;
+}
+
+img#streamline {
+	margin: 0 auto;
+	display: block;
+}
+
 #flag-uk {
 	position: fixed;
 	right: 40px;
