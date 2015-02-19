@@ -4618,6 +4618,10 @@ img[class^="status-"] + div {
 	vertical-align: top;
 }
 
+.contactUsAddress {
+	padding: 12px;
+}
+
 #genderRadios > input[type="radio"] {
 	margin-left: 6px;
 }
