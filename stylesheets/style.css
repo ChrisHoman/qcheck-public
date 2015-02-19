@@ -4574,13 +4574,14 @@ img[class^="status-"] + div {
 .page-id-20 ul li {
 	list-style-type: none;
 }
-.page-id-20 ul li: before {
+.page-id-20 ul li:before {
 	list-style-type: none;
 	content:'\f0e7';
 	font-family: 'FontAwesome';
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: antialiased;
 	font-smoothing: antialiased;
+	color: #f04848;
 }
 
 @media only screen and (max-width: 960px) {
