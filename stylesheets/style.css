@@ -3751,8 +3751,11 @@ color: #F3F2ED;
 	margin: 0 auto 6px;
 }
 
+.fa {
+	line-height: 1.13 !important;
+}
 
-.y-icon {
+.accuracy-icon {
 	background-image: url(../images/accuracy-icon.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -4606,16 +4609,6 @@ img[class^="status-"] + div {
 .entry-content ul li, ul#danger-list li {
 	list-style-type: none;
 }
-ul#danger-list li:before {
-	content:'\f0e7';
-	font-family: 'FontAwesome';
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: antialiased;
-	font-smoothing: antialiased;
-	color: #f04848;
-	position: absolute;
-	margin-left: -32px;
-}
 
 .entry-content ul li:before {
 	content:'';
@@ -4627,6 +4620,18 @@ ul#danger-list li:before {
 	background-size: cover;
 	height: 1em;
 	width: 1em;
+}
+
+ul#danger-list li:before {
+	content:'\f0e7';
+	font-family: 'FontAwesome';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	color: #f04848;
+	position: absolute;
+	margin-left: -32px;
+	background-image: none;
 }
 
 @media only screen and (max-width: 960px) {
