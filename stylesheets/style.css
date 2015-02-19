@@ -3752,12 +3752,12 @@ color: #F3F2ED;
 }
 
 
-.accuracy-icon {
+.y-icon {
 	background-image: url(../images/accuracy-icon.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 66px;
-	width: 66px;
+	height: 1em;
+	width: 1em;
 	text-align: initial;
 	position: relative;
 }
@@ -3766,8 +3766,8 @@ color: #F3F2ED;
 	background-image: url(../images/low-cost-icon.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 66px;
-	width: 66px;
+	height: 1em;
+	width: 1em;
 	text-align: initial;
 	position: relative;
 }
