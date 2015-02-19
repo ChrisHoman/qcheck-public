@@ -4567,11 +4567,11 @@ img[class^="status-"] + div {
 	margin-bottom: 48px;
 }
 
-.content-entry ul, ul#danger-list {
+.entry-content ul, ul#danger-list {
 	margin-left: 20px !important;
 	padding-left: 0 !important;
 }
-.content-entry ul li, ul#danger-list li {
+.entry-content ul li, ul#danger-list li {
 	list-style-type: none;
 }
 ul#danger-list li:before {
@@ -4585,7 +4585,7 @@ ul#danger-list li:before {
 	margin-left: -18px;
 }
 
-.content-entry ul li:before {
+.entry-content ul li:before {
 	content:'';
 	position: absolute;
 	margin-left: -18px;
