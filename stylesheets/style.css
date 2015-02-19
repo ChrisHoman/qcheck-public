@@ -4985,12 +4985,15 @@ img[class^="status-"] + div {
 
 /* Select2 Overrides */
 
-.dobDaySelect, .dobMonthSelect {
+.dobDaySelect, .dobMonthSelect, .resultSizeSelect {
 	width: 90px;
 }
 
-.verificationLevelSelect, .resultSizeSelect {
+.verificationLevelSelect  {
 	width: 120px;
+}
+.paymentTypeStringSelect {
+	width: 150px;
 }
 
 .verificationResultSelect, .tierSelect, .regionSelect, .clazzSelect {
