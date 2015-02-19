@@ -3456,6 +3456,12 @@ Media Queries
 
 	.parallax-home .site-inner {
 		max-width: none;
+		padding: 12px;
+	}
+	
+	.contactUsMap, .contactUsAddress {
+		width: 100%;
+		display: block;
 	}
 
 	.site-header {
@@ -4515,7 +4521,8 @@ img[class^="status-"] + div {
 .contactUsMap, .contactUsAddress {
 width: 100%;
 display: inline-block;
-max-width: 570px;
+line-height: 1.2em;
+vertical-align: top;
 }
 
 @media only screen and (max-width: 960px) {
