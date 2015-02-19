@@ -3804,6 +3804,7 @@ img#streamline {
 	font-style: italic;
 	text-align: left;
 	position: relative;
+	margin-left: 4em;
 }
 
 #home-quote:before {
@@ -3813,8 +3814,15 @@ img#streamline {
 	background-repeat: no-repeat;
 	height: 3em;
 	width: 3em;
-	margin-left: -3em;
+	margin-left: -4em;
     position: absolute;
+}
+
+#home-quote-by {
+	text-align: right;
+	font-family: 'Oswald';
+	font-weight: 300;
+	font-style: normal;
 }
 
 @media only screen and (max-width: 1023px) {
