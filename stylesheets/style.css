@@ -3809,12 +3809,10 @@ img#streamline {
 #home-quote:before {
 	content: '';
 	background-image: url(../images/openquote.svg);
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
-	height: 1em;
-	width: 1em;
-    margin-left: -36px;
-    margin-top: -46px;
+	height: 3em;
+	width: 3em;
     position: absolute;
 }
 
