@@ -3807,14 +3807,14 @@ img#streamline {
 }
 
 #quote-section:before {
-    content: open-quote;
-    color: #f04848;
-    font-size: 4em;
-    font-family: 'Georgia';
-    position: absolute;
+	background-image: url(../images/openquote.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 1em;
+	width: 1em;
     margin-left: -36px;
     margin-top: -46px;
-    z-index: -1;
+    position: absolute;
 }
 
 @media only screen and (max-width: 1023px) {
