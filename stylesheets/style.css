@@ -2722,6 +2722,15 @@ Content Area
 	background-image: url(https://chrishoman.github.io/qcheck-public/images/bg-5.jpg) !important;
 }
 
+.home-section-5 .wrap {
+	max-width: 90%;
+}
+
+#home-price-volume {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
 /* Pricing Table
 --------------------------------------------- */
 
@@ -2848,6 +2857,11 @@ a.ptp-button{
 .ptp-item-container div{margin:0}
 .ptp-button:hover{background-color:#f45358}
 
+
+#home-price-volume {
+	max-width: 1180px;
+	margin: 0 auto;
+}
 
 /* smart phones */
 @media only screen and (max-width: 765px) {
