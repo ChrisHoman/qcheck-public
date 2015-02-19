@@ -3806,7 +3806,7 @@ img#streamline {
 	position: relative;
 }
 
-#home-quote:before {
+#home-quote:after {
 	content: '';
 	background-image: url(../images/openquote.svg);
 	background-size: contain;
