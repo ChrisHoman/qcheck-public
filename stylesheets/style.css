@@ -4512,6 +4512,12 @@ img[class^="status-"] + div {
 	font-size: 0.7em;
 }
 
+.contactUsMap, .contactUsAddress {
+width: 100%;
+display: inline-block;
+max-width: 570px;
+}
+
 @media only screen and (max-width: 960px) {
 	.nav-secondary .genesis-nav-menu {
 		padding: 0;
