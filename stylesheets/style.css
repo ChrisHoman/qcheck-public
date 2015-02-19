@@ -3751,28 +3751,25 @@ color: #F3F2ED;
 	margin: 0 auto 6px;
 }
 
-.accuracy-icon, .low-cost-icon {
-	position: relative;
-}
 
-.accuracy-icon:before {
-	content: '';
+.accuracy-icon {
 	background-image: url(../images/accuracy-icon.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 3em;
-	width: 3em;
-	position: absolute;
+	height: 66px;
+	width: 66px;
+	text-align: initial;
+	position: relative;
 }
 
-.low-cost-icon:before {
-	content: '';
+.low-cost-icon {
 	background-image: url(../images/low-cost-icon.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 3em;
-	width: 3em;
-	position: absolute;
+	height: 66px;
+	width: 66px;
+	text-align: initial;
+	position: relative;
 }
 
 img#recruiting, img#news, img#maze {
