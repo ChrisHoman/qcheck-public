@@ -3750,6 +3750,21 @@ color: #F3F2ED;
 .one-third img {
 	margin: 0 auto 6px;
 }
+
+.accuracy-icon:before {
+	content: '';
+	background-image: url(../images/accuracy-icon.svg);
+	background-size: 3em auto;
+	background-repeat: no-repeat;
+}
+
+.low-cost-icon:before {
+	content: '';
+	background-image: url(../images/low-cost-icon.svg);
+	background-size: 3em auto;
+	background-repeat: no-repeat;
+}
+
 @media only screen and (max-width: 1023px) {
 
 	.one-third {
