@@ -4534,6 +4534,10 @@ img[class^="status-"] + div {
 	margin-top: 24px;
 }
 
+#coverage-map {
+	margin-bottom: 48px;
+}
+
 @media only screen and (max-width: 960px) {
 	.nav-secondary .genesis-nav-menu {
 		padding: 0;
