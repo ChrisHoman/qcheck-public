@@ -4582,6 +4582,8 @@ img[class^="status-"] + div {
 	-moz-osx-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 	color: #f04848;
+	position: absolute;
+	margin-left: -18px;
 }
 
 @media only screen and (max-width: 960px) {
