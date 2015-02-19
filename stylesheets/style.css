@@ -4567,14 +4567,14 @@ img[class^="status-"] + div {
 	margin-bottom: 48px;
 }
 
-.page-id-20 ul {
+.entry-content ul {
 	margin-left: 20px !important;
 	padding-left: 0 !important;
 }
-.page-id-20 ul li {
+.entry-content ul li {
 	list-style-type: none;
 }
-.page-id-20 ul li:before {
+.entry-content ul li:before {
 	list-style-type: none;
 	content:'\f0e7';
 	font-family: 'FontAwesome';
