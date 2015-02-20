@@ -3791,19 +3791,23 @@ img#streamline {
 #flag-uk {
 	position: absolute;
 	display: inline-block;
-	margin-left: -24px;
+	margin-left: -40px;
 	margin-top: -9px;
 }
 
 #flag-spain {
 	position: absolute;
 	display: inline-block;
-	margin-left: -24px;
+	margin-left: -40px;
 	margin-top: 9px;
 }
 
 .title-area #flag-uk, .title-area #flag-spain {
 	display: none;
+}
+
+#menu-main.genesis-nav-menu > li:last-child {
+	margin-right: 24px;
 }
 
 #quote-section {
