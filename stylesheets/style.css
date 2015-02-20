@@ -3791,14 +3791,14 @@ img#streamline {
 #flag-uk {
 	position: absolute;
 	display: inline-block;
-	margin-left: -40px;
+	margin-left: -6px;
 	margin-top: -9px;
 }
 
 #flag-spain {
 	position: absolute;
 	display: inline-block;
-	margin-left: -40px;
+	margin-left: -6px;
 	margin-top: 9px;
 }
 
@@ -4584,7 +4584,7 @@ img[class^="status-"] + div {
 	margin-bottom: 22px;
 }
 
-#menu-main.genesis-nav-menu > .menu-item:last-child {
+#menu-main.genesis-nav-menu > li.menu-item:last-child {
 	background: #f04848;
 	color: white;
 }
