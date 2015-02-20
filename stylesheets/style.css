@@ -4583,7 +4583,9 @@ img[class^="status-"] + div {
 	font-weight: 400;
 	margin-bottom: 22px;
 }
-
+.genesis-nav-menu > .menu-item:last-child {
+	margin-right: 24px;
+}
 #menu-main.genesis-nav-menu > li.menu-item:last-child {
 	background: #f04848;
 	color: white;
