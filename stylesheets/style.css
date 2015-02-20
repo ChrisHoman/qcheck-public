@@ -3790,14 +3790,18 @@ img#streamline {
 
 #flag-uk {
 	position: absolute;
-	right: 40px;
-	top: 10px;
+	margin-left: -24px;
+	margin-top: -9px;
 }
 
 #flag-spain {
 	position: absolute;
-	right: 20px;
-	top: 10px;
+	margin-left: -24px;
+	margin-top: 9px;
+}
+
+.title-area #flag-uk, .title-area #flag-spain {
+	display: none;
 }
 
 #quote-section {
