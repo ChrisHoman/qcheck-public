@@ -55,7 +55,7 @@ jQuery(function($) {
 	});
 	
 	function resize() {
-		if ($('html').width() > 769 ) {
+		if ($('fieldset').width() > 897 ) {
 			$('form:not(#loginForm) .col-r').css("width",$('.col-r').parent().width() - $('.col-l').width() - 15);
 		}
 		else {
