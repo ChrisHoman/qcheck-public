@@ -5164,15 +5164,3 @@ ul#danger-list li:before {
 	width: 64px !important;
 text-align: center;
 }
-
-.page .ui-datepicker .ui-icon-circle-triangle-w:before {
-	content: '\f0a8';
-	font-family: 'FontAwesome';
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: antialiased;
-	font-smoothing: antialiased;
-	color: #E9F6FF;
-	position: absolute;
-	margin-left: -32px;
-	background-image: none;
-}
