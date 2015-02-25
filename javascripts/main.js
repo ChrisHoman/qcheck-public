@@ -55,7 +55,9 @@ jQuery(function($) {
 	});
 	
 	function resize() {
+		if ($(body).width() > 769 ) {
 		$('form:not(#loginForm) .col-r').css("width",$('.col-r').parent().width() - $('.col-l').width() - 15);
+		}
 	}
 	
 });
