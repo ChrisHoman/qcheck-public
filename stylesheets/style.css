@@ -5146,7 +5146,7 @@ ul#danger-list li:before {
 	width: 150px;
 }
 
-.verificationResultSelect, .tierSelect, .regionSelect, .clazzSelect, .qualificationSelect {
+.verificationResultSelect, .tierSelect, .regionSelect, .clazzSelect, .qualificationSelect, countrySelect, industrySelect {
 	width: 300px;
 }
 
