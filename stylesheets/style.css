@@ -5143,7 +5143,7 @@ ul#danger-list li:before {
 	width: 150px;
 }
 
-.verificationResultSelect, .tierSelect, .regionSelect, .clazzSelect {
+.verificationResultSelect, .tierSelect, .regionSelect, .clazzSelect, .qualificationSelect {
 	width: 300px;
 }
 
