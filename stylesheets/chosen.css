@@ -424,6 +424,8 @@ text-align: center;
 
 #yearDob {
 	width: 80px !important;
+	height: 32px;
+	padding: 0;
 }
 
 /* @end */
