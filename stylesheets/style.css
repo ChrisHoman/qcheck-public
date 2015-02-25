@@ -4703,6 +4703,9 @@ ul#danger-list li:before {
 	.parallax-home .site-inner {
 		padding: 0 12px;
 	}
+	form:not(#loginForm) .col-r {
+		width: 100%;
+	}
 }
 
 /*!
