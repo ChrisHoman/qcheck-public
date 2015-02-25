@@ -59,7 +59,8 @@ jQuery(function($) {
 			$('form:not(#loginForm) .col-r').css("width",$('.col-r').parent().width() - $('.col-l').width() - 15);
 		}
 		else {
-			$('form:not(#loginForm) .col-l').css("width","250px");
+			$('form:not(#loginForm) .col-l').css("width","100%");
+			$('form:not(#loginForm) .col-r').css("width","100%");
 		}
 	}
 	
