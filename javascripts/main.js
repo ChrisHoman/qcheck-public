@@ -46,12 +46,12 @@ jQuery(function($) {
 	jQuery(document).ready(function($) {
 
 	$(document).ready(function(){
-		resize()
+		resize();
 	});
 	
 	
 	$(window).on('resize', function(){
-		resize()
+		resize();
 	});
 	
 	function resize() {
