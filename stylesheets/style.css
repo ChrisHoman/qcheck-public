@@ -5166,7 +5166,7 @@ text-align: center;
 }
 
 .page .ui-datepicker .ui-icon-circle-triangle-w:before {
-	content: '/f0a8';
+	content: '\f0a8';
 	font-family: 'FontAwesome';
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: antialiased;
