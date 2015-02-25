@@ -58,10 +58,6 @@ jQuery(function($) {
 		if ($('fieldset').width() > 897 ) {
 			$('form:not(#loginForm) .col-r').css("width",$('.col-r').parent().width() - $('.col-l').width() - 15);
 		}
-		else {
-			$('form:not(#loginForm) .col-l').css("width","100%");
-			$('form:not(#loginForm) .col-r').css("width","100%");
-		}
 	}
 	
 });
