@@ -4226,6 +4226,7 @@ form .box .col-l {
 	float: left;
 	clear: left;
 	margin-right: 10px;
+	font-weight: 700;
 }
 
 form .box .col-r {
