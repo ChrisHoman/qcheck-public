@@ -5164,3 +5164,9 @@ ul#danger-list li:before {
 	width: 64px !important;
 text-align: center;
 }
+
+#regionlist li a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
+}
