@@ -3937,9 +3937,11 @@ a.social-twitter:hover i.fa {
 	margin: 0 auto;
 }
 
+/*
 #password, #username, #login {
 	height: 61px;
 }
+*/
 
 #username input, #password input {
 	padding: 13px 16px 16px 16px;
