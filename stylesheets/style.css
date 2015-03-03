@@ -3838,6 +3838,7 @@ img#streamline {
 	font-family: 'Oswald';
 	font-weight: 300;
 	font-style: normal;
+	margin-top: 24px;
 }
 
 @media only screen and (max-width: 1023px) {
