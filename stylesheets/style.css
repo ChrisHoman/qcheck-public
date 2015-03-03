@@ -398,7 +398,7 @@ th {
 	font-weight: 400;
 }
 
-td[align="right"] { 
+th[align="right"], td[align="right"] { 
     text-align: right;
 }
 
@@ -4344,8 +4344,9 @@ tbody {
 	border: none;
 }
 
-tr, td {
+tr, td, td a {
 	font-size: 14px;
+	font-weight: 400;
 	max-height: 56px;
 	overflow-y: hidden;
 }
