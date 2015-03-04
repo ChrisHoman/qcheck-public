@@ -3823,12 +3823,11 @@ img#streamline {
 }
 
 #home-quote:before {
-	content: '';
-	background-image: url(../images/openquote.svg);
-	background-size: contain;
-	background-repeat: no-repeat;
+	content: "\201C";/*
+
 	height: 2em;
 	width: 2em;
+*/
 	margin-left: -2.5em;
     position: absolute;
 }
