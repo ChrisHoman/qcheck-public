@@ -4459,6 +4459,10 @@ form#pass input {
 	margin-right: 20px;
 }
 
+form#pass .col-r {
+	float: none;
+}
+
 .site-header, .has-submenu, .has-submenu a {
 	cursor: default;
 }
