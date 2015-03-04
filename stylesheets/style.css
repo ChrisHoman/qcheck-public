@@ -3819,16 +3819,22 @@ img#streamline {
 	font-style: italic;
 	text-align: left;
 	position: relative;
-	margin-left: 3em;
+	margin-left: 1em;
 }
 
 #home-quote:before {
-	content: "\201C";/*
+	content: "\201C";
+	color: #F04848;
+	margin-left: -1em;
+	font-size: 2em;
+    position: absolute;
+}
 
-	height: 2em;
-	width: 2em;
-*/
-	margin-left: -2.5em;
+#home-quote:after {
+	content: "\201D";
+	color: #F04848;
+	margin-left: -1em;
+	font-size: 2em;
     position: absolute;
 }
 
