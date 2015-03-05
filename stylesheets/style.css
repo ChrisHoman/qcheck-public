@@ -5217,3 +5217,7 @@ text-align: center;
 	margin: 6px;
 	margin-left: 10px;
 }
+
+.cardSelectOption {
+	cursor: pointer;
+}
