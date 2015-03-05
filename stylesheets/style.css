@@ -3971,6 +3971,7 @@ body, p, a, li {
 font-family: 'Open Sans', sans-serif;
 font-weight: 300;
 font-style: normal;
+  text-align: justify;
 }
 
 .site-title {
