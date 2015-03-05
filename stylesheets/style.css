@@ -1834,6 +1834,7 @@ textarea {
 	font-weight: 300;
 	padding: 12px;
 	width: 100%;
+	vertical-align: text-bottom;
 }
 
 input:focus,
