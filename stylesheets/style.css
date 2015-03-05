@@ -1972,7 +1972,6 @@ input[type="search"]::-webkit-search-results-button {
 	-webkit-font-smoothing: antialiased;
 	display: inline-block;
 	margin: 20px inherit;
-	float: right;
 	margin: 12px 0 12px 12px;
 }
 
@@ -1982,7 +1981,18 @@ input[type="search"]::-webkit-search-results-button {
 }
 
 .large-button-disabled, .large-button-disabled:hover {
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 1em;
+	padding: 20px;
+	text-transform: uppercase;
+	width: auto;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
 	background-color: #969696 !important;
+	margin: 12px 0 12px 12px;
+	line-height: 1em;
 }
 
 /* Tables
