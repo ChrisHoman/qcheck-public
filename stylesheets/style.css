@@ -1973,6 +1973,7 @@ input[type="search"]::-webkit-search-results-button {
 	display: inline-block;
 	margin: 20px inherit;
 	margin: 12px 0 12px 12px;
+	float: right;
 }
 
 .large-button-blue:hover {
@@ -5245,6 +5246,6 @@ text-align: center;
 	border: 6px solid #3FA8B0;
 }
 
-#newInstituteButton {
+#newInstituteButton, #editButton {
 	float: left;
 }
