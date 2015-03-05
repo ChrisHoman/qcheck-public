@@ -5229,7 +5229,7 @@ text-align: center;
 	border: 6px solid transparent;
 }
 
-.cardSelectOption img:hover {/*
+.cardSelectOption img:hover, .cardSelectOptionSelected {/*
 
 	box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
 */
