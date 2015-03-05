@@ -5213,3 +5213,8 @@ text-align: center;
 	text-decoration: none;
 	font-weight: 400;
 }
+
+#buyForm input {
+	padding: 6px;
+	margin: 6px;
+}
