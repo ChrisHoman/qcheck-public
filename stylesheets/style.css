@@ -5222,6 +5222,9 @@ text-align: center;
 	cursor: pointer;
 }
 
-.cardSelectOption img:hover {
+.cardSelectOption img:hover {/*
+
 	box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+*/
+	border: 2px solid #3FA8B0;
 }
