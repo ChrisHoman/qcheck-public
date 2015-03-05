@@ -4467,7 +4467,7 @@ margin-left: 50px;
 }
 
 form#pass {
-	width: 400px;
+	max-width: 500px;
 	margin: 0 auto;
 }
 
