@@ -4470,9 +4470,11 @@ form#pass {
 	margin: 0 auto;
 }
 
+/*
 form#pass input {
 	margin-right: 20px;
 }
+*/
 
 form#pass .col-r {
 	float: none;
@@ -5189,6 +5191,14 @@ ul#danger-list li:before {
 	position: absolute;
 	top: 0;
 	right: 0;
+}
+
+.strapline2 {
+	margin-top: 32px;
+}
+
+.one-third p {
+	text-align: center;
 }
 
 #yearDob, #yearDateOfIssue, #yearEnrol, #yearGrad {
