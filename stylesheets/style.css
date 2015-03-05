@@ -4164,6 +4164,9 @@ fieldset input {
 
 input.dateTextField.hasDatepicker {
 	width: 140px;
+}
+
+.verificationSearchForm input.dateTextField.hasDatepicker {
 	margin-top: 24px;
 }
 
@@ -5258,4 +5261,9 @@ text-align: center;
 }
 .selectPaymentTable fieldset p {
   white-space: normal;
+}
+
+#responseTimeButton {
+  display: block;
+  float: right;
 }
