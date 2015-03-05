@@ -4153,6 +4153,7 @@ fieldset input {
 
 input.dateTextField.hasDatepicker {
 	width: 140px;
+	margin-top: 24px;
 }
 
 .progressMeter, .progressMeterSide {
