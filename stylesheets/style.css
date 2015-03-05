@@ -5220,6 +5220,7 @@ text-align: center;
 
 .cardSelectOption {
 	cursor: pointer;
+	text-align: center;
 }
 
 .cardSelectOption img {/*
