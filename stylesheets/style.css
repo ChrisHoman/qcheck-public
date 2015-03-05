@@ -4472,11 +4472,9 @@ form#pass {
 	margin: 0 auto;
 }
 
-/*
-form#pass input {
-	margin-right: 20px;
+form#pass .text-right {
+	text-align: center;
 }
-*/
 
 form#pass .col-r {
 	float: none;
@@ -5181,7 +5179,7 @@ ul#danger-list li:before {
 	width: 150px;
 }
 
-.verificationResultSelect, .tierSelect, .regionSelect, .clazzSelect, .qualificationSelect, .countrySelect, .industrySelect {
+.verificationResultSelect, .tierSelect, .regionSelect, .clazzSelect, .qualificationSelect, .countrySelect, .industrySelect, .userSelect {
 	width: 300px;
 }
 
