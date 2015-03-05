@@ -5216,7 +5216,7 @@ text-align: center;
 	font-weight: 400;
 }
 
-#buyForm input {
+#buyForm td input {
 	padding: 6px;
 	margin: 6px;
 	margin-left: 10px;
@@ -5227,16 +5227,14 @@ text-align: center;
 	text-align: center;
 }
 
-.cardSelectOption img {/*
-
-	box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
-*/
+.cardSelectOption img {
 	border: 6px solid transparent;
 }
 
-.cardSelectOption:hover img, .cardSelectOptionSelected img {/*
-
-	box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
-*/
+.cardSelectOption:hover img, .cardSelectOptionSelected img {
 	border: 6px solid #3FA8B0;
+}
+
+#newInstituteButton {
+	float: left;
 }
