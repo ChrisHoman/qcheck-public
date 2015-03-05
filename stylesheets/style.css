@@ -4205,6 +4205,7 @@ input.dateTextField.hasDatepicker {
 	color: #F04848;
 	font-weight: 700;
 	margin: 12px 0;
+	font-size: 16px;
 }
 
 form#loginForm .msg-error {
