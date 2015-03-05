@@ -1973,7 +1973,7 @@ input[type="search"]::-webkit-search-results-button {
 	display: inline-block;
 	margin: 20px inherit;
 	margin: 12px 0 12px 12px;
-	float: right;
+	float: none;
 }
 
 .large-button-blue:hover {
@@ -1994,6 +1994,7 @@ input[type="search"]::-webkit-search-results-button {
 	background-color: #969696 !important;
 	margin: 12px 0 12px 12px;
 	line-height: 1em;
+	float: none;
 }
 
 /* Tables
@@ -5246,6 +5247,8 @@ text-align: center;
 	border: 6px solid #3FA8B0;
 }
 
-#newInstituteButton, #editButton {
+/*
+#newInstituteButton, #editButton, #courseSelect, .TB_closeWindowLink {
 	float: left;
 }
+*/
