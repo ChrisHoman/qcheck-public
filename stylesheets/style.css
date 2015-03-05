@@ -4474,6 +4474,7 @@ form#pass {
 
 form#pass .text-right {
 	text-align: center;
+	float: none;
 }
 
 form#pass .col-r {
