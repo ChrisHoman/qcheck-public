@@ -5248,7 +5248,7 @@ text-align: center;
 
 
 #newInstituteButton, #editButton, #courseSelect, .TB_closeWindowLink {
-	float: inherit;
+	float: left;
 	margin-right: 20px
 }
 
