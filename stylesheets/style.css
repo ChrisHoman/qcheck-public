@@ -5252,3 +5252,7 @@ text-align: center;
 	float: left;
 }
 */
+
+.selectPaymentTable fieldset {
+	min-width: inherit;
+}
