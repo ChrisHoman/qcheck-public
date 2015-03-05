@@ -5256,3 +5256,6 @@ text-align: center;
 .selectPaymentTable fieldset {
 	min-width: inherit;
 }
+.selectPaymentTable fieldset p {
+  white-space: normal;
+}
