@@ -3833,7 +3833,7 @@ img#streamline {
 	font-style: italic;
 	text-align: left;
 	position: relative;
-	margin-left: 1em;
+	margin: 1em 0 0 0;
 }
 
 #home-quote:before {
