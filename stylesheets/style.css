@@ -5297,12 +5297,21 @@ text-align: center;
   float: right;
 }
 
+#find-more-why-choose {
+	text-align: right;
+}
+
 #find-more-why-choose a {
-	float: right;
-	padding: 0;
-	margin: 0;
 	position: relative;
 	border: none;
+	text-transform: capitalize;
+	color: #000;
+}
+
+#find-more-why-choose a:hover {
+	background: transparent;
+	text-decoration: underline;
+	color: #f04848;
 }
 
 #find-more-why-choose a:before {
@@ -5311,4 +5320,6 @@ text-align: center;
 	background-image: url('../images/more-arrow.svg');
 	width: 52px;
 	height: 46px;
+	margin-left: -60px;
+	margin-top: -12px;
 }
