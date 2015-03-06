@@ -24,17 +24,9 @@ jQuery(function($) {
 			}
 		}
 	});
+/*
 	$languagemenu = '<a id="flag-uk" href="?lang=en"><img src="/demo/img/flags/gb.gif" alt="GB"></a><a id="flag-spain" href="?lang=es"><img src="/demo/img/flags/es.gif" alt="ES"></a>'
 	$('#menu-main.genesis-nav-menu').after($languagemenu);
-/*
-	if ($('.nav-secondary').height() > 0 ) {
-		$('body').addClass('loggedin');
-		$('body').removeClass('loggedout')
-	}
-	else {
-		$('body').removeClass('loggedin');
-		$('body').addClass('loggedout')
-	}
 */
 	
 	$('#enquiryForm form').parent().addClass('contactform');
