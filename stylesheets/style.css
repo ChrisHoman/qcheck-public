@@ -5296,3 +5296,19 @@ text-align: center;
   display: block;
   float: right;
 }
+
+#find-more-why-choose a {
+	float: right;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	border: none;
+}
+
+#find-more-why-choose a:before {
+	content: '';
+	position: absolute;
+	background-image: url('../images/more-arrow.svg');
+	width: 52px;
+	height: 46px;
+}
