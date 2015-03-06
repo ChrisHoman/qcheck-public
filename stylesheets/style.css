@@ -5302,9 +5302,9 @@ text-align: center;
 }
 
 #find-more-why-choose a {
+	font-family: Oswald;
 	position: relative;
 	border: none;
-	text-transform: capitalize;
 	color: #000;
 }
 
