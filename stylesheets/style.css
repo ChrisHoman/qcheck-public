@@ -3809,12 +3809,14 @@ img#streamline {
 #flag-uk {
 	margin-top: -64px;
 	float: right;
+  border: 10px solid transparent;
 
 }
 
 #flag-spain {
 	margin-top: -46px;
 	float: right;
+  border: 10px solid transparent;
 }
 
 .title-area #flag-uk, .title-area #flag-spain {
