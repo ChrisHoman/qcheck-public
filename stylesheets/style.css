@@ -3806,22 +3806,23 @@ img#streamline {
 	display: block;
 }
 
-#flag-uk a{
+#flag-uk, #flag-spain {
+	float: right;
+	width: 35px;
+	height: 31px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+
+#flag-uk {
 	margin-top: -64px;
-	float: right;
-  border: 10px solid transparent;
-
 }
 
-#flag-spain a{
+#flag-spain {
 	margin-top: -46px;
-	float: right;
-  border: 10px solid transparent;
 }
 
-.title-area #flag-uk, .title-area #flag-spain {
-	display: none;
-}
 
 #menu-main.genesis-nav-menu > li:last-child {
 	margin-right: 24px;
