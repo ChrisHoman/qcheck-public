@@ -3817,6 +3817,8 @@ img#streamline {
 #flag-uk {
 	margin-top: -64px;
 	background: url('../images/gb.gif');
+    background-repeat: no-repeat;
+    background-position: center; 
 	width: 35px;
 	height: 31px;
 }
@@ -3824,6 +3826,8 @@ img#streamline {
 #flag-spain {
 	margin-top: -46px;
 	background: url('../images/es.gif');
+    background-repeat: no-repeat;
+    background-position: center; 
 	width: 35px;
 	height: 31px;
 }
