@@ -4826,11 +4826,6 @@ ul#danger-list li:before {
 	font-size: 1.1em;
 }
 
-.page table .ui-widget {
-	font-family: Oswald, 'Open Sans',Arial,sans-serif;
-	font-size: 0.9em;
-}
-
 .page .ui-widget .ui-widget {
 	font-size: 1em;
 }
@@ -5220,6 +5215,10 @@ ul#danger-list li:before {
 	opacity: .3;
 	filter: Alpha(Opacity=30); /* support: IE8 */
 	border-radius: 0;
+}
+
+.ui-tooltip {
+	font-size: 16px;
 }
 
 .ui-tooltip-focus
