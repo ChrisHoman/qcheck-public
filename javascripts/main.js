@@ -52,7 +52,7 @@ jQuery(function($) {
 });
 
 $(function() {
-    $( document ).tooltip();
+    $('tbody').tooltip();
   });
 
 /**
