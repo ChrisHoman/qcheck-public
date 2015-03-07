@@ -3815,21 +3815,21 @@ img#streamline {
 
 
 #flag-uk {
-	margin-top: -64px;
+	margin-top: -60px;
 	background: url('../images/gb.gif');
     background-repeat: no-repeat;
     background-position: center; 
-	width: 35px;
-	height: 31px;
+	width: 36px;
+	height: 20px;
 }
 
 #flag-spain {
-	margin-top: -46px;
+	margin-top: -30px;
 	background: url('../images/es.gif');
     background-repeat: no-repeat;
     background-position: center; 
-	width: 35px;
-	height: 31px;
+	width: 36px;
+	height: 20px;
 }
 
 #flag-uk img, #flag-spain img {
@@ -4676,7 +4676,7 @@ img[class^="status-"] + div {
 #menu-main.genesis-nav-menu > li.menu-item:last-child {
 	background: #f04848;
 	color: white; 
-	margin-right: 40px;
+	margin-right: 50px;
 }
 
 .loggedin #menu-main.genesis-nav-menu > .menu-item:last-child {
