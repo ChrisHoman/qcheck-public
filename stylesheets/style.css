@@ -3818,14 +3818,16 @@ img#streamline {
 
 #flag-uk {
 	margin-top: -64px;
+	background: url('/demo/img/flags/gb.gif');
 }
 
 #flag-spain {
 	margin-top: -46px;
+	background: url('/demo/img/flags/es.gif');
 }
 
 #flag-uk img, #flag-spain img {
-	position: absolute;
+	display: none;
 }
 
 #menu-main.genesis-nav-menu > li:last-child {
