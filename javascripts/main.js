@@ -51,6 +51,10 @@ jQuery(function($) {
 });
 });
 
+$(function() {
+    $( document ).tooltip();
+  });
+
 /**
 * jquery.matchHeight.js v0.5.2
 * http://brm.io/jquery-match-height/
