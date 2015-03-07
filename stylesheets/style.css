@@ -4825,6 +4825,12 @@ ul#danger-list li:before {
 	font-family: Oswald, 'Open Sans',Arial,sans-serif;
 	font-size: 1.1em;
 }
+
+.page table .ui-widget {
+	font-family: Oswald, 'Open Sans',Arial,sans-serif;
+	font-size: 0.9em;
+}
+
 .page .ui-widget .ui-widget {
 	font-size: 1em;
 }
@@ -5219,7 +5225,7 @@ ul#danger-list li:before {
 .ui-tooltip-focus
 {
     color: #e5554e;
-    font-size:12px;
+    font-size:16px;
     max-width:200px;
     border:1px solid #e5554e;
     padding:8px 12px;
