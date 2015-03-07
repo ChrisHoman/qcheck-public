@@ -24,8 +24,6 @@ jQuery(function($) {
 			}
 		}
 	});
-	$languagemenu = '<a id="flag-uk" href="?lang=en"><img src="/demo/img/flags/gb.gif" alt="GB"></a><a id="flag-spain" href="?lang=es"><img src="/demo/img/flags/es.gif" alt="ES"></a>'
-	$('#menu-main.genesis-nav-menu').after($languagemenu);
 	
 	$('#enquiryForm form').parent().addClass('contactform');
 	$('.contactform textarea#enquiry').attr("rows",'5');
