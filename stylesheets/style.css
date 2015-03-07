@@ -3808,8 +3808,6 @@ img#streamline {
 
 #flag-uk, #flag-spain {
 	float: right;
-	width: 35px;
-	height: 31px;
 	padding: 10px;
 	box-sizing: border-box;
 	position: relative;
@@ -3818,12 +3816,16 @@ img#streamline {
 
 #flag-uk {
 	margin-top: -64px;
-	background: url('/demo/img/flags/gb.gif');
+	background: url('../images/gb.gif');
+	width: 35px;
+	height: 31px;
 }
 
 #flag-spain {
 	margin-top: -46px;
-	background: url('/demo/img/flags/es.gif');
+	background: url('../images/es.gif');
+	width: 35px;
+	height: 31px;
 }
 
 #flag-uk img, #flag-spain img {
