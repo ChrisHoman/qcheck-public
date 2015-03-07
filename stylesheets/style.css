@@ -3806,14 +3806,14 @@ img#streamline {
 	display: block;
 }
 
-#flag-uk {
+#flag-uk a{
 	margin-top: -64px;
 	float: right;
   border: 10px solid transparent;
 
 }
 
-#flag-spain {
+#flag-spain a{
 	margin-top: -46px;
 	float: right;
   border: 10px solid transparent;
