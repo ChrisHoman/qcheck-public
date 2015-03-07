@@ -3812,6 +3812,7 @@ img#streamline {
 	height: 31px;
 	padding: 10px;
 	box-sizing: border-box;
+	position: relative;
 }
 
 
@@ -3823,6 +3824,9 @@ img#streamline {
 	margin-top: -46px;
 }
 
+#flag-uk img, #flag-spain img {
+	position: absolute;
+}
 
 #menu-main.genesis-nav-menu > li:last-child {
 	margin-right: 24px;
