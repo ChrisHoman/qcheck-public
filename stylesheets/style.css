@@ -5218,7 +5218,7 @@ ul#danger-list li:before {
 }
 
 .ui-tooltip {
-	font-size: 16px;
+	font-size: 16px !important;
 }
 
 .ui-tooltip-focus
