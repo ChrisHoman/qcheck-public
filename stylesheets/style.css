@@ -4608,6 +4608,11 @@ form#pass .col-r {
 #buyForm td {
 	vertical-align: middle;
 }
+
+#buyForm td:last-child {
+	overflow: hidden;
+}
+
 #buyForm tr:nth-child(even) {
 background-color: inherit;
 }
