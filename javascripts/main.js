@@ -35,7 +35,6 @@ jQuery(function($) {
 
 	$(document).ready(function(){
 		resize();
-		alert($( "#regionSelect" ).val());
 		if ($( "#regionSelect" ).val() != '' ) {
 			$('#searchName').attr('disabled', 'disabled');
 		}
@@ -47,6 +46,7 @@ jQuery(function($) {
 	
 	$(window).on('resize', function(){
 		resize();
+		alert($( "#regionSelect" ).val());
 	});
 	
 	function resize() {
