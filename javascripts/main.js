@@ -36,10 +36,14 @@ jQuery(function($) {
 	$(document).ready(function(){
 		resize();
 		if ($( "#regionSelect" ).select2('val') < 1 ) {
-			$('#searchName').attr('disabled', 'disabled');
+			$('.col-fullwidth').addClass('hidden');
+			$('#searchName').addClass('hidden');
+			$('#searchResults').addClass('hidden');
 		}
 		else {
-			$('#searchName').removeAttr('disabled');
+			$('.col-fullwidth').removeClass('hidden');
+			$('#searchName').removeClass('hidden');
+			$('#searchResults').removeClass('hidden');
 		}
 	});
 	
