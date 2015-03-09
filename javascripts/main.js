@@ -39,8 +39,8 @@ jQuery(function($) {
 
 	});
 	
-	$( "#regionSelect" ).on("select2:close", function(){
-		alert('box');
+	$( "#regionSelect" ).on("change", function(){
+		alert('change');
 	});
 
 	$(window).on('resize', function(){
