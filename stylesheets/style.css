@@ -5378,3 +5378,14 @@ text-align: center;
 .footer-widgets-1 .one-third a:hover {
 	text-decoration: underline;
 }
+
+#how-general {
+  margin: 0 auto;
+  display: block;
+  padding: 24px;
+}
+
+#how-signup, #how-credit, #how-request, #how-verification {
+  float: left;
+  margin: 12px 12px 12px 0;
+}
