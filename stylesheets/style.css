@@ -5371,4 +5371,9 @@ text-align: center;
 
 .footer-widgets-1 .one-third p, .footer-widgets-1 .one-third a {
 	font-size: 18px;
+	color: #fff
+}
+
+.footer-widgets-1 .one-third a:hover {
+	text-decoration: underline;
 }
