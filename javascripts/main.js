@@ -35,6 +35,22 @@ jQuery(function($) {
 
 	$(document).ready(function(){
 		resize();
+		hideSearch();
+
+	});
+	$eventSelect.on("change",hideSearch());
+	
+	$(window).on('resize', function(){
+		resize();
+	});
+	
+	function resize() {
+		if ($('fieldset').width() > 897 ) {
+			$('form:not(#loginForm) .col-r').css("width",$('.col-r').parent().width() - $('.col-l').width() - 15);
+		}
+	}
+	
+	function hideSearch() {
 		if ($( "#regionSelect" ).select2('val') < 1 ) {
 			$('.col-fullwidth').addClass('hidden');
 			$('#searchName').addClass('hidden');
@@ -44,18 +60,6 @@ jQuery(function($) {
 			$('.col-fullwidth').removeClass('hidden');
 			$('#searchName').removeClass('hidden');
 			$('#searchResults').removeClass('hidden');
-		}
-	});
-	
-	
-	$(window).on('resize', function(){
-		resize();
-		alert($( "#regionSelect" ).select2('val'));
-	});
-	
-	function resize() {
-		if ($('fieldset').width() > 897 ) {
-			$('form:not(#loginForm) .col-r').css("width",$('.col-r').parent().width() - $('.col-l').width() - 15);
 		}
 	}
 	
