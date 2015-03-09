@@ -39,7 +39,7 @@ jQuery(function($) {
 
 	});
 	
-	$( "#regionSelect" ).on("select2:select", alert('test'));
+	$( "#regionSelect" ).on("change", alert('test'));
 
 	$(window).on('resize', function(){
 		resize();
