@@ -4328,7 +4328,7 @@ form .box .col-fullwidth {
 	width: 100%;
 }
 
-form .box .col-fullwidth label {
+form .box .col-fullwidth label, form .box .col-fullwidth label a {
 	font-weight: 700;
 }
 
