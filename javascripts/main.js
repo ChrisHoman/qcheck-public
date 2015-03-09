@@ -39,12 +39,8 @@ jQuery(function($) {
 
 	});
 	
-	$( "#regionSelect" ).on("select2:select", hideSearch());
-	/*
+	$( "#regionSelect" ).on("select2:select", alert('test'));
 
-	$eventSelect.on("change",hideSearch());
-	
-*/
 	$(window).on('resize', function(){
 		resize();
 	});
