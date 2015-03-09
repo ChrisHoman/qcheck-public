@@ -4324,11 +4324,11 @@ form .box .col-l {
 	font-weight: 700;
 }
 
-form .box #col-fullwidth {
+form .box .col-fullwidth {
 	width: 100%;
 }
 
-form .box #col-fullwidth label {
+form .box .col-fullwidth label {
 	font-weight: 700;
 }
 
