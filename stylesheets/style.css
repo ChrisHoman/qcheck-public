@@ -338,7 +338,8 @@ input:hover[type="button"],
 input:hover[type="reset"],
 input:hover[type="submit"],
 .button:hover,
-#signup:hover {
+#signup:hover,
+#verifynow:hover {
 	background-color: #e5554e;
 	color: #fff;
 }
@@ -4455,7 +4456,7 @@ tr:nth-child(even) {
 	margin: 6px;
 }
 
-#searchResults tbody tr:hover {
+#searchResults tbody tr:hover, .dashboard-history tbody tr:hover {
 	background: #7CB9BD;
 }
 
@@ -5371,7 +5372,7 @@ text-align: center;
 
 .footer-widgets-1 .one-third p, .footer-widgets-1 .one-third a {
 	font-size: 18px;
-	color: #fff
+	color: #fff !important;
 }
 
 .footer-widgets-1 .one-third a:hover {
