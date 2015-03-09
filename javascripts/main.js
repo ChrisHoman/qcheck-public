@@ -40,7 +40,7 @@ jQuery(function($) {
 	});
 	
 	$( "#regionSelect" ).on("change", function(){
-		alert('change');
+		hideSearch();
 	});
 
 	$(window).on('resize', function(){
