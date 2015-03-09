@@ -2243,7 +2243,7 @@ Common Classes
 
 .footer-widgets .widget-title {
 	color: #fff;
-	font-size: 48px;
+	font-size: 36px;
 }
 
 .home-even .widget-title,
@@ -5236,6 +5236,8 @@ ul#danger-list li:before {
 
 .ui-tooltip {
 	font-size: 16px !important;
+	color: #fff;
+	background: #000;
 }
 
 .ui-tooltip-focus
@@ -5365,4 +5367,8 @@ text-align: center;
 
 .space-below, #invoice-date  {
   font-size: 18px;
+}
+
+.footer-widgets-1 .one-third p, .footer-widgets-1 .one-third a {
+	font-size: 18px;
 }
