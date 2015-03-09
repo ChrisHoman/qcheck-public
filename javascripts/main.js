@@ -39,7 +39,7 @@ jQuery(function($) {
 
 	});
 	
-	$( "#regionSelect" ).on("select2:select", function (e) { hideSearch(); });
+	$( "#regionSelect" ).on("select2:select", hideSearch());
 	/*
 
 	$eventSelect.on("change",hideSearch());
