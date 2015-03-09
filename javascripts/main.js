@@ -37,9 +37,11 @@ jQuery(function($) {
 		resize();
 		hideSearch();
 
-	});
+	});/*
+
 	$eventSelect.on("change",hideSearch());
 	
+*/
 	$(window).on('resize', function(){
 		resize();
 	});
