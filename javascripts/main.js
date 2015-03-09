@@ -35,7 +35,7 @@ jQuery(function($) {
 
 	$(document).ready(function(){
 		resize();
-		if ($( "#regionSelect" ).select2('val') != '' ) {
+		if ($( "#regionSelect" ).select2('val') < 1 ) {
 			$('#searchName').attr('disabled', 'disabled');
 		}
 		else {
