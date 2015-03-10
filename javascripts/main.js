@@ -53,7 +53,7 @@ jQuery(function($) {
 		}
 	}
 	
-	function hideSearch() {
+	function showSearch() {
 		if ($( "#regionSelect" ).select2('val') < 1 ) {
 			$('.col-fullwidth').css('opacity','0');
 			$('#searchName').css('opacity','0');
