@@ -38,7 +38,7 @@ jQuery(function($) {
 	});
 	
 	$( "#regionSelect" ).on("change", function(){
-		showSearch();
+		showSearchBox();
 	});
 
 	$(window).on('resize', function(){
@@ -51,13 +51,18 @@ jQuery(function($) {
 		}
 	}
 	
-	function showSearch() {
-		$hiddenGroup = $('.col-fullwidth, #searchName, #searchResults');
+	function showSearchBox() {
+		$hiddenGroup = $('.col-fullwidth, #searchName');
 		$hiddenGroup.slideDown( "900", function() {$hiddenGroup.css('opacity','1');
 	});
 	}
-	
-	
+	function showSearchTable() {
+	$( "#searchName" ).change(function() {
+		if ($("#searchName").val().length > 2) {
+			$("#searchResults").slideDown( "900", function() {$("#searchResults").css('opacity','1');
+		});
+	}
+});
 });
 });
 
