@@ -55,7 +55,7 @@ jQuery(function($) {
 			if ($( "#regionSelect" ).select2('val') > 0 ) {
 				$hiddenGroup = $('.verificationForm .col-fullwidth, .verificationForm #searchName');
 				$hiddenGroup.slideDown( "900", function() {$hiddenGroup.css('opacity','1');
-				$('#searchName').attr("title","Start search by entering three or more characters").focus().tooltip('enable');
+				$('#searchName').attr("title","Start search by entering three or more characters").focus();
 				});
 			}
 		}
