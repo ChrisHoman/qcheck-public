@@ -74,7 +74,7 @@ jQuery(function($) {
 });
 
 $(function() {
-    $('tbody').tooltip();
+    $('tbody, input').tooltip();
 });
 
 /**
