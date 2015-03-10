@@ -53,9 +53,7 @@ jQuery(function($) {
 	
 	function showSearch() {
 		$hiddenGroup = $('.col-fullwidth, #searchName, #searchResults');
-			$hiddenGroup.slideDown( "500", function() {$hiddenGroup.css({
-				'opacity':'1'
-			});
+		$hiddenGroup.slideDown( "900", function() {$hiddenGroup.css('opacity','1');
 	});
 	}
 	
