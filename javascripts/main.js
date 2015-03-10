@@ -61,7 +61,7 @@ jQuery(function($) {
 		}
 		$( ".verificationForm #searchName" ).keypress(function (event) {
 			if ($( ".verificationForm #searchName" ).val().length > 1 ) {
-				$('.verificationForm #searchResults').slideDown( "900", function() {$('.verificationForm #searchResults').css('opacity','1');
+				$('.verificationForm #searchResults').slideDown( "900", function() {$('.verificationForm #searchResults').css('opacity','1');})
 			}
 		});
 	});
