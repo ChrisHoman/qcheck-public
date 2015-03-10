@@ -36,7 +36,7 @@ jQuery(function($) {
 		$(document).ready(function(){
 			resize();
 			showSearch();
-			$.getScript( "javascripts/jquery.matchHeight.js" )
+			$.getScript( "../javascripts/jquery.matchHeight.js" )
 			  .done(function() {
 			    alert( "loaded" );
 			});
