@@ -36,13 +36,6 @@ jQuery(function($) {
 		$(document).ready(function(){
 			resize();
 			showSearch();
-			$.getScript( "../javascripts/jquery.matchHeight.js" )
-			  .done(function( script, textStatus ) {
-			    alert('loaded');
-			  })
-			  .fail(function( jqxhr, settings, exception ) {
-			    alert('not loaded');
-			});
 		});
 		
 		$( "#regionSelect" ).on("change", function(){
