@@ -35,6 +35,7 @@ jQuery(function($) {
 
 		$(document).ready(function(){
 			resize();
+			showSearch();
 		});
 		
 		$( "#regionSelect" ).on("change", function(){
