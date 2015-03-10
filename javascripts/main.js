@@ -35,8 +35,6 @@ jQuery(function($) {
 
 	$(document).ready(function(){
 		resize();
-		hideSearch();
-
 	});
 	
 	$( "#regionSelect" ).on("change", function(){
@@ -54,11 +52,7 @@ jQuery(function($) {
 	}
 	
 	function showSearch() {
-
-			$('.col-fullwidth').css('opacity','1');
-			$('#searchName').css('opacity','1');
-			$('#searchResults').css('opacity','1');
-		
+			$('.col-fullwidth, #searchName, #searchResults').css('opacity','1');
 	}
 	
 });
