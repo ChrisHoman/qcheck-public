@@ -52,16 +52,18 @@ jQuery(function($) {
 	}
 	
 	function showSearch() {
-		$hiddenGroup = $('.col-fullwidth, #searchName');
+		$hiddenGroup = $('.col-fullwidth, #searchName, #searchResults');
 		$hiddenGroup.slideDown( "900", function() {$hiddenGroup.css('opacity','1');
 	});
 	}
+/*
 	$( "#searchName" ).change(function() {
 		if ($("#searchName").val().length > 2) {
 			$("#searchResults").slideDown( "10", function() {$("#searchResults").css('opacity','1');
 		});
 		}
 	});
+*/
 	
 });
 });
