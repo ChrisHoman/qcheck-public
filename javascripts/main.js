@@ -60,6 +60,7 @@ jQuery(function($) {
 			}
 		}
 		$( ".verificationForm #searchName" ).keypress(function (event) {
+			alert( "TEST 1" );
 			if ($( ".verificationForm #searchName" ).val().length > 1 ) {
 				alert( "TEST" );
 			}
