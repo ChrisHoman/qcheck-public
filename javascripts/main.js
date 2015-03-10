@@ -54,9 +54,16 @@ jQuery(function($) {
 	}
 	
 	function hideSearch() {
-		$('.col-fullwidth').css('opacity','1');
-		$('#searchName').css('opacity','1');
-		$('#searchResults').css('opacity','1');
+		if ($( "#regionSelect" ).select2('val') < 1 ) {
+			$('.col-fullwidth').css('opacity','0');
+			$('#searchName').css('opacity','0');
+			$('#searchResults').css('opacity','0');
+		}
+		else {
+			$('.col-fullwidth').css('opacity','1');
+			$('#searchName').css('opacity','1');
+			$('#searchResults').css('opacity','1');
+		}
 	}
 	
 });
