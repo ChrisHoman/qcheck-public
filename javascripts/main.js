@@ -63,8 +63,8 @@ jQuery(function($) {
 });
 
 $(function() {
-    $('tbody').tooltip();
-  });
+    $('tbody,input').tooltip();
+});
 
 /**
 * jquery.matchHeight.js v0.5.2
