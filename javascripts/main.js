@@ -41,21 +41,10 @@ jQuery(function($) {
 			showSearch();
 		});
 		
-		$( "#view-all-link" ).click(function() {
-			showSearch();
+		$( "#view-all-link" ).click(function()
+			$('#searchName').tooltip('close');
+			$('.verificationForm #searchResults').slideDown( "900", function() {$('.verificationForm #searchResults').css('opacity','1');});
 		});
-		
-		
-	
-		$(window).on('resize', function(){
-			resize();
-		});
-		
-		function resize() {
-			if ($('fieldset').width() > 897 ) {
-				$('form:not(#loginForm) .col-r').css("width",$('.col-r').parent().width() - $('.col-l').width() - 15);
-			}
-		}
 		
 		function showSearch() {
 			if ($( "#regionSelect" ).select2('val') > 0 ) {
@@ -71,6 +60,16 @@ jQuery(function($) {
 				$('.verificationForm #searchResults').slideDown( "900", function() {$('.verificationForm #searchResults').css('opacity','1');})
 			}
 		});
+
+		$(window).on('resize', function(){
+			resize();
+		});
+		
+		function resize() {
+			if ($('fieldset').width() > 897 ) {
+				$('form:not(#loginForm) .col-r').css("width",$('.col-r').parent().width() - $('.col-l').width() - 15);
+			}
+		}
 	});
 });
 
