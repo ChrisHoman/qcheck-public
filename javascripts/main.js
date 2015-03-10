@@ -41,7 +41,7 @@ jQuery(function($) {
 			showSearch();
 		});
 		
-		$( "#view-all-link" ).on("click", function(){
+		$( "#view-all-link" ).click(function() {
 			showSearch();
 		});
 		
