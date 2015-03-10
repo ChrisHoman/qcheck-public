@@ -55,14 +55,14 @@ jQuery(function($) {
 	
 	function hideSearch() {
 		if ($( "#regionSelect" ).select2('val') < 1 ) {
-			$('.col-fullwidth').addClass('hidden');
-			$('#searchName').addClass('hidden');
-			$('#searchResults').addClass('hidden');
+			$('.col-fullwidth').css('opacity','0');
+			$('#searchName').css('opacity','0');
+			$('#searchResults').css('opacity','0');
 		}
 		else {
-			$('.col-fullwidth').removeClass('hidden');
-			$('#searchName').removeClass('hidden');
-			$('#searchResults').removeClass('hidden');
+			$('.col-fullwidth').css('opacity','1');
+			$('#searchName').css('opacity','1');
+			$('#searchResults').css('opacity','1');
 		}
 	}
 	
