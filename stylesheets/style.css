@@ -5394,7 +5394,7 @@ text-align: center;
   margin: 12px 12px 12px 0;
 }
 
-.col-fullwidth, #searchName, #searchResults {
+.verificationForm .col-fullwidth, .verificationForm #searchName, .verificationForm #searchResults {
 	display: none;
 	opacity: 0;
 	-webkit-transition: all 0.5s ease-in-out 0.1s;
