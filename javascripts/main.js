@@ -58,7 +58,7 @@ jQuery(function($) {
 	}
 	$( "#searchName" ).change(function() {
 		if ($("#searchName").val().length > 2) {
-			$("#searchResults").slideDown( "900", function() {$("#searchResults").css('opacity','1');
+			$("#searchResults").slideDown( "10", function() {$("#searchResults").css('opacity','1');
 		});
 		}
 	});
