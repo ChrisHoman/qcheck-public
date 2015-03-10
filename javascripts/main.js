@@ -55,11 +55,12 @@ jQuery(function($) {
 			if ($( "#regionSelect" ).select2('val') > 0 ) {
 				$hiddenGroup = $('.verificationForm .col-fullwidth, .verificationForm #searchName');
 				$hiddenGroup.slideDown( "900", function() {$hiddenGroup.css('opacity','1');
-				$('#searchName').attr("placeholder","Start search by entering three or more characters").focus();
+				$('#searchName').attr("title","Start search by entering three or more characters").focus();
 				});
 			}
 		}
 		$( ".verificationForm #searchName" ).keypress(function (event) {
+			$('#searchName').removeAttr( "title" )
 			if ($( ".verificationForm #searchName" ).val().length > 1 ) {
 				$('.verificationForm #searchResults').slideDown( "900", function() {$('.verificationForm #searchResults').css('opacity','1');})
 			}
