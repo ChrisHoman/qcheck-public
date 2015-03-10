@@ -54,7 +54,7 @@ jQuery(function($) {
 	function showSearch() {
 		$hiddenGroup = $('.verificationForm .col-fullwidth, .verificationForm #searchName, .verificationForm #searchResults');
 		$hiddenGroup.slideDown( "900", function() {$hiddenGroup.css('opacity','1');
-		$('searchName').focus();
+		$('#searchName').focus();
 	});
 	}
 });
