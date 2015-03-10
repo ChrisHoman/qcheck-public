@@ -33,31 +33,33 @@ jQuery(function($) {
 
 	jQuery(document).ready(function($) {
 
-	$(document).ready(function(){
-		resize();
-	});
+		$(document).ready(function(){
+			resize();
+		});
+		
+		$( "#regionSelect" ).on("change", function(){
+			showSearch();
+		});
 	
-	$( "#regionSelect" ).on("change", function(){
-		showSearch();
-	});
-
-	$(window).on('resize', function(){
-		resize();
-	});
-	
-	function resize() {
-		if ($('fieldset').width() > 897 ) {
-			$('form:not(#loginForm) .col-r').css("width",$('.col-r').parent().width() - $('.col-l').width() - 15);
+		$(window).on('resize', function(){
+			resize();
+		});
+		
+		function resize() {
+			if ($('fieldset').width() > 897 ) {
+				$('form:not(#loginForm) .col-r').css("width",$('.col-r').parent().width() - $('.col-l').width() - 15);
+			}
 		}
-	}
-	
-	function showSearch() {
-		$hiddenGroup = $('.verificationForm .col-fullwidth, .verificationForm #searchName, .verificationForm #searchResults');
-		$hiddenGroup.slideDown( "900", function() {$hiddenGroup.css('opacity','1');
-		$('#searchName').focus();
+		
+		function showSearch() {
+			if ($( "#regionSelect" ).select2('val') > 0 ) {
+				$hiddenGroup = $('.verificationForm .col-fullwidth, .verificationForm #searchName, .verificationForm #searchResults');
+				$hiddenGroup.slideDown( "900", function() {$hiddenGroup.css('opacity','1');
+				$('#searchName').focus();
+				});
+			}
+		}
 	});
-	}
-});
 });
 
 $(function() {
