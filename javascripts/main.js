@@ -52,7 +52,10 @@ jQuery(function($) {
 	}
 	
 	function showSearch() {
-			$('.col-fullwidth, #searchName, #searchResults').css('opacity','1');
+			$('.col-fullwidth, #searchName, #searchResults').css({
+				'opacity':'1',
+				'display':'inherit'
+			});
 	}
 	
 });
