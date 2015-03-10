@@ -60,10 +60,11 @@ jQuery(function($) {
 			}
 		}
 		$( ".verificationForm #searchName" ).keypress(function (event) {
+			$tooltipText = $('#searchName').attr("title");
 			if ($( ".verificationForm #searchName" ).val().length < 1 ) {
-				$('#searchName').tooltip('disable');
+				$('#searchName').removeAttr('title');
 			} else {
-				$('#searchName').tooltip('enable');
+				$('#searchName').attr('title', $tooltipText);
 			}
 			if ($( ".verificationForm #searchName" ).val().length > 1 ) {
 				$('.verificationForm #searchResults').slideDown( "900", function() {$('.verificationForm #searchResults').css('opacity','1');})
