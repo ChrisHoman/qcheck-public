@@ -60,7 +60,7 @@ jQuery(function($) {
 			}
 		}
 		$( ".verificationForm #searchName" ).keypress(function (event) {
-			$('#searchName').removeAttr( "title" )
+			$('#searchName').tooltip('disable');
 			if ($( ".verificationForm #searchName" ).val().length > 1 ) {
 				$('.verificationForm #searchResults').slideDown( "900", function() {$('.verificationForm #searchResults').css('opacity','1');})
 			}
