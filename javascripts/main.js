@@ -40,6 +40,12 @@ jQuery(function($) {
 		$( "#regionSelect" ).on("change", function(){
 			showSearch();
 		});
+		
+		$( "#view-all-link" ).on("click", function(){
+			showSearch();
+		});
+		
+		
 	
 		$(window).on('resize', function(){
 			resize();
