@@ -41,9 +41,11 @@ jQuery(function($) {
 			showSearch();
 		});
 		
-		$( "#view-all-link" ).click(function()
+		$( "#view-all-link" ).click(function(){
 			$('#searchName').tooltip('close');
-			$('.verificationForm #searchResults').slideDown( "900", function() {$('.verificationForm #searchResults').css('opacity','1');});
+			$('.verificationForm #searchResults').slideDown( "900", function() {
+				$('.verificationForm #searchResults').css('opacity','1');
+			});
 		});
 		
 		function showSearch() {
