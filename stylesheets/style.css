@@ -5394,6 +5394,11 @@ text-align: center;
   margin: 12px 12px 12px 0;
 }
 
-.hidden {
-	display: none;
+.col-fullwidth, #searchName, #searchResults {
+	opacity: 0;
+	-webkit-transition: opacity 0.1s ease-in-out;
+	-moz-transition:    opacity 0.1s ease-in-out;
+	-ms-transition:     opacity 0.1s ease-in-out;
+	-o-transition:      opacity 0.1s ease-in-out;
+	transition:         opacity 0.1s ease-in-out;
 }
