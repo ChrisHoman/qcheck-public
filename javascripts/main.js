@@ -59,6 +59,12 @@ jQuery(function($) {
 				});
 			}
 		}
+		$( ".verificationForm #searchName" ).on("change", function() {
+			if ($( ".verificationForm #searchName" ).val().length() > 2 ) {
+				alert( "TEST" );
+			}
+		});
+		
 	});
 });
 
