@@ -53,19 +53,17 @@ jQuery(function($) {
 		
 		function showSearch() {
 			if ($( "#regionSelect" ).select2('val') > 0 ) {
-				$hiddenGroup = $('.verificationForm .col-fullwidth, .verificationForm #searchName');
+				$hiddenGroup = $('.verificationForm .col-fullwidth, .verificationForm #searchName, .verificationForm #searchResults');
 				$hiddenGroup.slideDown( "900", function() {$hiddenGroup.css('opacity','1');
 				$('#searchName').focus();
 				});
 			}
 		}
-/*
 		$( ".verificationForm #searchName" ).keypress(function (event) {
 			if ($( ".verificationForm #searchName" ).val().length > 1 ) {
-				$('.verificationForm #searchResults').slideDown( "900", function() {$('.verificationForm #searchResults').css('opacity','1');
+				alert( "TEST" );
 			}
 		});
-*/
 		
 	});
 });
