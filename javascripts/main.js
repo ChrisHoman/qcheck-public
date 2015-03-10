@@ -59,7 +59,7 @@ jQuery(function($) {
 				});
 			}
 		}
-		$( ".verificationForm #searchName" ).on("change", function() {
+		$( ".verificationForm #searchName" ).keypress(function (event) {
 			if ($( ".verificationForm #searchName" ).val().length > 2 ) {
 				alert( "TEST" );
 			}
