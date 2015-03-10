@@ -37,8 +37,8 @@ jQuery(function($) {
 			resize();
 			showSearch();
 			$.getScript( "javascripts/jquery.matchHeight.js" )
-			  .fail(function( jqxhr, settings, exception ) {
-			    alert( "not loaded" );
+			  .done(function() {
+			    alert( "loaded" );
 			});
 		});
 		
