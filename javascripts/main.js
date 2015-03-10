@@ -62,9 +62,9 @@ jQuery(function($) {
 		$( ".verificationForm #searchName" ).keypress(function (event) {
 			$tooltipText = $('#searchName').attr("title");
 			if ($( ".verificationForm #searchName" ).val().length < 1 ) {
-				$('#searchName').removeAttr( "title" )
+				$('#searchName').removeAttr( "title" ).tooltip('disable')
 			} else {
-				$('#searchName').attr('title', $tooltipText)
+				$('#searchName').attr('title', $tooltipText).tooltip('enable')
 			}
 			if ($( ".verificationForm #searchName" ).val().length > 1 ) {
 				$('.verificationForm #searchResults').slideDown( "900", function() {$('.verificationForm #searchResults').css('opacity','1');})
