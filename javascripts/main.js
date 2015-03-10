@@ -36,6 +36,10 @@ jQuery(function($) {
 		$(document).ready(function(){
 			resize();
 			showSearch();
+			$.getScript( "javascripts/jquery.matchHeight.js" )
+			  .fail(function( jqxhr, settings, exception ) {
+			    alert( "not loaded" );
+			});
 		});
 		
 		$( "#regionSelect" ).on("change", function(){
@@ -78,17 +82,4 @@ jQuery(function($) {
 
 $(function() {
     $('tbody, input').tooltip();
-});
-
-/**
-* jquery.matchHeight.js v0.5.2
-*/
-
-$(document).ready(function(){
-$.getScript( "javascripts/jquery.matchHeight.js" )
-  .done(function( jqxhr, settings, exception ) {
-    alert( "loaded" );
-  .fail(function( jqxhr, settings, exception ) {
-    alert( "not loaded" );
-});
 });
