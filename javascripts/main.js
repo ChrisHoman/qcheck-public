@@ -53,7 +53,7 @@ jQuery(function($) {
 		
 		function showSearch() {
 			if ($( "#regionSelect" ).select2('val') > 0 ) {
-				$hiddenGroup = $('.verificationForm .col-fullwidth, .verificationForm #searchName, .verificationForm #searchResults');
+				$hiddenGroup = $('.verificationForm .col-fullwidth, .verificationForm #searchName');
 				$hiddenGroup.slideDown( "900", function() {$hiddenGroup.css('opacity','1');
 				$('#searchName').focus();
 				});
@@ -61,7 +61,7 @@ jQuery(function($) {
 		}
 		$( ".verificationForm #searchName" ).keypress(function (event) {
 			if ($( ".verificationForm #searchName" ).val().length > 1 ) {
-				alert( "TEST" );
+				$('.verificationForm #searchResults').slideDown( "900", function() {$('.verificationForm #searchResults').css('opacity','1');
 			}
 		});
 		
