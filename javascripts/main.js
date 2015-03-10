@@ -52,11 +52,9 @@ jQuery(function($) {
 	}
 	
 	function showSearch() {
-			$('.col-fullwidth, #searchName, #searchResults').slideDown( "slow", function() {$('.col-fullwidth, #searchName, #searchResults').css({
-				'opacity':'1'/*
-,
-				'display':'inherit'
-*/
+		$hiddenGroup = $('.col-fullwidth, #searchName, #searchResults');
+			$hiddenGroup.slideDown( "500", function() {$hiddenGroup.css({
+				'opacity':'1'
 			});
 	});
 	}
