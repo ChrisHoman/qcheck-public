@@ -60,7 +60,7 @@ jQuery(function($) {
 			}
 		}
 		$( ".verificationForm #searchName" ).keypress(function (event) {
-			if ($( ".verificationForm #searchName" ).val().length > 2 ) {
+			if ($( ".verificationForm #searchName" ).val().length > 1 ) {
 				alert( "TEST" );
 			}
 		});
