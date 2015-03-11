@@ -78,8 +78,7 @@ jQuery(function($) {
             
                 if($(this).outerHeight() > highestBox) 
                    highestBox = $(this).height(); 
-            });  
-            alert(highestBox);
+            });
             $('.ptp-row-id-0').height(highestBox);
             
         
