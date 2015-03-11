@@ -36,7 +36,8 @@ jQuery(function($) {
 		$(document).ready(function(){
 			resize();
 			showSearch();
-  equalheight('.main article');
+			equalheight('.ptp-bullet-item.ptp-row-id-0');
+			equalheight('.ptp-bullet-item.ptp-row-id-1');
 		});
 		
 		
@@ -68,7 +69,8 @@ jQuery(function($) {
 
 		$(window).on('resize', function(){
 			resize();
-			equalheight('.main article');
+			equalheight('.ptp-bullet-item.ptp-row-id-0');
+			equalheight('.ptp-bullet-item.ptp-row-id-1');
 		});
 		
 		function resize() {
