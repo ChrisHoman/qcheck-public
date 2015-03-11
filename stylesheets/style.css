@@ -4566,17 +4566,11 @@ text-align: center;
 margin-top: 30px;
 }
 
-/*
-.dashboard-news > ul > li {
-	display: inline-block;
-}
-*/
-
 .dashboard-news .news-item {
-	padding-bottom: 12px
+	padding-bottom: 12px;
 }
 
-.dashboard-news .news-item:after {
+.dashboard-news .news-item:not(:last-child):after {
   border-bottom: 1px solid #3FA8B0;
   content: "";
   display: block;
@@ -4587,6 +4581,7 @@ margin-top: 30px;
 
 .dashboard-news .news-date {
 	font-size: 14px;
+	font-weight: 700;
 }
 
 .dashboard-news, .dashboard-history, .dashboard-coverage {
