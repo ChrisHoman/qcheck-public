@@ -2755,73 +2755,6 @@ Content Area
 /* Pricing Table
 --------------------------------------------- */
 
-.pricing-table {
-	font-size: 22px;
-	line-height: 1;
-}
-
-.pricing-table h4 {
-	border-bottom: 2px solid #000;
-	color: #000;
-	margin: -40px -40px 40px;
-	padding: 40px;
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition:    all 0.2s ease-in-out;
-	-ms-transition:     all 0.2s ease-in-out;
-	-o-transition:      all 0.2s ease-in-out;
-	transition:         all 0.2s ease-in-out;
-}
-
-.pricing-table .one-third {
-	background-color: #fff;
-	border: 2px solid #000;
-	margin: 20px -2px;
-	padding: 40px;
-	width: 33.33%;
-}
-
-.pricing-table .one-third:nth-child(3n+1) {
-	margin: 20px 0;
-}
-
-.pricing-table .one-third:nth-child(3n+2) {
-	margin-bottom: 0;
-	margin-top: 0;
-}
-
-.pricing-table .one-third:nth-child(3n) {
-	margin: 20px 0;
-}
-
-.pricing-table ul li::before {
-	content: "\f139";
-	display: inline-block;
-	font: normal 20px/1 'dashicons';
-	margin-right: 5px;
-	margin-top: -2px;
-	vertical-align: top;
-	-webkit-font-smoothing: antialiased;
-}
-
-.pricing-table ul li {
-	border-bottom: 1px dotted #ddd;
-	color: #000;
-	padding-bottom: 10px;
-	margin-bottom: 15px;
-}
-
-.pricing-table a.button {
-	background-color: #000;
-	border: 3px solid #000;
-	color: #fff;
-}
-
-.pricing-table a.button:hover {
-	background-color: #f04848;
-	border: 3px solid #f04848;
-	color: #fff !important;
-}
-
 .ptp-pricing-table { white-space: nowrap; width: 100%; text-align: center; }
 
 .ptp-col { padding-left: 0.4em; padding-right: 0.4em; display: inline-block; vertical-align: top; white-space: normal; }
@@ -5274,8 +5207,16 @@ ul#danger-list li:before {
 	width: 150px;
 }
 
-.verificationResultSelect, .tierSelect, .regionSelect, .clazzSelect, .qualificationSelect, .countrySelect, .industrySelect, .userSelect {
+.verificationResultSelect, .tierSelect, .regionSelect, .clazzSelect, .qualificationSelect, .countrySelect, .industrySelect, .userSelect, .changeResultSelect {
 	width: 300px;
+}
+
+.changeResultSelect {
+	vertical-align: top;
+}
+
+input[name="_eventId_changeResult"] {
+	margin: 0 0 0 20px !important;
 }
 
 .chzn-select {
