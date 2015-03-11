@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Payment Accepted - Qualification Check</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-language" content="en" />
+<meta name="author" lang="en" content="Qualification Check - www.qualificationcheck.com" />
+
+<link rel="stylesheet" media="screen,projection" type="text/css" href="/i/144111/style-wp2.css" />
+<link rel="stylesheet" media="print" type="text/css" href="/i/144111/print.css" />
+
+<style type="text/css">
+form {
+	display: none;
+}
+
+#TB_overlay {
+	position: fixed;
+	z-index: 100;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	filter: alpha(opacity =                   75);
+	-moz-opacity: 0.75;
+	opacity: 0.75;
+	filter: alpha(opacity =                   75);
+	-moz-opacity: 0.75;
+	-moz-opacity: 0.75;
+	opacity: 0.75;
+	filter: alpha(opacity =                   75);
+}
+
+#TB_window {
+	position: fixed;
+	z-index: 102;
+	color: black;
+	display: none;
+	border: 0px solid #47acdb;
+	-webkit-box-shadow: 0 0 20px 5px #47acdb;
+	-moz-box-shadow: 0 0 20px 5px #47acdb;
+	-o-box-shadow: 0 0 20px 5px #47acdb;
+	box-shadow: 0 0 20px 5px #47acdb;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-align: left;
+	top: 50%;
+	left: 50%;
+}
+
+#TB_ajaxContent.TB_modal {
+	padding: 15px;
+}
+
+#TB_ajaxContent {
+	clear: both;
+	padding: 2px 15px 15px 15px;
+	overflow: auto;
+	text-align: left;
+	line-height: 1.4em;
+}
+
+#spinner {
+	background: url('/i/144111/spinner-qc.svg') center center no-repeat;
+	height: 66px;
+	margin-bottom: 10px;
+}
+</style>
+</head>
+
+
+<body>
+
+	<div id="TB_overlay" class="TB_overlayBG"> </div>
+	<div id="TB_window" class="content-box" style="margin-left: -215px; width: 430px; margin-top: -182px; display: block;">
+		<h1 class="content-header highlight">Please Wait...</h1>
+		<div class="content clearfix">
+			<p>
+				Please wait while we processes your payment.
+				<br />
+				If this does not happen automatically please click continue.
+			</p>
+			<div id="spinner"> </div>
+			<div class="t-center">
+				<a href="www.qualificationcheck.com/demo" class="large-button-blue">Continue</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="main">
+		<div id="bodyContent">
+			<!-- Header -->
+			<div id="header">
+				<h1 id="logo">
+					<a href="#top" title="Qualification Check &trade; [Go to homepage]"><span> </span> </a>
+				</h1>
+				<hr class="noscreen" />
+			</div>
+
+			<!-- Navigation -->
+			<div id="nav" class="doNotPrint">
+				<ul class="box">
+				</ul>
+			</div>
+			<!-- Content -->
+			<div id="content">
+
+				<div class="content-box">
+					<div class="content">
+						<form action="">
+							<fieldset>
+								<WPDISPLAY ITEM="banner"> </WPDISPLAY>
+								<input type="hidden" name="execution" value="executionId" />
+							</fieldset>
+							<div class="t-center">
+								<input type="submit" class="large-button-blue" name="_eventId_accepted" value="Continue" />
+							</div>
+						</form>
+					</div>
+				</div>
+
+			</div>
+			<!-- /content -->
+		</div>
+
+		<!-- Footer -->
+		<div id="footer">
+			<hr class="noscreen" />
+
+			<a href="/contactus.html" class="large-button-blue doNotPrint">Contact Us</a> <span>Alternatively we can be reached on 0844 375 5947</span>
+
+			<p id="sitemap" class="doNotPrint">
+				<a href="/terms.html#terms">Terms &amp; Conditions</a>&nbsp;|&nbsp;<a href="/terms.html#privacyPolicy">Privacy Policy</a>&nbsp;|&nbsp;<a href="/terms.html#disclaimer">Legal Notice</a>&nbsp;|&nbsp;<a href="/cookies.html">Cookies Info</a>
+				<br />
+				Copyright &copy;&nbsp;2014 Qualification Check&trade;, All Rights Reserved &reg;
+			</p>
+
+			<p id="nuvio" class="doNotPrint">
+				<span class="noscreen"> </span>
+			</p>
+		</div>
+	</div>
+	<!-- /main -->
+</body>
+</html>
