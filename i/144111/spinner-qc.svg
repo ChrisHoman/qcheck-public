@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="100" height="100" viewBox="0, 0, 100, 100">
+  <g id="spinner-q">
+    <path d="M51.29,0.015 C78.585,1.039 99.655,22.705 100,50 C100.034,61.48 96.163,71.741 89.343,80.86 L77.884,69.398 C81.99,63.723 83.825,56.935 84,50 C84,31.222 68.778,16 50,16 C31.222,16 16,31.222 16,50 C16,68.778 31.222,84 50,84 C57.073,84.017 63.576,81.818 69.398,77.884 L80.858,89.343 C72.031,96.294 61.186,99.858 50,100 C22.386,100 -0,77.614 -0,50 C-0,22.386 22.386,-0 50,-0 L51.29,0.015 z" fill="#3FA8B0"/>
+    <animateTransform attributeName="transform" type="rotate" from="-360 50 50" to="0 50 50" dur="2s" repeatCount="indefinite"></animateTransform>
+    <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
+  </g>
+  <g id="spinner-c">
+    <path d="M50,28.001 C60.073,28.11 68.191,34.476 71.152,44 L62.648,44 C60.566,39.076 55.194,36.06 50,36 C42.267,36 36,42.269 36,50 C36,57.733 42.267,64 50,64 C55.247,63.868 60.494,60.966 62.648,55.999 L71.152,55.999 C68.314,65.649 59.975,71.748 50,72.001 C37.85,72.001 27.999,62.15 27.999,50 C27.999,37.85 37.85,28.001 50,28.001 z" fill="#3FA8B0"/>
+    <animateTransform attributeName="transform" type="rotate" from="360 50 50" to="0 50 50" dur="2s" repeatCount="indefinite"></animateTransform>
+	<animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/>
+  </g>
+</svg>
