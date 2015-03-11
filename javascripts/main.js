@@ -36,7 +36,18 @@ jQuery(function($) {
 		$(document).ready(function(){
 			resize();
 			showSearch();
-			equalheight('.ptp-row-id-0');
+		    $('.ptp-row-id-0').each(function(){  
+
+			var highestBox = 0;
+			$('.ptp-row-id-0', this).each(function(){
+			
+			    if($(this).height() > highestBox) 
+			       highestBox = $(this).height(); 
+			});  
+			
+			$('.ptp-row-id-0',this).height(highestBox);
+
+});  
 		});
 		
 		
