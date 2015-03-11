@@ -1640,6 +1640,7 @@ a {
 }
 
 a:hover {
+	color: #f04848;
 	text-decoration: underline;
 }
 
