@@ -39,15 +39,11 @@ jQuery(function($) {
 		    $('.ptp-row-id-0').each(function(){  
 
 			var highestBox = 0;
-			$('.ptp-row-id-0', this).each(function(){
-			
-			    if($(this).height() > highestBox) 
-			       highestBox = $(this).height(); 
+			if($(this).height() > highestBox) 
+				highestBox = $(this).height(); 
 			});  
 			
-			$('.ptp-row-id-0',this).height(highestBox);
-
-});  
+			$('.ptp-row-id-0').height(highestBox);
 		});
 		
 		
