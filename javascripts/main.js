@@ -36,7 +36,7 @@ jQuery(function($) {
 		$(document).ready(function(){
 			resize();
 			showSearch();
-			equalheight('.ptp-item-container div');
+			equalheight('.ptp-row-id-0');
 		});
 		
 		
@@ -68,7 +68,7 @@ jQuery(function($) {
 
 		$(window).on('resize', function(){
 			resize();
-			equalheight('.ptp-item-container div');
+			equalheight('.ptp-row-id-0');
 		});
 		
 		function resize() {
