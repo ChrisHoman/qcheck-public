@@ -5361,3 +5361,7 @@ text-align: center;
 	-o-transition:      all 0.5s ease-in-out 0.1s;
 	transition:         all 0.5s ease-in-out 0.1s;
 }
+
+#menu-accountmenu {
+	text-align: center;
+}
