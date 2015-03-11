@@ -5211,7 +5211,7 @@ ul#danger-list li:before {
 	width: 300px;
 }
 
-.changeResultSelect {
+#s2id_newResult.changeResultSelect {
 	vertical-align: top;
 }
 
