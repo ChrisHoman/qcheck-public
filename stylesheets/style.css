@@ -5196,6 +5196,10 @@ ul#danger-list li:before {
 
 /* Select2 Overrides */
 
+.chzn-select, .verificationResultSelect, .tierSelect, .regionSelect, .clazzSelect, .qualificationSelect, .countrySelect, .industrySelect, .userSelect, .changeResultSelect {
+	width: 300px;
+}
+
 .dobDaySelect, .dobMonthSelect, .resultSizeSelect {
 	width: 90px;
 }
@@ -5205,10 +5209,6 @@ ul#danger-list li:before {
 }
 .paymentTypeStringSelect {
 	width: 150px;
-}
-
-.verificationResultSelect, .tierSelect, .regionSelect, .clazzSelect, .qualificationSelect, .countrySelect, .industrySelect, .userSelect, .changeResultSelect {
-	width: 300px;
 }
 
 #s2id_newResult.changeResultSelect {
