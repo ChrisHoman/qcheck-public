@@ -36,6 +36,7 @@ jQuery(function($) {
 		$(document).ready(function(){
 			resize();
 			showSearch();
+			alert('test');
 		});
 		
 		
@@ -67,7 +68,6 @@ jQuery(function($) {
 
 		$(window).on('resize', function(){
 			resize();
-			alert('test')
 		});
 		
 		function resize() {
