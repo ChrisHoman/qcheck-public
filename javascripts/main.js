@@ -68,7 +68,7 @@ jQuery(function($) {
 
 		$(window).on('resize', function(){
 			resize();
-			equalise();
+			equalise('.ptp-row-id-0');
 		});
 		
 		function resize() {
@@ -78,17 +78,16 @@ jQuery(function($) {
 		}
 		
 		
-function equalise() {
+function equalise(container) {
 	var currentTallest = 0;
-	$('.ptp-row-id-0').each(function(){
+	$(container).each(function(){
 		
 		$(this).attr("title",$(this).outerHeight());
 		$(this).each(function(){
 			if ($(this).outerHeight() > currentTallest) { currentTallest = $(this).outerHeight(); }
 		});
 	});
-	$('.ptp-row-id-0').css('height',currentTallest);
-	alert(currentTallest);
+	$(container).css('height',currentTallest);
 
 };
 		
