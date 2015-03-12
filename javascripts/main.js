@@ -89,7 +89,7 @@ function equalise(container) {
 			if ($(this).height() > currentTallest) { currentTallest = $(this).height(); }
 		});
 	});
-	$(container).css('height',currentTallest);
+	$(container).height(currentTallest);
 
 };
 		
