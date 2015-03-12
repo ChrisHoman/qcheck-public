@@ -2781,7 +2781,7 @@ div.ptp-most-popular{padding: 0.3em; text-align: center; font-size: 0.9em; font-
 div.ptp-not-most-popular{border-radius:0; background: none; padding: 0.3em; text-align: center; color: #fff; font-size: 0.9em; font-weight: bold; line-height: 1.4em; margin-bottom: 2px; }
 div.ptp-price{line-height: 1em; text-align: center; font-weight: normal; font-size:20px;padding:.9375em 1.25em; background-color: #eeeeee; color: #333333;}
 div.ptp-bullet-item{background-color: #fff; text-align: center; font-size:16px;padding:.9375em .5em .9375em .5em; color: #333333; border-bottom: dotted 1px #dddddd; }
-div.ptp-cta{border-bottom-right-radius:0;border-bottom-left-radius:0;padding-top:1.25em;padding-bottom:1.25em;height: 111px; text-align: center; background-color: #F5F5F5; }
+div.ptp-cta{border-bottom-right-radius:0;border-bottom-left-radius:0;padding-top:1.25em;padding-bottom:1.25em; text-align: center; background-color: #F5F5F5; }
 div.ptp-item-container, div.ptp-plan, div.ptp-most-popular, div.ptp-price,div.ptp-bullet-item, div.ptp-cta {
 	box-sizing: content-box;
 }
