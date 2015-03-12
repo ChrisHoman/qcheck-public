@@ -4683,7 +4683,7 @@ img[class^="status-"] + div {
 	margin-bottom: 48px;
 }
 
-.entry-content :not(.dashboard-news) ul, ul#danger-list {
+.entry-content ul, ul#danger-list {
 	margin-left: 32px !important;
 	padding-left: 0 !important;
 }
@@ -4691,7 +4691,11 @@ img[class^="status-"] + div {
 	list-style-type: none;
 }
 
- .entry-content :not(.dashboard-news) ul li:before {
+.entry-content .dashboard-news ul {
+	margin-left: 0 !important;
+}
+ 
+.entry-content :not(.dashboard-news) ul li:before {
 	content:'';
 	position: absolute;
 	margin-left: -32px;
