@@ -81,7 +81,7 @@ function equalise() {
 	var currentTallest = 0;
 	$('.ptp-row-id-0').each(function(){
 		$(this).each(function(){
-			if ($(this).height() > currentTallest) { currentTallest = $(this).height(); }
+			if ($(this).outerHeight() > currentTallest) { currentTallest = $(this).height(); }
 		});
 	});
 	$('.ptp-row-id-0').height(currentTallest);
