@@ -1704,7 +1704,7 @@ body {
 }
 
 #content{
-	width: 1020px;
+	max-width: 1020px;
 	display: block;
 	margin: 0 auto;
 	height: auto;
@@ -1712,6 +1712,7 @@ body {
 
 #logo {
 	background-image: none;
+	max-width: 1020px;
   float: none;
   height: 70px;
   width:auto;
@@ -1720,7 +1721,7 @@ body {
 }
 
 #logo a{
-	width: 1020px;
+	max-width: 100%;
 	display: block;
 	margin: 0 auto;
 	background: url('/images/logo_main.svg') no-repeat !important;
@@ -1825,4 +1826,42 @@ body {
 #footer span {
 	display: block;
 	
+}
+
+#TB_window {
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+	background: #F3F2ED;
+}
+
+#TB_window .content {
+	border: none;
+}
+
+#TB_window #spinner {
+  background: url('i/144111/spinner-qc.svg') center center no-repeat;
+  background-size: 60px 60px;
+}
+
+#TB_window .content-header {
+	padding: 20px 30px 0 30px;
+	margin-bottom: -20px;
+}
+
+@media only screen and (max-width: 1140px) {
+#content, #logo {
+  max-width: 960px;
+}
+}
+
+@media only screen and (max-width: 960px) {
+
+	#content, #logo {
+		max-width: 768px;
+		padding: 0 5%;
+	}
 }
