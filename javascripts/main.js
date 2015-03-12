@@ -81,10 +81,16 @@ function equalise() {
 	var currentTallest = 0;
 	$('.ptp-row-id-0').each(function(){
 		$(this).each(function(){
+		$(this).attr("title",$(this).outerHeight();
+		/*
+
 			if ($(this).outerHeight() > currentTallest) { currentTallest = $(this).height(); }
+*/
 		});
-	});
+	});/*
+
 	$('.ptp-row-id-0').height(currentTallest);
+*/
 };
 		
 		
