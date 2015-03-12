@@ -84,12 +84,12 @@ function equalise() {
 		
 		$(this).attr("title",$(this).outerHeight());
 		$(this).each(function(){
-			if ($(this).outerHeight() > currentTallest) { currentTallest = $(this).height(); }
+			if ($(this).outerHeight() > currentTallest) { currentTallest = $(this).outerHeight(); }
 		});
-	});/*
+	});
 
-	$('.ptp-row-id-0').height(currentTallest);
-*/
+	alert(currentTallest);
+
 };
 		
 		
