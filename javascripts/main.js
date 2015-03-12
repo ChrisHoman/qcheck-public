@@ -36,7 +36,8 @@ jQuery(function($) {
 		$(document).ready(function(){
 			resize();
 			showSearch();
-			equalise();
+			equalise('.ptp-row-id-0');
+			equalise('.ptp-row-id-1');
 		});
 		
 		
@@ -69,6 +70,7 @@ jQuery(function($) {
 		$(window).on('resize', function(){
 			resize();
 			equalise('.ptp-row-id-0');
+			equalise('.ptp-row-id-1');
 		});
 		
 		function resize() {
