@@ -36,10 +36,10 @@ jQuery(function($) {
 		$(document).ready(function(){
 			resize();
 			showSearch();
-			equalheight('.ptp-row-id-0');
-			equalheight('.ptp-row-id-1');
-			equalheight('.ptp-plan');
-			equalheight('.ptp-price');
+			equalise('.ptp-row-id-0');
+			equalise('.ptp-row-id-1');
+			equalise('.ptp-plan');
+			equalise('.ptp-price');
 		});
 		
 		
