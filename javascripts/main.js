@@ -36,7 +36,7 @@ jQuery(function($) {
 		$(document).ready(function(){
 			resize();
 			showSearch();
-			equalheight('.ptp-bullet-item.ptp-row-id-0');
+			$('.ptp-row-id-0').equalHeights();
 		});
 		
 		
@@ -68,7 +68,6 @@ jQuery(function($) {
 
 		$(window).on('resize', function(){
 			resize();
-			equalheight('.ptp-bullet-item.ptp-row-id-0');
 		});
 		
 		function resize() {
@@ -78,36 +77,19 @@ jQuery(function($) {
 		}
 		
 		
-		equalheight = function(container){
-
-		var currentTallest = 0,
-		     currentRowStart = 0,
-		     rowDivs = new Array(),
-		     $el,
-		     topPosition = 0;
-		 $(container).each(function() {
-		
-		   $el = $(this);
-		   $($el).height('auto')
-		   topPostion = $el.position().top;
-		
-		   if (currentRowStart != topPostion) {
-		     for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
-		       rowDivs[currentDiv].height(currentTallest);
-		     }
-		     rowDivs.length = 0; // empty the array
-		     currentRowStart = topPostion;
-		     currentTallest = $el.height();
-		     rowDivs.push($el);
-		   } else {
-		     rowDivs.push($el);
-		     currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (currentTallest);
-		  }
-		   for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
-		     rowDivs[currentDiv].height(currentTallest);
-		   }
-		 });
-		}
+$.fn.equalHeights = function(px) {
+	$(this).each(function(){
+		var currentTallest = 0;
+		$(this).children().each(function(i){
+			if ($(this).height() > currentTallest) { currentTallest = $(this).height(); }
+		});
+    if (!px && Number.prototype.pxToEm) currentTallest = currentTallest.pxToEm(); //use ems unless px is specified
+		// for ie6, set height since min-height isn't supported
+		if ($.browser.msie && $.browser.version == 6.0) { $(this).children().css({'height': currentTallest}); }
+		$(this).children().css({'min-height': currentTallest}); 
+	});
+	return this;
+};
 		
 		
 	});
