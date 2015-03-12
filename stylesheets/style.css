@@ -4696,7 +4696,7 @@ img[class^="status-"] + div {
 	margin-left: 0 !important;
 }
  
-.entry-content :not(.dashboard-news) ul li:before {
+.entry-content ul li:before {
 	content:'';
 	position: absolute;
 	margin-left: -32px;

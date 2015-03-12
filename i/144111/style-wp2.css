@@ -1703,24 +1703,36 @@ body {
 	-moz-box-shadow: none;
 }
 
-#content, #logo a{
+#content{
 	width: 1020px;
 	display: block;
 	margin: 0 auto;
+	height: auto;
+}
+
+#logo {
+	background-image: none;
+  float: none;
+  height: 70px;
+  width:auto;
+  margin: 0 auto;
+  display: block;
 }
 
 #logo a{
-	background: url(images/logo_main.svg) no-repeat !important;
+	width: 1020px;
+	display: block;
+	margin: 0 auto;
+	background: url('/images/logo_main.svg') no-repeat !important;
 	background-size: auto;
 	height: 70px;
-	display: block;
 }
 
 .content-box {
 	background: #fff;
 	border: none;
 	padding: 0;
-	margin-top: 30px;
+	margin: 30px auto;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
@@ -1730,6 +1742,7 @@ body {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
+	max-width: 500px;
 }
 
 .content-box em {
@@ -1801,4 +1814,15 @@ body {
 	box-shadow: none;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
+}
+
+#footer {
+	background: #33627A;
+	text-align: center;
+	height: auto;
+}
+
+#footer span {
+	display: block;
+	
 }
