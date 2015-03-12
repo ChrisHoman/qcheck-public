@@ -4683,7 +4683,7 @@ img[class^="status-"] + div {
 	margin-bottom: 48px;
 }
 
-.entry-content ul, ul#danger-list {
+.entry-content :not(.dashboard-news) ul, ul#danger-list {
 	margin-left: 32px !important;
 	padding-left: 0 !important;
 }
