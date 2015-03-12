@@ -1680,29 +1680,22 @@ div.faq-float-left p {
 }
  
  
- 
-/*
-#bodyContent {
-	padding-bottom:100px;
+ /* ==============================================================================
+ * CUSTOM OVERRIDES
+ * ============================================================================== */
+
+#main {
+	width: 100%;
 }
 
-#footer {
-	background:#e2eaf7;
-	padding:20px;
-	clear:both;
-	margin: 0;
-	border-top:1px solid #aaa;
-	font-size:0.9em;
-	position:absolute;
-	bottom:0;
-	width:860px;
-	height:60px;   
+#header {
+	height: 70px;
+	background: #3FA8B0;
+	-webkit-border-radius: none;
+	-moz-border-radius: none;
+	border-radius: none;
+	box-shadow: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 }
-*/
-
-/* 
-background-color: #4D90FE;
-background-image: -moz-linear-gradient(center top , #4D90FE, #4787ED);
-border: 1px solid #3079ED;
-color: #FFFFFF !important;
-*/
