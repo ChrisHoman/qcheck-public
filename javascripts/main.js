@@ -87,7 +87,7 @@ function equalise() {
 			if ($(this).outerHeight() > currentTallest) { currentTallest = $(this).outerHeight(); }
 		});
 	});
-
+	$('.ptp-row-id-0').css('height',currentTallest);
 	alert(currentTallest);
 
 };
