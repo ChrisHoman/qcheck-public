@@ -70,11 +70,14 @@ jQuery(function($) {
 		});
 
 		$(window).on('resize', function(){
+			resize();
+		});
+		
+		$(window).resize(function(){
 			equalise('.ptp-row-id-0');
 			equalise('.ptp-row-id-1');
 			equalise('.ptp-plan');
 			equalise('.ptp-price');
-			resize();
 		});
 		
 		function resize() {
