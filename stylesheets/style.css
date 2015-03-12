@@ -4691,7 +4691,7 @@ img[class^="status-"] + div {
 	list-style-type: none;
 }
 
-.entry-content ul li:before {
+ .entry-content :not(.dashboard-news) ul li:before {
 	content:'';
 	position: absolute;
 	margin-left: -32px;
