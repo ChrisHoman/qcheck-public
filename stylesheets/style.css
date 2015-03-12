@@ -1643,7 +1643,7 @@ a:hover {
 	color: #000;
 }
 
-.site-inner a:hover {
+.site-inner a:not(.large-button-blue):hover {
 	color: #f04848;
 	text-decoration: underline;
 }
@@ -1987,6 +1987,7 @@ input[type="search"]::-webkit-search-results-button {
 .large-button-blue:hover {
 	background-color: #f04848 !important;
 	color: #fff;
+	text-decoration: none;
 }
 
 .large-button-disabled, .large-button-disabled:hover {
