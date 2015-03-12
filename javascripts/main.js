@@ -78,9 +78,9 @@ jQuery(function($) {
 		
 		
 function equalise() {
-	$(this).each(function(){
+	$('.ptp-row-id-0').each(function(){
 		var currentTallest = 0;
-		$('.ptp-row-id-0').each(function(){
+		$(this).each(function(){
 			if ($(this).height() > currentTallest) { currentTallest = $(this).height(); }
 		});
 	});
