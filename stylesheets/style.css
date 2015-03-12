@@ -2820,6 +2820,7 @@ a.ptp-button{
 a.ptp-button:hover {
 	text-decoration: none;
 	font-weight: 700;
+	color: #fff;
 }
 
 .ptp-item-container div{margin:0}
