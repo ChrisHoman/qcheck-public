@@ -84,9 +84,9 @@ function equalise(container) {
 	var currentTallest = 0;
 	$(container).each(function(){
 		
-		$(this).attr("title",$(this).outerHeight());
+		$(this).attr("title",$(this).height());
 		$(this).each(function(){
-			if ($(this).outerHeight() > currentTallest) { currentTallest = $(this).outerHeight(); }
+			if ($(this).height() > currentTallest) { currentTallest = $(this).height(); }
 		});
 	});
 	$(container).css('height',currentTallest);
