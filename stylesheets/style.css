@@ -2817,6 +2817,9 @@ a.ptp-button{
   transition: background-color 300ms ease-out;
 }
 
+a.ptp-button:hover {
+	text-decoration: none;
+}
 
 .ptp-item-container div{margin:0}
 .ptp-button:hover{background-color:#f45358}
