@@ -36,10 +36,10 @@ jQuery(function($) {
 		$(document).ready(function(){
 			resize();
 			showSearch();
-			equalise('.ptp-row-id-0');
-			equalise('.ptp-row-id-1');
-			equalise('.ptp-plan');
-			equalise('.ptp-price');
+			equalheight('.ptp-row-id-0');
+			equalheight('.ptp-row-id-1');
+			equalheight('.ptp-plan');
+			equalheight('.ptp-price');
 		});
 		
 		
@@ -90,8 +90,6 @@ jQuery(function($) {
 function equalise(container) {
 	var currentTallest = 0;
 	$(container).each(function(){
-		
-		$(this).attr("title",$(this).height());
 		$(this).each(function(){
 			if ($(this).height() > currentTallest) { currentTallest = $(this).height(); }
 		});
