@@ -3878,8 +3878,8 @@ img#streamline {
 	padding-top: 20px;
 }
 
-.tcblock, .tcnum, .tcblock5, .tcnum5, .cookies p, .cookies li, .cookies td {
-	font-size: 16px !important;
+.tcblock, .tcnum, .tcblock5, .tcnum5, .cookies p, .cookies li, .cookies td, .t-justify {
+	font-size: 20px !important;
 }
 
 .tcblock, .tcblock5 {
