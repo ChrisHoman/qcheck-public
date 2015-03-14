@@ -3764,7 +3764,7 @@ img#streamline {
 	font-style: italic;
 	text-align: left;
 	position: relative;
-	margin: 1em 0 0 0;
+	margin: 1em 1em 0 1em;
 }
 
 #home-quote:before {
