@@ -1,7 +1,6 @@
 /* ==============================================================================
  * RESET
  * ============================================================================== */
-@import url('reset.css');
 @import url(https://fonts.googleapis.com/css?family=Asap);
  
 html {
@@ -149,7 +148,6 @@ h1 span.nobold {
 #banner {background:url('/i/144111/magnifier.png') 100% 30% no-repeat transparent; padding: 17px 65px 17px 25px; min-height:85px; position: relative; font-style: italic; line-height: 1.4; margin: 0; font-size: 1.75em;}
 #banner .tick-img {position: absolute; top: -2px; right: -15px;}
 #signup-banner .banner-24,
-#signup-banner .banner-365 {display: block; padding: 0 0 0 35px; background: url("/i/144111/sprite.png") no-repeat 0 0 transparent; line-height: 24px; font-size: 120%;}
 #signup-banner .banner-365 {margin-top: 5px; background-position: 0 -55px;}
 
 #signup-banner #signup,
@@ -157,7 +155,6 @@ h1 span.nobold {
 #signup-block #verifynow {display: block; background: url("/i/144111/blue-button-bgr.png") no-repeat; height: 51px; width: 244px; padding: 0 12px; color: #ffffff; font-size: 1.8em; line-height: 51px; font-weight: bold; text-align: right; text-transform: uppercase;  margin: 0 0 0 3px;}
 
 .content-header #verifynow ,
-.content-header #signup {float: right; display: block; background: url("/i/144111/sprite.png") no-repeat 0 -113px; height: 43px; width: 101px; overflow: hidden; text-indent: -300px; position: absolute; top: 8px; right: 30px;}
 
 .content-header #verifynow {background-position: 0 -477px; width: 128px;}
 
@@ -165,7 +162,6 @@ h1 span.nobold {
 
 #signup-block {width: 273px; float: right;}
 #signup-block .banner-24,
-#signup-block .banner-365 {display: inline-block; *display: inline; zoom: 1; float: left; padding: 40px 0 0; margin: 30px 0; width: 135px; background: url("/i/144111/sprite.png") no-repeat 55px 10px transparent; font-size: 120%; text-align: center;}
 #signup-block .banner-365 {border-left: 1px solid #d1d2d2; background-position: 55px -46px;}
 
 
@@ -275,7 +271,6 @@ h1 span.nobold {
 .col-pair.half {width: 48.5%;}
 
 .content-header {border-bottom: 1px solid #cccccc; padding: 20px 30px; position: relative; margin: 0;}
-.content-header.highlight {background: url("/i/144111/sprite.png") no-repeat 0 -200px;}
 .section {padding: 1px 0;}
 .section.content {border-bottom: 1px solid #cccccc;}
 .section.content:last-child {border-bottom: 0;}
@@ -1169,7 +1164,6 @@ table tr td, table tr th {
 	width: 60px;
 	height: 60px;
 	line-height: 60px;
-	background: url("/i/144111/sprite.png") no-repeat 0 -353px;
 }
 
 .progressMeter li .current.firstletter {
@@ -1217,7 +1211,6 @@ table tr td, table tr th {
 	width: 60px;
 	height: 60px;
 	line-height: 60px;
-	background: url("/i/144111/sprite.png") no-repeat 0 -353px;
 }
 
 .progressMeterSide li .current.firstletter {
