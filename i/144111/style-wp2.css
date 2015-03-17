@@ -1815,7 +1815,10 @@ body {
 	background: #33627A;
 	text-align: center;
 	height: auto;
-	color: #fff;
+}
+
+#footer, #footer a {
+	color: #fff;	
 }
 
 #footer span {
