@@ -5353,3 +5353,11 @@ text-align: center;
 .tier3-info {
 	font-size: 18px;
 }
+
+.widget-wrap > div {
+	clear: both;
+}
+
+.boxForm.verificationForm .text-right {
+	text-align: left !important;
+}
