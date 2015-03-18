@@ -5357,3 +5357,7 @@ text-align: center;
 .widget-wrap > div {
 	clear: both;
 }
+
+.boxForm.verificationForm .text-right {
+	text-align: left;
+}
