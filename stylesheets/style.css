@@ -5359,5 +5359,5 @@ text-align: center;
 }
 
 .boxForm.verificationForm .text-right {
-	text-align: left;
+	text-align: left !important;
 }
