@@ -5358,6 +5358,9 @@ text-align: center;
 	clear: both;
 }
 
-.boxForm.verificationForm .text-right {
-	text-align: left !important;
+.menu-hidden {
+	position: absolute;
+	top: 68px;
+	float: right;
+	width: 740px;
 }
