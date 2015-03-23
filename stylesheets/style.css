@@ -4725,6 +4725,12 @@ ul#danger-list li:before {
 	background: #3FA8B0 none repeat scroll 0 0 !important;
 }
 
+@media only screen and (min-width: 961px) {
+	.title-area {
+		margin-left: -24px;
+	}
+}
+
 @media only screen and (max-width: 960px) {
 	.nav-secondary .genesis-nav-menu {
 		padding: 0;
