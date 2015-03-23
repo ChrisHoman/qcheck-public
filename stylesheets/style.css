@@ -1602,7 +1602,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 22px;
 	font-weight: 400;
-	line-height: 36px;
+	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -3774,7 +3774,7 @@ img#streamline {
 	font-size: 3em;
 	font-weight: 700;
 	position: absolute;
-	margin-top: -22px;
+	margin-top: -16px;
 	font-family: Oswald;
 }
 
@@ -3785,7 +3785,7 @@ img#streamline {
 	font-size: 3em;
 	font-weight: 700;
 	position: absolute;
-	margin-top: -22px;
+	margin-top: -20px;
 	font-family: Oswald;
 }
 
