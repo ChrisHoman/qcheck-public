@@ -3691,9 +3691,9 @@ color: #F3F2ED;
 
 .accuracy-icon {
 	background-image: url(../images/accuracy-icon.svg);
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
-	height: 1em;
+	height: 59px;
 	width: 1em;
 	text-align: initial;
 	position: relative;
@@ -3701,9 +3701,9 @@ color: #F3F2ED;
 
 .low-cost-icon {
 	background-image: url(../images/low-cost-icon.svg);
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
-	height: 1em;
+	height: 59px;
 	width: 1em;
 	text-align: initial;
 	position: relative;
