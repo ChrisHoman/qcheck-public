@@ -4359,6 +4359,7 @@ tr, td, td a {
 	font-weight: 400;
 	max-height: 56px;
 	overflow-y: hidden;
+	overflow-x: scroll;
 }
 
 tbody tr, thead td {
