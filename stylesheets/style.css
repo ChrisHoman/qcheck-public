@@ -5394,6 +5394,6 @@ text-align: center;
 
 @-moz-document url-prefix() {
     #searchResults {
-        margin: 0;
+        margin: 20px inherit;
     }
 }
