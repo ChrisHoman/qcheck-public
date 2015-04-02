@@ -5390,10 +5390,11 @@ text-align: center;
 
 #searchResults {
 	clear: both;
+    margin: 20px 0;
 }
 
 @-moz-document url-prefix() {
     #searchResults {
-        margin: 20px inherit;
+        margin: 20px 0;
     }
 }
