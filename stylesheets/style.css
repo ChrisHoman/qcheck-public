@@ -5387,3 +5387,7 @@ text-align: center;
 	float: right;
 	width: 740px;
 }
+
+#searchResults {
+	clear: both;
+}
