@@ -2726,12 +2726,17 @@ Content Area
 	background-color: #fff;
 }
 
-.home-section-1 {
-	background-image: url(https://chrishoman.github.io/qcheck-public/images/bg-1.jpg) !important;
+.home-section-1,
+.home-section-3,
+.home-section-5 {
 	background-attachment: fixed;
 	background-color: #fff;
 	background-position: 50% 0px;
 	background-repeat: no-repeat;
+}
+
+.home-section-1 {
+	background-image: url(https://chrishoman.github.io/qcheck-public/images/bg-1.jpg) !important;
 	-webkit-background-size: cover;
 	-moz-background-size:    cover;
 	background-size:         cover;
@@ -2739,10 +2744,6 @@ Content Area
 
 .home-section-3 {
 	background-image: url(https://chrishoman.github.io/qcheck-public/images/bg-3.jpg) !important;
-	background-attachment: fixed;
-	background-color: #fff;
-	background-position: 50% 0px;
-	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size:    cover;
 	background-size:         cover;
@@ -2750,10 +2751,6 @@ Content Area
 
 .home-section-5 {
 	background-image: url(https://chrishoman.github.io/qcheck-public/images/bg-5.jpg) !important;
-	background-attachment: fixed;
-	background-color: #fff;
-	background-position: 50% 0px;
-	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size:    cover;
 	background-size:         cover;
@@ -5383,4 +5380,8 @@ text-align: center;
 	top: 68px;
 	float: right;
 	width: 740px;
+}
+
+#searchToggler {
+	-moz-float: none;
 }
