@@ -1978,10 +1978,10 @@ input[type="search"]::-webkit-search-results-button {
 	padding: 20px;
 	text-transform: uppercase;
 	width: auto;
-	-webkit-font-smoothing: antialiased;
 	display: inline-block;
 	margin: 20px inherit;
 	float: none;
+	-webkit-font-smoothing: antialiased;
 }
 
 .large-button-blue:hover {
@@ -5390,4 +5390,10 @@ text-align: center;
 
 #searchResults {
 	clear: both;
+}
+
+@-moz-document url-prefix() {
+    #searchResults {
+        margin: 0;
+    }
 }
